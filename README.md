@@ -1,5 +1,5 @@
 # Introduction
-This repo provides source code for the paper "MalLight: Coordinated Traffic Signal Control for Traffic Signal Malfunctions", which pioneers the application of a Reinforcement Learning(RL)-based approach, called MalLight, to address the challenges posed by traffic signal malfunction.
+This repo provides source code for the paper "MalLight: Coordinated Traffic Signal Control for Traffic Signal Malfunctions", which pioneers the application of a Reinforcement Learning(RL)-based approach to address the challenges posed by traffic signal malfunction.
 
 Our implementation is based on a framework called [LibSignal](https://darl-libsignal.github.io/). LibSignal is a more comprehensive toolkit for developing simulation-based traffic signal control model.
 
