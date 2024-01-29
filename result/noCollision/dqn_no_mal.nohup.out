@@ -1,0 +1,2926 @@
+nohup: ignoring input
+Step #0.00 (1ms ~= 1000.00*RT, ~35000.00UPS, TraCI: 14ms, vehicles TOT 35 ACT 35 BUF 2)   Step #100.00 (3ms ~= 333.33*RT, ~68333.33UPS, TraCI: 16ms, vehicles TOT 207 ACT 205 BUF 0)Step #200.00 (6ms ~= 166.67*RT, ~88500.00UPS, TraCI: 20ms, vehicles TOT 540 ACT 531 BUF 0)Step #300.00 (11ms ~= 90.91*RT, ~78000.00UPS, TraCI: 23ms, vehicles TOT 907 ACT 858 BUF 6)Step #400.00 (13ms ~= 76.92*RT, ~97384.62UPS, TraCI: 23ms, vehicles TOT 1358 ACT 1266 BUF Step #500.00 (19ms ~= 52.63*RT, ~84894.74UPS, TraCI: 7511ms, vehicles TOT 1774 ACT 1613 BU
+QCY: cuda is available
+YQC: you will use sumo~
+building world...
+ Retrying in 1 seconds
+Connection ID debug
+QCY: agent: DQNNet(
+  (dense_1): Linear(in_features=16, out_features=20, bias=True)
+  (dense_2): Linear(in_features=20, out_features=20, bias=True)
+  (dense_3): Linear(in_features=20, out_features=4, bias=True)
+)
+QCY: num_agent:  196
+QCY: model_mapping setting name:  dqn
+QCY: task_mapping:  {'base': <class 'task.task.BaseTask'>, 'tsc': <class 'task.task.TSCTask'>}
+QCY: GPU: 2
+QCY: model_mapping setting train_model:  True
+QCY: model_mapping setting test_model:  True
+ Retrying in 1 seconds
+QCY: training step0   2023-06-07 11:56:51.519494
+QCY: training step10   2023-06-07 11:57:05.650517
+QCY: training step20   2023-06-07 11:57:19.333071
+QCY: training step30   2023-06-07 11:57:32.932654
+QCY: training step40   2023-06-07 11:57:46.646473
+QCY: training step50   2023-06-07 11:58:00.104640
+QCY: training step60   2023-06-07 11:58:13.841619
+QCY: training step70   2023-06-07 11:58:28.077664
+QCY: training step80   2023-06-07 11:58:42.313662
+QCY: training step90   2023-06-07 11:58:56.673792
+QCY: training step100   2023-06-07 11:59:11.183594
+QCY: training step110   2023-06-07 11:59:25.570372
+QCY: training step120   2023-06-07 11:59:40.340108
+QCY: training step130   2023-06-07 11:59:55.635281
+QCY: training step140   2023-06-07 12:00:11.279278
+QCY: training step150   2023-06-07 12:00:26.643550
+QCY: training step160   2023-06-07 12:00:42.266792
+QCY: training step170   2023-06-07 12:00:58.104139
+QCY: training step180   2023-06-07 12:01:13.829717
+QCY: training step190   2023-06-07 12:01:30.079988
+QCY: training step200   2023-06-07 12:01:46.464607
+QCY: training step210   2023-06-07 12:02:03.225445
+QCY: training step220   2023-06-07 12:02:20.078292
+QCY: training step230   2023-06-07 12:02:37.006118
+QCY: training step240   2023-06-07 12:02:53.953037
+QCY: training step250   2023-06-07 12:03:12.012569
+QCY: training step260   2023-06-07 12:03:29.823706
+QCY: training step270   2023-06-07 12:03:47.737146
+QCY: training step280   2023-06-07 12:04:05.703706
+QCY: training step290   2023-06-07 12:04:23.989806
+QCY: training step300   2023-06-07 12:04:42.074788
+QCY: training step310   2023-06-07 12:05:01.267979
+QCY: training step320   2023-06-07 12:05:20.968434
+QCY: training step330   2023-06-07 12:05:41.049928
+QCY: training step340   2023-06-07 12:06:00.971130
+QCY: training step350   2023-06-07 12:06:20.914419
+QCY: training step360   2023-06-07 12:06:41.255404
+QCY: training step370   2023-06-07 12:07:02.121264
+QCY: training step380   2023-06-07 12:07:23.145548
+QCY: training step390   2023-06-07 12:07:44.352386
+QCY: training step400   2023-06-07 12:08:05.839766
+QCY: training step410   2023-06-07 12:08:28.100048
+QCY: training step420   2023-06-07 12:08:50.144048
+QCY: training step430   2023-06-07 12:09:12.430809
+QCY: training step440   2023-06-07 12:09:35.233121
+QCY: training step450   2023-06-07 12:09:58.114022
+QCY: training step460   2023-06-07 12:10:21.451740
+QCY: training step470   2023-06-07 12:10:44.529441
+QCY: training step480   2023-06-07 12:11:07.378934
+QCY: training step490   2023-06-07 12:11:30.413589
+QCY: training step500   2023-06-07 12:11:54.374185
+QCY: training step510   2023-06-07 12:12:18.490666
+QCY: training step520   2023-06-07 12:12:42.325324
+QCY: training step530   2023-06-07 12:13:06.496703
+QCY: training step540   2023-06-07 12:13:30.960787
+QCY: training step550   2023-06-07 12:13:55.913762
+QCY: training step560   2023-06-07 12:14:21.226347
+QCY: training step570   2023-06-07 12:14:46.739108
+QCY: training step580   2023-06-07 12:15:12.493488
+QCY: training step590   2023-06-07 12:15:38.677149
+QCY: training step600   2023-06-07 12:16:04.139766
+QCY: training step610   2023-06-07 12:16:30.791643
+QCY: training step620   2023-06-07 12:16:57.771275
+QCY: training step630   2023-06-07 12:17:25.033866
+QCY: training step640   2023-06-07 12:17:52.024747
+QCY: training step650   2023-06-07 12:18:20.035577
+QCY: training step660   2023-06-07 12:18:47.688440
+QCY: training step670   2023-06-07 12:19:15.674848
+QCY: training step680   2023-06-07 12:19:43.909100
+QCY: training step690   2023-06-07 12:20:12.373826
+QCY: training step700   2023-06-07 12:20:41.303305
+QCY: training step710   2023-06-07 12:21:10.496163
+QCY: training step720   2023-06-07 12:21:39.779488
+QCY: training step730   2023-06-07 12:22:09.501149
+QCY: training step740   2023-06-07 12:22:39.251945
+QCY: training step750   2023-06-07 12:23:09.448607
+QCY: training step760   2023-06-07 12:23:38.893098
+QCY: training step770   2023-06-07 12:24:09.228027
+QCY: training step780   2023-06-07 12:24:39.576566
+QCY: training step790   2023-06-07 12:25:10.653328
+QCY: training step800   2023-06-07 12:25:41.732929
+QCY: training step810   2023-06-07 12:26:12.950179
+QCY: training step820   2023-06-07 12:26:44.567406
+QCY: training step830   2023-06-07 12:27:16.686917
+QCY: training step840   2023-06-07 12:27:48.314960
+QCY: training step850   2023-06-07 12:28:21.040606
+QCY: training step860   2023-06-07 12:28:53.099497
+QCY: training step870   2023-06-07 12:29:25.271464
+QCY: training step880   2023-06-07 12:29:58.122836
+QCY: training step890   2023-06-07 12:30:31.094294
+QCY: training step900   2023-06-07 12:31:04.563372
+QCY: training step910   2023-06-07 12:31:38.456754
+QCY: training step920   2023-06-07 12:32:12.623584
+QCY: training step930   2023-06-07 12:32:46.219645
+QCY: training step940   2023-06-07 12:33:20.732540
+QCY: training step950   2023-06-07 12:33:55.210557
+QCY: training step960   2023-06-07 12:34:29.808924
+QCY: training step970   2023-06-07 12:35:04.444277
+QCY: training step980   2023-06-07 12:35:39.499909
+QCY: training step990   2023-06-07 12:36:14.796872
+QCY: training step1000   2023-06-07 12:36:51.070948
+QCY: training step1010   2023-06-07 12:37:27.350253
+QCY: training step1020   2023-06-07 12:38:02.957672
+QCY: training step1030   2023-06-07 12:38:38.909640
+QCY: training step1040   2023-06-07 12:39:15.632295
+QCY: training step1050   2023-06-07 12:39:52.259508
+QCY: training step1060   2023-06-07 12:40:28.928876
+QCY: training step1070   2023-06-07 12:41:05.362467
+QCY: training step1080   2023-06-07 12:41:42.137242
+QCY: training step1090   2023-06-07 12:42:19.829306
+QCY: training step1100   2023-06-07 12:42:57.871664
+QCY: training step1110   2023-06-07 12:43:35.281754
+QCY: training step1120   2023-06-07 12:44:12.952276
+QCY: training step1130   2023-06-07 12:44:50.205735
+QCY: training step1140   2023-06-07 12:45:28.483419
+QCY: training step1150   2023-06-07 12:46:06.958754
+QCY: training step1160   2023-06-07 12:46:45.706489
+QCY: training step1170   2023-06-07 12:47:24.165585
+QCY: training step1180   2023-06-07 12:48:03.194046
+QCY: training step1190   2023-06-07 12:48:42.315990
+QCY: training step1200   2023-06-07 12:49:20.801971
+QCY: training step1210   2023-06-07 12:49:59.745895
+QCY: training step1220   2023-06-07 12:50:39.035958
+QCY: training step1230   2023-06-07 12:51:18.622905
+QCY: training step1240   2023-06-07 12:51:58.567928
+QCY: training step1250   2023-06-07 12:52:39.018074
+QCY: training step1260   2023-06-07 12:53:20.005126
+QCY: training step1270   2023-06-07 12:54:00.961595
+QCY: training step1280   2023-06-07 12:54:42.142467
+QCY: training step1290   2023-06-07 12:55:23.181388
+QCY: training step1300   2023-06-07 12:56:03.586841
+QCY: training step1310   2023-06-07 12:56:44.444209
+QCY: training step1320   2023-06-07 12:57:25.947718
+QCY: training step1330   2023-06-07 12:58:07.724909
+QCY: training step1340   2023-06-07 12:58:49.176100
+QCY: training step1350   2023-06-07 12:59:30.889740
+QCY: training step1360   2023-06-07 13:00:12.791269
+QCY: training step1370   2023-06-07 13:00:54.619215
+QCY: training step1380   2023-06-07 13:01:37.012005
+QCY: training step1390   2023-06-07 13:02:19.812934
+QCY: training step1400   2023-06-07 13:03:02.666610
+QCY: training step1410   2023-06-07 13:03:45.174509
+QCY: training step1420   2023-06-07 13:04:27.574925
+QCY: training step1430   2023-06-07 13:05:10.917103
+QCY: training step1440   2023-06-07 13:05:54.210982
+QCY: training step1450   2023-06-07 13:06:37.317805
+QCY: training step1460   2023-06-07 13:07:21.066894
+QCY: training step1470   2023-06-07 13:08:05.079786
+QCY: training step1480   2023-06-07 13:08:49.062456
+QCY: training step1490   2023-06-07 13:09:32.678633
+QCY: training step1500   2023-06-07 13:10:17.719598
+QCY: training step1510   2023-06-07 13:11:03.659444
+QCY: training step1520   2023-06-07 13:11:50.791850
+QCY: training step1530   2023-06-07 13:12:36.577952
+QCY: training step1540   2023-06-07 13:13:22.146912
+QCY: training step1550   2023-06-07 13:14:06.718726
+QCY: training step1560   2023-06-07 13:14:51.855904
+QCY: training step1570   2023-06-07 13:15:37.029132
+QCY: training step1580   2023-06-07 13:16:22.847177
+QCY: training step1590   2023-06-07 13:17:08.184121
+QCY: training step1600   2023-06-07 13:17:52.824382
+QCY: training step1610   2023-06-07 13:18:38.597042
+QCY: training step1620   2023-06-07 13:19:25.046173
+QCY: training step1630   2023-06-07 13:20:10.793233
+QCY: training step1640   2023-06-07 13:20:56.840665
+QCY: training step1650   2023-06-07 13:21:43.092214
+QCY: training step1660   2023-06-07 13:22:30.068830
+QCY: training step1670   2023-06-07 13:23:15.607315
+QCY: training step1680   2023-06-07 13:24:01.909505
+QCY: training step1690   2023-06-07 13:24:47.944224
+QCY: training step1700   2023-06-07 13:25:34.465953
+QCY: training step1710   2023-06-07 13:26:21.691138
+QCY: training step1720   2023-06-07 13:27:08.830651
+QCY: training step1730   2023-06-07 13:27:55.515636
+QCY: training step1740   2023-06-07 13:28:43.018098
+QCY: training step1750   2023-06-07 13:29:30.449118
+QCY: training step1760   2023-06-07 13:30:17.866346
+QCY: training step1770   2023-06-07 13:31:06.502996
+QCY: training step1780   2023-06-07 13:31:54.101899
+QCY: training step1790   2023-06-07 13:32:42.168679
+QCY: training step1800   2023-06-07 13:33:29.825784
+QCY: training step1810   2023-06-07 13:34:17.904230
+QCY: training step1820   2023-06-07 13:35:07.108291
+QCY: training step1830   2023-06-07 13:35:55.424850
+QCY: training step1840   2023-06-07 13:36:43.358451
+QCY: training step1850   2023-06-07 13:37:32.011874
+QCY: training step1860   2023-06-07 13:38:21.060402
+QCY: training step1870   2023-06-07 13:39:09.697125
+QCY: training step1880   2023-06-07 13:39:58.456941
+QCY: training step1890   2023-06-07 13:40:48.295612
+QCY: training step1900   2023-06-07 13:41:38.478569
+QCY: training step1910   2023-06-07 13:42:28.263682
+QCY: training step1920   2023-06-07 13:43:17.349633
+QCY: training step1930   2023-06-07 13:44:07.305345
+QCY: training step1940   2023-06-07 13:44:56.904244
+QCY: training step1950   2023-06-07 13:45:45.907983
+QCY: training step1960   2023-06-07 13:46:36.166157
+QCY: training step1970   2023-06-07 13:47:25.547098
+QCY: training step1980   2023-06-07 13:48:15.395298
+QCY: training step1990   2023-06-07 13:49:05.045509
+QCY: training step2000   2023-06-07 13:49:54.958562
+QCY: training step2010   2023-06-07 13:50:46.228219
+QCY: training step2020   2023-06-07 13:51:37.077167
+QCY: training step2030   2023-06-07 13:52:27.220456
+QCY: training step2040   2023-06-07 13:53:18.285321
+QCY: training step2050   2023-06-07 13:54:08.766616
+QCY: training step2060   2023-06-07 13:54:59.857320
+QCY: training step2070   2023-06-07 13:55:51.182641
+QCY: training step2080   2023-06-07 13:56:41.941566
+QCY: training step2090   2023-06-07 13:57:33.258463
+QCY: training step2100   2023-06-07 13:58:24.777013
+QCY: training step2110   2023-06-07 13:59:17.198527
+QCY: training step2120   2023-06-07 14:00:08.094234
+QCY: training step2130   2023-06-07 14:01:00.435532
+QCY: training step2140   2023-06-07 14:01:51.817109
+QCY: training step2150   2023-06-07 14:02:44.138752
+QCY: training step2160   2023-06-07 14:03:37.040700
+QCY: training step2170   2023-06-07 14:04:29.301584
+QCY: training step2180   2023-06-07 14:05:21.541883
+QCY: training step2190   2023-06-07 14:06:13.367003
+QCY: training step2200   2023-06-07 14:07:05.048110
+QCY: training step2210   2023-06-07 14:07:57.692760
+QCY: training step2220   2023-06-07 14:08:50.013944
+QCY: training step2230   2023-06-07 14:09:42.346775
+QCY: training step2240   2023-06-07 14:10:35.074105
+QCY: training step2250   2023-06-07 14:11:27.340581
+QCY: training step2260   2023-06-07 14:12:20.298136
+QCY: training step2270   2023-06-07 14:13:12.391511
+QCY: training step2280   2023-06-07 14:14:05.600536
+QCY: training step2290   2023-06-07 14:14:58.397818
+QCY: training step2300   2023-06-07 14:15:51.129796
+QCY: training step2310   2023-06-07 14:16:43.190476
+QCY: training step2320   2023-06-07 14:17:36.240463
+QCY: training step2330   2023-06-07 14:18:28.932213
+QCY: training step2340   2023-06-07 14:19:22.188462
+QCY: training step2350   2023-06-07 14:20:15.417288
+QCY: training step2360   2023-06-07 14:21:09.547486
+QCY: training step2370   2023-06-07 14:22:03.361200
+QCY: training step2380   2023-06-07 14:22:56.738208
+QCY: training step2390   2023-06-07 14:23:51.352478
+QCY: training step2400   2023-06-07 14:24:45.303898
+QCY: training step2410   2023-06-07 14:25:39.108273
+QCY: training step2420   2023-06-07 14:26:32.856972
+QCY: training step2430   2023-06-07 14:27:27.379975
+QCY: training step2440   2023-06-07 14:28:21.865034
+QCY: training step2450   2023-06-07 14:29:15.679490
+QCY: training step2460   2023-06-07 14:30:10.774935
+QCY: training step2470   2023-06-07 14:31:05.524360
+QCY: training step2480   2023-06-07 14:32:00.690996
+QCY: training step2490   2023-06-07 14:32:55.373057
+QCY: training step2500   2023-06-07 14:33:50.289278
+QCY: training step2510   2023-06-07 14:34:45.195047
+QCY: training step2520   2023-06-07 14:35:39.690615
+QCY: training step2530   2023-06-07 14:36:34.332412
+QCY: training step2540   2023-06-07 14:37:29.269963
+QCY: training step2550   2023-06-07 14:38:24.007537
+QCY: training step2560   2023-06-07 14:39:18.904562
+QCY: training step2570   2023-06-07 14:40:14.686289
+QCY: training step2580   2023-06-07 14:41:10.442356
+QCY: training step2590   2023-06-07 14:42:06.509643
+QCY: training step2600   2023-06-07 14:43:03.212932
+QCY: training step2610   2023-06-07 14:43:58.583897
+QCY: training step2620   2023-06-07 14:44:54.940009
+QCY: training step2630   2023-06-07 14:45:51.233640
+QCY: training step2640   2023-06-07 14:46:47.569843
+QCY: training step2650   2023-06-07 14:47:43.831317
+QCY: training step2660   2023-06-07 14:48:39.463781
+QCY: training step2670   2023-06-07 14:49:35.635592
+QCY: training step2680   2023-06-07 14:50:31.930178
+QCY: training step2690   2023-06-07 14:51:28.692814
+QCY: training step2700   2023-06-07 14:52:25.018363
+QCY: training step2710   2023-06-07 14:53:21.305392
+QCY: training step2720   2023-06-07 14:54:18.791691
+QCY: training step2730   2023-06-07 14:55:15.915593
+QCY: training step2740   2023-06-07 14:56:12.910309
+QCY: training step2750   2023-06-07 14:57:10.338831
+QCY: training step2760   2023-06-07 14:58:07.341458
+QCY: training step2770   2023-06-07 14:59:04.489001
+QCY: training step2780   2023-06-07 15:00:01.700879
+QCY: training step2790   2023-06-07 15:00:59.015630
+QCY: training step2800   2023-06-07 15:01:56.270216
+QCY: training step2810   2023-06-07 15:02:53.225240
+QCY: training step2820   2023-06-07 15:03:50.521386
+QCY: training step2830   2023-06-07 15:04:47.052348
+QCY: training step2840   2023-06-07 15:05:44.596526
+QCY: training step2850   2023-06-07 15:06:42.460714
+QCY: training step2860   2023-06-07 15:07:40.413651
+QCY: training step2870   2023-06-07 15:08:38.906904
+QCY: training step2880   2023-06-07 15:09:36.394043
+QCY: training step2890   2023-06-07 15:10:34.159375
+QCY: training step2900   2023-06-07 15:11:32.748949
+QCY: training step2910   2023-06-07 15:12:30.558465
+QCY: training step2920   2023-06-07 15:13:28.159689
+QCY: training step2930   2023-06-07 15:14:26.682215
+QCY: training step2940   2023-06-07 15:15:25.445381
+QCY: training step2950   2023-06-07 15:16:23.743377
+QCY: training step2960   2023-06-07 15:17:22.527822
+QCY: training step2970   2023-06-07 15:18:20.848496
+QCY: training step2980   2023-06-07 15:19:19.346310
+QCY: training step2990   2023-06-07 15:20:18.208543
+QCY: training step3000   2023-06-07 15:21:16.597184
+QCY: training step3010   2023-06-07 15:22:16.120147
+QCY: training step3020   2023-06-07 15:23:15.223991
+QCY: training step3030   2023-06-07 15:24:13.758646
+QCY: training step3040   2023-06-07 15:25:13.103343
+QCY: training step3050   2023-06-07 15:26:11.641426
+QCY: training step3060   2023-06-07 15:27:11.082476
+QCY: training step3070   2023-06-07 15:28:09.982945
+QCY: training step3080   2023-06-07 15:29:08.810215
+QCY: training step3090   2023-06-07 15:30:07.987047
+QCY: training step3100   2023-06-07 15:31:06.758585
+QCY: training step3110   2023-06-07 15:32:06.298102
+QCY: training step3120   2023-06-07 15:33:05.721761
+QCY: training step3130   2023-06-07 15:34:04.944014
+QCY: training step3140   2023-06-07 15:35:04.387381
+QCY: training step3150   2023-06-07 15:36:03.549088
+QCY: training step3160   2023-06-07 15:37:03.516420
+QCY: training step3170   2023-06-07 15:38:02.380564
+QCY: training step3180   2023-06-07 15:39:01.034973
+QCY: training step3190   2023-06-07 15:40:00.129172
+QCY: training step3200   2023-06-07 15:41:01.060488
+QCY: training step3210   2023-06-07 15:42:00.497765
+QCY: training step3220   2023-06-07 15:43:00.002133
+QCY: training step3230   2023-06-07 15:43:59.499540
+QCY: training step3240   2023-06-07 15:44:59.969180
+QCY: training step3250   2023-06-07 15:45:59.267053
+QCY: training step3260   2023-06-07 15:46:58.585094
+QCY: training step3270   2023-06-07 15:47:58.621767
+QCY: training step3280   2023-06-07 15:48:58.561336
+QCY: training step3290   2023-06-07 15:49:58.792122
+QCY: training step3300   2023-06-07 15:50:58.644703
+QCY: training step3310   2023-06-07 15:51:58.068075
+QCY: training step3320   2023-06-07 15:52:58.268321
+QCY: training step3330   2023-06-07 15:53:58.423104
+QCY: training step3340   2023-06-07 15:54:57.944147
+QCY: training step3350   2023-06-07 15:55:59.501434
+QCY: training step3360   2023-06-07 15:56:59.634720
+QCY: training step3370   2023-06-07 15:57:59.535082
+QCY: training step3380   2023-06-07 15:58:58.560155
+QCY: training step3390   2023-06-07 15:59:58.454933
+QCY: training step3400   2023-06-07 16:00:56.769702
+QCY: training step3410   2023-06-07 16:01:56.680395
+QCY: training step3420   2023-06-07 16:02:57.303696
+QCY: training step3430   2023-06-07 16:03:57.263720
+QCY: training step3440   2023-06-07 16:04:55.409530
+QCY: training step3450   2023-06-07 16:05:55.524326
+QCY: training step3460   2023-06-07 16:06:56.264547
+QCY: training step3470   2023-06-07 16:07:56.163596
+QCY: training step3480   2023-06-07 16:08:56.052290
+QCY: training step3490   2023-06-07 16:09:56.472421
+QCY: training step3500   2023-06-07 16:10:56.904267
+QCY: training step3510   2023-06-07 16:11:57.525461
+QCY: training step3520   2023-06-07 16:12:58.166070
+QCY: training step3530   2023-06-07 16:13:57.916546
+QCY: training step3540   2023-06-07 16:14:58.527172
+QCY: training step3550   2023-06-07 16:15:59.709718
+QCY: training step3560   2023-06-07 16:17:00.150494
+QCY: training step3570   2023-06-07 16:18:00.005800
+QCY: training step3580   2023-06-07 16:19:00.076759
+QCY: training step3590   2023-06-07 16:20:01.382824
+2023-06-07 16:21:01 (INFO): step:3600/3600, q_loss:0, rewards:-3731.376388888889, queue:19.072718253968254, delay:0.11701676764455782, throughput:2635
+2023-06-07 16:21:02 (INFO): episode:0/200, real avg travel time:939.6891840607211
+Step #0.00 (2ms ~= 500.00*RT, ~17500.00UPS, TraCI: 7050ms, vehicles TOT 35 ACT 35 BUF 2)  Step #100.00 (3ms ~= 333.33*RT, ~68000.00UPS, TraCI: 1421ms, vehicles TOT 207 ACT 204 BUF Step #200.00 (6ms ~= 166.67*RT, ~88333.33UPS, TraCI: 1796ms, vehicles TOT 540 ACT 530 BUF Step #300.00 (11ms ~= 90.91*RT, ~78818.18UPS, TraCI: 1841ms, vehicles TOT 908 ACT 867 BUF Step #400.00 (14ms ~= 71.43*RT, ~89357.14UPS, TraCI: 2184ms, vehicles TOT 1324 ACT 1251 BUStep #500.00 (13ms ~= 76.92*RT, ~121923.08UPS, TraCI: 2502ms, vehicles TOT 1736 ACT 1585 BStep #600.00 (23ms ~= 43.48*RT, ~85130.43UPS, TraCI: 2585ms, vehicles TOT 2175 ACT 1958 BUStep #700.00 (27ms ~= 37.04*RT, ~85444.44UPS, TraCI: 3023ms, vehicles TOT 2609 ACT 2307 BUStep #800.00 (29ms ~= 34.48*RT, ~91862.07UPS, TraCI: 3326ms, vehicles TOT 3045 ACT 2664 BUStep #900.00 (35ms ~= 28.57*RT, ~86800.00UPS, TraCI: 3377ms, vehicles TOT 3507 ACT 3038 BUStep #1000.00 (35ms ~= 28.57*RT, ~96085.71UPS, TraCI: 3616ms, vehicles TOT 3931 ACT 3363 BStep #1100.00 (39ms ~= 25.64*RT, ~94102.56UPS, TraCI: 3864ms, vehicles TOT 4350 ACT 3670 BStep #1200.00 (42ms ~= 23.81*RT, ~94833.33UPS, TraCI: 3890ms, vehicles TOT 4751 ACT 3983 BStep #1300.00 (41ms ~= 24.39*RT, ~105878.05UPS, TraCI: 4150ms, vehicles TOT 5207 ACT 4341 Step #1400.00 (49ms ~= 20.41*RT, ~93591.84UPS, TraCI: 4280ms, vehicles TOT 5555 ACT 4586 BStep #1500.00 (53ms ~= 18.87*RT, ~91698.11UPS, TraCI: 4887ms, vehicles TOT 5921 ACT 4860 BStep #1600.00 (49ms ~= 20.41*RT, ~103408.16UPS, TraCI: 4421ms, vehicles TOT 6252 ACT 5067 Step #1700.00 (51ms ~= 19.61*RT, ~103882.35UPS, TraCI: 4419ms, vehicles TOT 6584 ACT 5298 Step #1800.00 (57ms ~= 17.54*RT, ~97614.04UPS, TraCI: 4745ms, vehicles TOT 6933 ACT 5564 BStep #1900.00 (54ms ~= 18.52*RT, ~107444.44UPS, TraCI: 5063ms, vehicles TOT 7257 ACT 5802 Step #2000.00 (58ms ~= 17.24*RT, ~104793.10UPS, TraCI: 4943ms, vehicles TOT 7605 ACT 6078 Step #2100.00 (60ms ~= 16.67*RT, ~105666.67UPS, TraCI: 4968ms, vehicles TOT 7919 ACT 6340 Step #2200.00 (67ms ~= 14.93*RT, ~98014.93UPS, TraCI: 4994ms, vehicles TOT 8205 ACT 6567 BStep #2300.00 (69ms ~= 14.49*RT, ~97971.01UPS, TraCI: 5335ms, vehicles TOT 8456 ACT 6760 BStep #2400.00 (62ms ~= 16.13*RT, ~112290.32UPS, TraCI: 5369ms, vehicles TOT 8752 ACT 6962 Step #2500.00 (68ms ~= 14.71*RT, ~104882.35UPS, TraCI: 5409ms, vehicles TOT 9008 ACT 7132 Step #2600.00 (67ms ~= 14.93*RT, ~110238.81UPS, TraCI: 5692ms, vehicles TOT 9317 ACT 7386 Step #2700.00 (72ms ~= 13.89*RT, ~105222.22UPS, TraCI: 5663ms, vehicles TOT 9575 ACT 7576 Step #2800.00 (67ms ~= 14.93*RT, ~116014.93UPS, TraCI: 5501ms, vehicles TOT 9834 ACT 7773 Step #2900.00 (71ms ~= 14.08*RT, ~111380.28UPS, TraCI: 5758ms, vehicles TOT 10047 ACT 7908Step #3000.00 (74ms ~= 13.51*RT, ~109905.41UPS, TraCI: 5840ms, vehicles TOT 10330 ACT 8133Step #3100.00 (101ms ~= 9.90*RT, ~81960.40UPS, TraCI: 5854ms, vehicles TOT 10553 ACT 8278 Step #3200.00 (72ms ~= 13.89*RT, ~117847.22UPS, TraCI: 6034ms, vehicles TOT 10842 ACT 8485Step #3300.00 (80ms ~= 12.50*RT, ~107762.50UPS, TraCI: 6054ms, vehicles TOT 11060 ACT 8621Step #3400.00 (81ms ~= 12.35*RT, ~108493.83UPS, TraCI: 6004ms, vehicles TOT 11287 ACT 8788Step #3500.00 (69ms ~= 14.49*RT, ~129521.74UPS, TraCI: 6020ms, vehicles TOT 11510 ACT 8937Step #3600.00 (81ms ~= 12.35*RT, ~112679.01UPS, TraCI: 6351ms, vehicles TOT 11762 ACT 9127
+ Retrying in 1 seconds
+QCY: training testing step0   2023-06-07 16:21:10.936407
+QCY: training testing step10   2023-06-07 16:21:24.246084
+QCY: training testing step20   2023-06-07 16:21:36.854060
+QCY: training testing step30   2023-06-07 16:21:49.959141
+QCY: training testing step40   2023-06-07 16:22:02.831058
+QCY: training testing step50   2023-06-07 16:22:16.388105
+QCY: training testing step60   2023-06-07 16:22:29.915640
+QCY: training testing step70   2023-06-07 16:22:43.271019
+QCY: training testing step80   2023-06-07 16:22:56.851914
+QCY: training testing step90   2023-06-07 16:23:10.585630
+QCY: training testing step100   2023-06-07 16:23:23.797428
+QCY: training testing step110   2023-06-07 16:23:37.630018
+QCY: training testing step120   2023-06-07 16:23:51.614958
+QCY: training testing step130   2023-06-07 16:24:05.676463
+QCY: training testing step140   2023-06-07 16:24:20.190348
+QCY: training testing step150   2023-06-07 16:24:34.533898
+QCY: training testing step160   2023-06-07 16:24:49.418614
+QCY: training testing step170   2023-06-07 16:25:04.253619
+QCY: training testing step180   2023-06-07 16:25:19.064433
+QCY: training testing step190   2023-06-07 16:25:34.111830
+QCY: training testing step200   2023-06-07 16:25:49.192709
+QCY: training testing step210   2023-06-07 16:26:05.068327
+QCY: training testing step220   2023-06-07 16:26:20.811996
+QCY: training testing step230   2023-06-07 16:26:36.502830
+QCY: training testing step240   2023-06-07 16:26:52.890416
+QCY: training testing step250   2023-06-07 16:27:10.063066
+QCY: training testing step260   2023-06-07 16:27:27.029813
+QCY: training testing step270   2023-06-07 16:27:43.969391
+QCY: training testing step280   2023-06-07 16:28:00.722289
+QCY: training testing step290   2023-06-07 16:28:17.640301
+QCY: training testing step300   2023-06-07 16:28:34.563268
+QCY: training testing step310   2023-06-07 16:28:52.367197
+QCY: training testing step320   2023-06-07 16:29:10.507083
+QCY: training testing step330   2023-06-07 16:29:29.013390
+QCY: training testing step340   2023-06-07 16:29:47.836276
+QCY: training testing step350   2023-06-07 16:30:06.509838
+QCY: training testing step360   2023-06-07 16:30:25.187475
+QCY: training testing step370   2023-06-07 16:30:44.040535
+QCY: training testing step380   2023-06-07 16:31:03.360079
+QCY: training testing step390   2023-06-07 16:31:22.886159
+QCY: training testing step400   2023-06-07 16:31:42.679199
+QCY: training testing step410   2023-06-07 16:32:03.154361
+QCY: training testing step420   2023-06-07 16:32:23.574626
+QCY: training testing step430   2023-06-07 16:32:44.139315
+QCY: training testing step440   2023-06-07 16:33:04.697782
+QCY: training testing step450   2023-06-07 16:33:24.937654
+QCY: training testing step460   2023-06-07 16:33:45.692011
+QCY: training testing step470   2023-06-07 16:34:06.593877
+QCY: training testing step480   2023-06-07 16:34:28.014804
+QCY: training testing step490   2023-06-07 16:34:50.009896
+QCY: training testing step500   2023-06-07 16:35:11.953596
+QCY: training testing step510   2023-06-07 16:35:33.923789
+QCY: training testing step520   2023-06-07 16:35:56.615065
+QCY: training testing step530   2023-06-07 16:36:19.305716
+QCY: training testing step540   2023-06-07 16:36:42.098619
+QCY: training testing step550   2023-06-07 16:37:05.784412
+QCY: training testing step560   2023-06-07 16:37:29.445633
+QCY: training testing step570   2023-06-07 16:37:53.743075
+QCY: training testing step580   2023-06-07 16:38:17.713470
+QCY: training testing step590   2023-06-07 16:38:42.514355
+QCY: training testing step600   2023-06-07 16:39:07.516578
+QCY: training testing step610   2023-06-07 16:39:32.429411
+QCY: training testing step620   2023-06-07 16:39:57.157950
+QCY: training testing step630   2023-06-07 16:40:22.307186
+QCY: training testing step640   2023-06-07 16:40:47.557277
+QCY: training testing step650   2023-06-07 16:41:13.020821
+QCY: training testing step660   2023-06-07 16:41:38.926983
+QCY: training testing step670   2023-06-07 16:42:05.481504
+QCY: training testing step680   2023-06-07 16:42:31.651464
+QCY: training testing step690   2023-06-07 16:42:56.763012
+QCY: training testing step700   2023-06-07 16:43:23.007427
+QCY: training testing step710   2023-06-07 16:43:49.785957
+QCY: training testing step720   2023-06-07 16:44:17.047377
+QCY: training testing step730   2023-06-07 16:44:44.340766
+QCY: training testing step740   2023-06-07 16:45:12.088294
+QCY: training testing step750   2023-06-07 16:45:39.424095
+QCY: training testing step760   2023-06-07 16:46:06.681165
+QCY: training testing step770   2023-06-07 16:46:34.539022
+QCY: training testing step780   2023-06-07 16:47:03.556771
+QCY: training testing step790   2023-06-07 16:47:32.851690
+QCY: training testing step800   2023-06-07 16:48:01.783488
+QCY: training testing step810   2023-06-07 16:48:30.872164
+QCY: training testing step820   2023-06-07 16:49:00.485524
+QCY: training testing step830   2023-06-07 16:49:30.279686
+QCY: training testing step840   2023-06-07 16:50:00.018326
+QCY: training testing step850   2023-06-07 16:50:29.897580
+QCY: training testing step860   2023-06-07 16:50:59.227657
+QCY: training testing step870   2023-06-07 16:51:29.722173
+QCY: training testing step880   2023-06-07 16:52:00.642681
+QCY: training testing step890   2023-06-07 16:52:31.993100
+QCY: training testing step900   2023-06-07 16:53:02.889456
+QCY: training testing step910   2023-06-07 16:53:34.305713
+QCY: training testing step920   2023-06-07 16:54:05.840276
+QCY: training testing step930   2023-06-07 16:54:37.992453
+QCY: training testing step940   2023-06-07 16:55:10.265082
+QCY: training testing step950   2023-06-07 16:55:43.103501
+QCY: training testing step960   2023-06-07 16:56:15.834314
+QCY: training testing step970   2023-06-07 16:56:48.454494
+QCY: training testing step980   2023-06-07 16:57:22.153032
+QCY: training testing step990   2023-06-07 16:57:55.260799
+QCY: training testing step1000   2023-06-07 16:58:29.069934
+QCY: training testing step1010   2023-06-07 16:59:02.395142
+QCY: training testing step1020   2023-06-07 16:59:35.529586
+QCY: training testing step1030   2023-06-07 17:00:09.987872
+QCY: training testing step1040   2023-06-07 17:00:44.290705
+QCY: training testing step1050   2023-06-07 17:01:17.774183
+QCY: training testing step1060   2023-06-07 17:01:52.243239
+QCY: training testing step1070   2023-06-07 17:02:27.496864
+QCY: training testing step1080   2023-06-07 17:03:01.907973
+QCY: training testing step1090   2023-06-07 17:03:36.957907
+QCY: training testing step1100   2023-06-07 17:04:12.324591
+QCY: training testing step1110   2023-06-07 17:04:47.504781
+QCY: training testing step1120   2023-06-07 17:05:22.875700
+QCY: training testing step1130   2023-06-07 17:05:58.462296
+QCY: training testing step1140   2023-06-07 17:06:33.410583
+QCY: training testing step1150   2023-06-07 17:07:09.000106
+QCY: training testing step1160   2023-06-07 17:07:44.642622
+QCY: training testing step1170   2023-06-07 17:08:20.730649
+QCY: training testing step1180   2023-06-07 17:08:56.877056
+QCY: training testing step1190   2023-06-07 17:09:32.962023
+QCY: training testing step1200   2023-06-07 17:10:09.471640
+QCY: training testing step1210   2023-06-07 17:10:46.834700
+QCY: training testing step1220   2023-06-07 17:11:24.124425
+QCY: training testing step1230   2023-06-07 17:12:00.698449
+QCY: training testing step1240   2023-06-07 17:12:37.749657
+QCY: training testing step1250   2023-06-07 17:13:15.538751
+QCY: training testing step1260   2023-06-07 17:13:52.717404
+QCY: training testing step1270   2023-06-07 17:14:31.024249
+QCY: training testing step1280   2023-06-07 17:15:09.256989
+QCY: training testing step1290   2023-06-07 17:15:47.723237
+QCY: training testing step1300   2023-06-07 17:16:26.125181
+QCY: training testing step1310   2023-06-07 17:17:05.074431
+QCY: training testing step1320   2023-06-07 17:17:43.678907
+QCY: training testing step1330   2023-06-07 17:18:21.636675
+QCY: training testing step1340   2023-06-07 17:18:59.995832
+QCY: training testing step1350   2023-06-07 17:19:39.088128
+QCY: training testing step1360   2023-06-07 17:20:18.107832
+QCY: training testing step1370   2023-06-07 17:20:56.613889
+QCY: training testing step1380   2023-06-07 17:21:35.903859
+QCY: training testing step1390   2023-06-07 17:22:15.696462
+QCY: training testing step1400   2023-06-07 17:22:55.521681
+QCY: training testing step1410   2023-06-07 17:23:36.340540
+QCY: training testing step1420   2023-06-07 17:24:16.485062
+QCY: training testing step1430   2023-06-07 17:24:56.487540
+QCY: training testing step1440   2023-06-07 17:25:36.757755
+QCY: training testing step1450   2023-06-07 17:26:16.519613
+QCY: training testing step1460   2023-06-07 17:26:57.751558
+QCY: training testing step1470   2023-06-07 17:27:38.763771
+QCY: training testing step1480   2023-06-07 17:28:19.471786
+QCY: training testing step1490   2023-06-07 17:29:00.741227
+QCY: training testing step1500   2023-06-07 17:29:42.046393
+QCY: training testing step1510   2023-06-07 17:30:24.067289
+QCY: training testing step1520   2023-06-07 17:31:06.261422
+QCY: training testing step1530   2023-06-07 17:31:48.482501
+QCY: training testing step1540   2023-06-07 17:32:30.947822
+QCY: training testing step1550   2023-06-07 17:33:13.454810
+QCY: training testing step1560   2023-06-07 17:33:55.896582
+QCY: training testing step1570   2023-06-07 17:34:38.548193
+QCY: training testing step1580   2023-06-07 17:35:20.754773
+QCY: training testing step1590   2023-06-07 17:36:03.593574
+QCY: training testing step1600   2023-06-07 17:36:46.211240
+QCY: training testing step1610   2023-06-07 17:37:29.784891
+QCY: training testing step1620   2023-06-07 17:38:12.007803
+QCY: training testing step1630   2023-06-07 17:38:54.816022
+QCY: training testing step1640   2023-06-07 17:39:37.755035
+QCY: training testing step1650   2023-06-07 17:40:21.641820
+QCY: training testing step1660   2023-06-07 17:41:05.809415
+QCY: training testing step1670   2023-06-07 17:41:50.378681
+QCY: training testing step1680   2023-06-07 17:42:34.445561
+QCY: training testing step1690   2023-06-07 17:43:19.134030
+QCY: training testing step1700   2023-06-07 17:44:03.176934
+QCY: training testing step1710   2023-06-07 17:44:46.443169
+QCY: training testing step1720   2023-06-07 17:45:30.789691
+QCY: training testing step1730   2023-06-07 17:46:15.664000
+QCY: training testing step1740   2023-06-07 17:47:00.992396
+QCY: training testing step1750   2023-06-07 17:47:45.927760
+QCY: training testing step1760   2023-06-07 17:48:29.707366
+QCY: training testing step1770   2023-06-07 17:49:14.822320
+QCY: training testing step1780   2023-06-07 17:50:00.395160
+QCY: training testing step1790   2023-06-07 17:50:45.957787
+QCY: training testing step1800   2023-06-07 17:51:30.339522
+QCY: training testing step1810   2023-06-07 17:52:16.511980
+QCY: training testing step1820   2023-06-07 17:53:02.293354
+QCY: training testing step1830   2023-06-07 17:53:48.487150
+QCY: training testing step1840   2023-06-07 17:54:34.060057
+QCY: training testing step1850   2023-06-07 17:55:19.098763
+QCY: training testing step1860   2023-06-07 17:56:05.280177
+QCY: training testing step1870   2023-06-07 17:56:51.421388
+QCY: training testing step1880   2023-06-07 17:57:37.408395
+QCY: training testing step1890   2023-06-07 17:58:24.310923
+QCY: training testing step1900   2023-06-07 17:59:10.676958
+QCY: training testing step1910   2023-06-07 17:59:56.458658
+QCY: training testing step1920   2023-06-07 18:00:43.502926
+QCY: training testing step1930   2023-06-07 18:01:30.683671
+QCY: training testing step1940   2023-06-07 18:02:18.959068
+QCY: training testing step1950   2023-06-07 18:03:06.232612
+QCY: training testing step1960   2023-06-07 18:03:53.711359
+QCY: training testing step1970   2023-06-07 18:04:40.325653
+QCY: training testing step1980   2023-06-07 18:05:26.868256
+QCY: training testing step1990   2023-06-07 18:06:12.976361
+QCY: training testing step2000   2023-06-07 18:07:00.060926
+QCY: training testing step2010   2023-06-07 18:07:47.754226
+QCY: training testing step2020   2023-06-07 18:08:36.477172
+QCY: training testing step2030   2023-06-07 18:09:25.248218
+QCY: training testing step2040   2023-06-07 18:10:12.851576
+QCY: training testing step2050   2023-06-07 18:11:01.421256
+QCY: training testing step2060   2023-06-07 18:11:50.274982
+QCY: training testing step2070   2023-06-07 18:12:39.123135
+QCY: training testing step2080   2023-06-07 18:13:27.073876
+QCY: training testing step2090   2023-06-07 18:14:14.153127
+QCY: training testing step2100   2023-06-07 18:15:03.025210
+QCY: training testing step2110   2023-06-07 18:15:50.540409
+QCY: training testing step2120   2023-06-07 18:16:39.380849
+QCY: training testing step2130   2023-06-07 18:17:29.399117
+QCY: training testing step2140   2023-06-07 18:18:18.604653
+QCY: training testing step2150   2023-06-07 18:19:07.390126
+QCY: training testing step2160   2023-06-07 18:19:56.888401
+QCY: training testing step2170   2023-06-07 18:20:46.215816
+QCY: training testing step2180   2023-06-07 18:21:35.653778
+QCY: training testing step2190   2023-06-07 18:22:26.102970
+QCY: training testing step2200   2023-06-07 18:23:15.790364
+QCY: training testing step2210   2023-06-07 18:24:05.535538
+QCY: training testing step2220   2023-06-07 18:24:55.405881
+QCY: training testing step2230   2023-06-07 18:25:45.525461
+QCY: training testing step2240   2023-06-07 18:26:35.688529
+QCY: training testing step2250   2023-06-07 18:27:27.197888
+QCY: training testing step2260   2023-06-07 18:28:17.746025
+QCY: training testing step2270   2023-06-07 18:29:08.097635
+QCY: training testing step2280   2023-06-07 18:29:58.875947
+QCY: training testing step2290   2023-06-07 18:30:50.012573
+QCY: training testing step2300   2023-06-07 18:31:40.800903
+QCY: training testing step2310   2023-06-07 18:32:31.990808
+QCY: training testing step2320   2023-06-07 18:33:22.119325
+QCY: training testing step2330   2023-06-07 18:34:11.936281
+QCY: training testing step2340   2023-06-07 18:35:03.006362
+QCY: training testing step2350   2023-06-07 18:35:53.952244
+QCY: training testing step2360   2023-06-07 18:36:45.715458
+QCY: training testing step2370   2023-06-07 18:37:36.786201
+QCY: training testing step2380   2023-06-07 18:38:27.802924
+QCY: training testing step2390   2023-06-07 18:39:19.188529
+QCY: training testing step2400   2023-06-07 18:40:10.244071
+QCY: training testing step2410   2023-06-07 18:41:02.008837
+QCY: training testing step2420   2023-06-07 18:41:54.386759
+QCY: training testing step2430   2023-06-07 18:42:46.994982
+QCY: training testing step2440   2023-06-07 18:43:37.107484
+QCY: training testing step2450   2023-06-07 18:44:28.087461
+QCY: training testing step2460   2023-06-07 18:45:19.780139
+QCY: training testing step2470   2023-06-07 18:46:11.859416
+QCY: training testing step2480   2023-06-07 18:47:04.777636
+QCY: training testing step2490   2023-06-07 18:47:57.305917
+QCY: training testing step2500   2023-06-07 18:48:48.475592
+QCY: training testing step2510   2023-06-07 18:49:40.730421
+QCY: training testing step2520   2023-06-07 18:50:32.519338
+QCY: training testing step2530   2023-06-07 18:51:24.719892
+QCY: training testing step2540   2023-06-07 18:52:18.007779
+QCY: training testing step2550   2023-06-07 18:53:10.897974
+QCY: training testing step2560   2023-06-07 18:54:04.213017
+QCY: training testing step2570   2023-06-07 18:54:56.766822
+QCY: training testing step2580   2023-06-07 18:55:49.066779
+QCY: training testing step2590   2023-06-07 18:56:43.338213
+QCY: training testing step2600   2023-06-07 18:57:37.378285
+QCY: training testing step2610   2023-06-07 18:58:31.646011
+QCY: training testing step2620   2023-06-07 18:59:26.123831
+QCY: training testing step2630   2023-06-07 19:00:19.961845
+QCY: training testing step2640   2023-06-07 19:01:13.012713
+QCY: training testing step2650   2023-06-07 19:02:06.379546
+QCY: training testing step2660   2023-06-07 19:03:00.849561
+QCY: training testing step2670   2023-06-07 19:03:55.730978
+QCY: training testing step2680   2023-06-07 19:04:50.745045
+QCY: training testing step2690   2023-06-07 19:05:45.582363
+QCY: training testing step2700   2023-06-07 19:06:40.674181
+QCY: training testing step2710   2023-06-07 19:07:35.620553
+QCY: training testing step2720   2023-06-07 19:08:30.623648
+QCY: training testing step2730   2023-06-07 19:09:24.106450
+QCY: training testing step2740   2023-06-07 19:10:19.185665
+QCY: training testing step2750   2023-06-07 19:11:14.163293
+QCY: training testing step2760   2023-06-07 19:12:08.927750
+QCY: training testing step2770   2023-06-07 19:13:03.715380
+QCY: training testing step2780   2023-06-07 19:13:58.949514
+QCY: training testing step2790   2023-06-07 19:14:53.939376
+QCY: training testing step2800   2023-06-07 19:15:49.582079
+QCY: training testing step2810   2023-06-07 19:16:43.934875
+QCY: training testing step2820   2023-06-07 19:17:39.478117
+QCY: training testing step2830   2023-06-07 19:18:34.702662
+QCY: training testing step2840   2023-06-07 19:19:30.404939
+QCY: training testing step2850   2023-06-07 19:20:25.292893
+QCY: training testing step2860   2023-06-07 19:21:20.937771
+QCY: training testing step2870   2023-06-07 19:22:17.258295
+QCY: training testing step2880   2023-06-07 19:23:12.906697
+QCY: training testing step2890   2023-06-07 19:24:08.295757
+QCY: training testing step2900   2023-06-07 19:25:04.550514
+QCY: training testing step2910   2023-06-07 19:26:01.166319
+QCY: training testing step2920   2023-06-07 19:26:56.645643
+QCY: training testing step2930   2023-06-07 19:27:53.012707
+QCY: training testing step2940   2023-06-07 19:28:50.191299
+QCY: training testing step2950   2023-06-07 19:29:46.902663
+QCY: training testing step2960   2023-06-07 19:30:42.007250
+QCY: training testing step2970   2023-06-07 19:31:37.042497
+QCY: training testing step2980   2023-06-07 19:32:34.314998
+QCY: training testing step2990   2023-06-07 19:33:31.337713
+QCY: training testing step3000   2023-06-07 19:34:29.060748
+QCY: training testing step3010   2023-06-07 19:35:26.234032
+QCY: training testing step3020   2023-06-07 19:36:22.651007
+QCY: training testing step3030   2023-06-07 19:37:19.747734
+QCY: training testing step3040   2023-06-07 19:38:16.861190
+QCY: training testing step3050   2023-06-07 19:39:14.440884
+QCY: training testing step3060   2023-06-07 19:40:12.121603
+QCY: training testing step3070   2023-06-07 19:41:08.580380
+QCY: training testing step3080   2023-06-07 19:42:07.185532
+QCY: training testing step3090   2023-06-07 19:43:04.558595
+QCY: training testing step3100   2023-06-07 19:44:01.022923
+QCY: training testing step3110   2023-06-07 19:44:59.467257
+QCY: training testing step3120   2023-06-07 19:45:55.177469
+QCY: training testing step3130   2023-06-07 19:46:53.422802
+QCY: training testing step3140   2023-06-07 19:47:51.819245
+QCY: training testing step3150   2023-06-07 19:48:49.627229
+QCY: training testing step3160   2023-06-07 19:49:47.088454
+QCY: training testing step3170   2023-06-07 19:50:45.710417
+QCY: training testing step3180   2023-06-07 19:51:44.181233
+QCY: training testing step3190   2023-06-07 19:52:43.376441
+QCY: training testing step3200   2023-06-07 19:53:41.631561
+QCY: training testing step3210   2023-06-07 19:54:39.782675
+QCY: training testing step3220   2023-06-07 19:55:38.547770
+QCY: training testing step3230   2023-06-07 19:56:36.390134
+QCY: training testing step3240   2023-06-07 19:57:36.214366
+QCY: training testing step3250   2023-06-07 19:58:34.771674
+QCY: training testing step3260   2023-06-07 19:59:33.530709
+QCY: training testing step3270   2023-06-07 20:00:32.441484
+QCY: training testing step3280   2023-06-07 20:01:31.593773
+QCY: training testing step3290   2023-06-07 20:02:31.865387
+QCY: training testing step3300   2023-06-07 20:03:31.941091
+QCY: training testing step3310   2023-06-07 20:04:31.328507
+QCY: training testing step3320   2023-06-07 20:05:30.615887
+QCY: training testing step3330   2023-06-07 20:06:30.699854
+QCY: training testing step3340   2023-06-07 20:07:32.425688
+QCY: training testing step3350   2023-06-07 20:08:31.695891
+QCY: training testing step3360   2023-06-07 20:09:32.715839
+QCY: training testing step3370   2023-06-07 20:10:32.809848
+QCY: training testing step3380   2023-06-07 20:11:32.863340
+QCY: training testing step3390   2023-06-07 20:12:34.145029
+QCY: training testing step3400   2023-06-07 20:13:34.108839
+QCY: training testing step3410   2023-06-07 20:14:34.733900
+QCY: training testing step3420   2023-06-07 20:15:35.629640
+QCY: training testing step3430   2023-06-07 20:16:36.618526
+QCY: training testing step3440   2023-06-07 20:17:37.530627
+QCY: training testing step3450   2023-06-07 20:18:37.713465
+QCY: training testing step3460   2023-06-07 20:19:38.728005
+QCY: training testing step3470   2023-06-07 20:20:39.671523
+QCY: training testing step3480   2023-06-07 20:21:40.642183
+QCY: training testing step3490   2023-06-07 20:22:42.050201
+QCY: training testing step3500   2023-06-07 20:23:42.679845
+QCY: training testing step3510   2023-06-07 20:24:43.513673
+QCY: training testing step3520   2023-06-07 20:25:45.089944
+QCY: training testing step3530   2023-06-07 20:26:45.825089
+QCY: training testing step3540   2023-06-07 20:27:46.887235
+QCY: training testing step3550   2023-06-07 20:28:48.776516
+QCY: training testing step3560   2023-06-07 20:29:49.946028
+QCY: training testing step3570   2023-06-07 20:30:50.762128
+QCY: training testing step3580   2023-06-07 20:31:51.931304
+QCY: training testing step3590   2023-06-07 20:32:53.135819
+2023-06-07 20:33:54 (INFO): Test step:0/200, travel time :1140.6861167002012, rewards:-4159.253472222223, queue:21.264569160997734, delay:0.14736782082624716, throughput:497
+Step #0.00 (2ms ~= 500.00*RT, ~17500.00UPS, TraCI: 6976ms, vehicles TOT 35 ACT 35 BUF 2)  Step #100.00 (2ms ~= 500.00*RT, ~103000.00UPS, TraCI: 1341ms, vehicles TOT 207 ACT 206 BUFStep #200.00 (3ms ~= 333.33*RT, ~174666.67UPS, TraCI: 1553ms, vehicles TOT 527 ACT 524 BUFStep #300.00 (9ms ~= 111.11*RT, ~95333.33UPS, TraCI: 1645ms, vehicles TOT 865 ACT 858 BUF Step #400.00 (12ms ~= 83.33*RT, ~106333.33UPS, TraCI: 2048ms, vehicles TOT 1289 ACT 1276 BStep #500.00 (15ms ~= 66.67*RT, ~113600.00UPS, TraCI: 2203ms, vehicles TOT 1728 ACT 1704 BStep #600.00 (19ms ~= 52.63*RT, ~112105.26UPS, TraCI: 2484ms, vehicles TOT 2168 ACT 2130 BStep #700.00 (18ms ~= 55.56*RT, ~138833.33UPS, TraCI: 2669ms, vehicles TOT 2550 ACT 2499 BStep #800.00 (24ms ~= 41.67*RT, ~120083.33UPS, TraCI: 2976ms, vehicles TOT 2945 ACT 2882 BStep #900.00 (28ms ~= 35.71*RT, ~117785.71UPS, TraCI: 3118ms, vehicles TOT 3372 ACT 3298 BStep #1000.00 (31ms ~= 32.26*RT, ~118870.97UPS, TraCI: 3421ms, vehicles TOT 3769 ACT 3685 Step #1100.00 (43ms ~= 23.26*RT, ~93790.70UPS, TraCI: 3672ms, vehicles TOT 4143 ACT 4033 BStep #1200.00 (35ms ~= 28.57*RT, ~124142.86UPS, TraCI: 3725ms, vehicles TOT 4469 ACT 4345 Step #1300.00 (37ms ~= 27.03*RT, ~126000.00UPS, TraCI: 3857ms, vehicles TOT 4793 ACT 4662 Step #1400.00 (41ms ~= 24.39*RT, ~120414.63UPS, TraCI: 4058ms, vehicles TOT 5078 ACT 4937 Step #1500.00 (45ms ~= 22.22*RT, ~115644.44UPS, TraCI: 4143ms, vehicles TOT 5359 ACT 5204 Step #1600.00 (46ms ~= 21.74*RT, ~119369.57UPS, TraCI: 4307ms, vehicles TOT 5657 ACT 5491 Step #1700.00 (47ms ~= 21.28*RT, ~121702.13UPS, TraCI: 4525ms, vehicles TOT 5902 ACT 5720 Step #1800.00 (51ms ~= 19.61*RT, ~116450.98UPS, TraCI: 4591ms, vehicles TOT 6135 ACT 5939 Step #1900.00 (50ms ~= 20.00*RT, ~122420.00UPS, TraCI: 4605ms, vehicles TOT 6326 ACT 6121 Step #2000.00 (53ms ~= 18.87*RT, ~120188.68UPS, TraCI: 4752ms, vehicles TOT 6596 ACT 6370 Step #2100.00 (56ms ~= 17.86*RT, ~117142.86UPS, TraCI: 4864ms, vehicles TOT 6809 ACT 6560 Step #2200.00 (54ms ~= 18.52*RT, ~125037.04UPS, TraCI: 4855ms, vehicles TOT 7012 ACT 6752 Step #2300.00 (60ms ~= 16.67*RT, ~115566.67UPS, TraCI: 5135ms, vehicles TOT 7206 ACT 6934 Step #2400.00 (60ms ~= 16.67*RT, ~118983.33UPS, TraCI: 5148ms, vehicles TOT 7420 ACT 7139 Step #2500.00 (63ms ~= 15.87*RT, ~115428.57UPS, TraCI: 5071ms, vehicles TOT 7578 ACT 7272 Step #2600.00 (65ms ~= 15.38*RT, ~115584.62UPS, TraCI: 5262ms, vehicles TOT 7838 ACT 7513 Step #2700.00 (68ms ~= 14.71*RT, ~113955.88UPS, TraCI: 5449ms, vehicles TOT 8095 ACT 7749 Step #2800.00 (65ms ~= 15.38*RT, ~121430.77UPS, TraCI: 5677ms, vehicles TOT 8255 ACT 7893 Step #2900.00 (67ms ~= 14.93*RT, ~120731.34UPS, TraCI: 5708ms, vehicles TOT 8468 ACT 8089 Step #3000.00 (68ms ~= 14.71*RT, ~121235.29UPS, TraCI: 5626ms, vehicles TOT 8642 ACT 8244 Step #3100.00 (71ms ~= 14.08*RT, ~117676.06UPS, TraCI: 5822ms, vehicles TOT 8768 ACT 8355 Step #3200.00 (79ms ~= 12.66*RT, ~108151.90UPS, TraCI: 5983ms, vehicles TOT 8978 ACT 8544 Step #3300.00 (72ms ~= 13.89*RT, ~120916.67UPS, TraCI: 6064ms, vehicles TOT 9156 ACT 8706 Step #3400.00 (68ms ~= 14.71*RT, ~130426.47UPS, TraCI: 6111ms, vehicles TOT 9330 ACT 8869 Step #3500.00 (75ms ~= 13.33*RT, ~120133.33UPS, TraCI: 6031ms, vehicles TOT 9491 ACT 9010 Step #3600.00 (76ms ~= 13.16*RT, ~120276.32UPS, TraCI: 5937ms, vehicles TOT 9638 ACT 9141 
+ Retrying in 1 seconds
+QCY: training step0   2023-06-07 20:34:02.795209
+QCY: training step10   2023-06-07 20:34:16.215693
+QCY: training step20   2023-06-07 20:34:28.303746
+QCY: training step30   2023-06-07 20:34:41.445924
+QCY: training step40   2023-06-07 20:34:54.634280
+QCY: training step50   2023-06-07 20:35:07.919131
+QCY: training step60   2023-06-07 20:35:21.246022
+QCY: training step70   2023-06-07 20:35:34.915166
+QCY: training step80   2023-06-07 20:35:48.648767
+QCY: training step90   2023-06-07 20:36:02.213808
+QCY: training step100   2023-06-07 20:36:15.866065
+QCY: training step110   2023-06-07 20:36:30.219423
+QCY: training step120   2023-06-07 20:36:44.486148
+QCY: training step130   2023-06-07 20:36:59.398672
+QCY: training step140   2023-06-07 20:37:14.117278
+QCY: training step150   2023-06-07 20:37:28.774492
+QCY: training step160   2023-06-07 20:37:43.736938
+QCY: training step170   2023-06-07 20:37:59.311509
+QCY: training step180   2023-06-07 20:38:15.053662
+QCY: training step190   2023-06-07 20:38:31.214092
+QCY: training step200   2023-06-07 20:38:47.443698
+QCY: training step210   2023-06-07 20:39:03.329829
+QCY: training step220   2023-06-07 20:39:18.942647
+QCY: training step230   2023-06-07 20:39:34.938278
+QCY: training step240   2023-06-07 20:39:51.664830
+QCY: training step250   2023-06-07 20:40:08.793306
+QCY: training step260   2023-06-07 20:40:25.667941
+QCY: training step270   2023-06-07 20:40:43.213951
+QCY: training step280   2023-06-07 20:41:00.863190
+QCY: training step290   2023-06-07 20:41:18.390837
+QCY: training step300   2023-06-07 20:41:36.383833
+QCY: training step310   2023-06-07 20:41:54.199151
+QCY: training step320   2023-06-07 20:42:12.595184
+QCY: training step330   2023-06-07 20:42:30.999334
+QCY: training step340   2023-06-07 20:42:50.233133
+QCY: training step350   2023-06-07 20:43:09.841486
+QCY: training step360   2023-06-07 20:43:29.148361
+QCY: training step370   2023-06-07 20:43:49.086824
+QCY: training step380   2023-06-07 20:44:09.001415
+QCY: training step390   2023-06-07 20:44:29.200495
+QCY: training step400   2023-06-07 20:44:49.609113
+QCY: training step410   2023-06-07 20:45:10.362023
+QCY: training step420   2023-06-07 20:45:30.689449
+QCY: training step430   2023-06-07 20:45:51.817535
+QCY: training step440   2023-06-07 20:46:12.950119
+QCY: training step450   2023-06-07 20:46:34.057055
+QCY: training step460   2023-06-07 20:46:56.003213
+QCY: training step470   2023-06-07 20:47:18.165967
+QCY: training step480   2023-06-07 20:47:40.090114
+QCY: training step490   2023-06-07 20:48:02.369216
+QCY: training step500   2023-06-07 20:48:25.349829
+QCY: training step510   2023-06-07 20:48:48.523760
+QCY: training step520   2023-06-07 20:49:11.233027
+QCY: training step530   2023-06-07 20:49:34.244325
+QCY: training step540   2023-06-07 20:49:57.532687
+QCY: training step550   2023-06-07 20:50:21.374050
+QCY: training step560   2023-06-07 20:50:45.739798
+QCY: training step570   2023-06-07 20:51:10.603328
+QCY: training step580   2023-06-07 20:51:35.179147
+QCY: training step590   2023-06-07 20:52:00.143548
+QCY: training step600   2023-06-07 20:52:25.116906
+QCY: training step610   2023-06-07 20:52:50.718498
+QCY: training step620   2023-06-07 20:53:16.361872
+QCY: training step630   2023-06-07 20:53:41.440742
+QCY: training step640   2023-06-07 20:54:06.864043
+QCY: training step650   2023-06-07 20:54:32.945373
+QCY: training step660   2023-06-07 20:54:59.433674
+QCY: training step670   2023-06-07 20:55:26.495788
+QCY: training step680   2023-06-07 20:55:53.226614
+QCY: training step690   2023-06-07 20:56:20.104538
+QCY: training step700   2023-06-07 20:56:47.716431
+QCY: training step710   2023-06-07 20:57:15.499053
+QCY: training step720   2023-06-07 20:57:43.194179
+QCY: training step730   2023-06-07 20:58:11.289048
+QCY: training step740   2023-06-07 20:58:39.459351
+QCY: training step750   2023-06-07 20:59:08.319622
+QCY: training step760   2023-06-07 20:59:37.284772
+QCY: training step770   2023-06-07 21:00:06.101280
+QCY: training step780   2023-06-07 21:00:35.730284
+QCY: training step790   2023-06-07 21:01:04.866175
+QCY: training step800   2023-06-07 21:01:33.671912
+QCY: training step810   2023-06-07 21:02:03.847547
+QCY: training step820   2023-06-07 21:02:34.280547
+QCY: training step830   2023-06-07 21:03:04.869903
+QCY: training step840   2023-06-07 21:03:34.856684
+QCY: training step850   2023-06-07 21:04:05.533395
+QCY: training step860   2023-06-07 21:04:36.591968
+QCY: training step870   2023-06-07 21:05:08.005757
+QCY: training step880   2023-06-07 21:05:39.514148
+QCY: training step890   2023-06-07 21:06:11.479635
+QCY: training step900   2023-06-07 21:06:43.652248
+QCY: training step910   2023-06-07 21:07:16.034969
+QCY: training step920   2023-06-07 21:07:48.203841
+QCY: training step930   2023-06-07 21:08:20.592607
+QCY: training step940   2023-06-07 21:08:52.969867
+QCY: training step950   2023-06-07 21:09:25.681218
+QCY: training step960   2023-06-07 21:09:58.942542
+QCY: training step970   2023-06-07 21:10:32.401293
+QCY: training step980   2023-06-07 21:11:05.356254
+QCY: training step990   2023-06-07 21:11:38.711797
+QCY: training step1000   2023-06-07 21:12:12.692693
+QCY: training step1010   2023-06-07 21:12:47.564065
+QCY: training step1020   2023-06-07 21:13:21.563482
+QCY: training step1030   2023-06-07 21:13:55.918245
+QCY: training step1040   2023-06-07 21:14:30.385560
+QCY: training step1050   2023-06-07 21:15:04.491925
+QCY: training step1060   2023-06-07 21:15:39.201638
+QCY: training step1070   2023-06-07 21:16:14.867532
+QCY: training step1080   2023-06-07 21:16:50.996042
+QCY: training step1090   2023-06-07 21:17:26.811571
+QCY: training step1100   2023-06-07 21:18:02.827976
+QCY: training step1110   2023-06-07 21:18:38.775088
+QCY: training step1120   2023-06-07 21:19:15.247713
+QCY: training step1130   2023-06-07 21:19:51.055097
+QCY: training step1140   2023-06-07 21:20:28.196280
+QCY: training step1150   2023-06-07 21:21:05.388240
+QCY: training step1160   2023-06-07 21:21:42.249749
+QCY: training step1170   2023-06-07 21:22:19.548138
+QCY: training step1180   2023-06-07 21:22:57.021350
+QCY: training step1190   2023-06-07 21:23:34.829013
+QCY: training step1200   2023-06-07 21:24:12.664602
+QCY: training step1210   2023-06-07 21:24:50.408930
+QCY: training step1220   2023-06-07 21:25:29.116301
+QCY: training step1230   2023-06-07 21:26:07.067249
+QCY: training step1240   2023-06-07 21:26:43.663887
+QCY: training step1250   2023-06-07 21:27:22.354260
+QCY: training step1260   2023-06-07 21:28:00.851303
+QCY: training step1270   2023-06-07 21:28:39.852545
+QCY: training step1280   2023-06-07 21:29:18.603830
+QCY: training step1290   2023-06-07 21:29:57.258425
+QCY: training step1300   2023-06-07 21:30:37.156421
+QCY: training step1310   2023-06-07 21:31:17.589027
+QCY: training step1320   2023-06-07 21:31:56.835838
+QCY: training step1330   2023-06-07 21:32:37.164928
+QCY: training step1340   2023-06-07 21:33:17.401266
+QCY: training step1350   2023-06-07 21:33:56.656594
+QCY: training step1360   2023-06-07 21:34:37.344685
+QCY: training step1370   2023-06-07 21:35:17.692962
+QCY: training step1380   2023-06-07 21:35:58.758408
+QCY: training step1390   2023-06-07 21:36:39.248074
+QCY: training step1400   2023-06-07 21:37:20.596566
+QCY: training step1410   2023-06-07 21:38:01.824783
+QCY: training step1420   2023-06-07 21:38:42.705739
+QCY: training step1430   2023-06-07 21:39:23.628168
+QCY: training step1440   2023-06-07 21:40:05.795902
+QCY: training step1450   2023-06-07 21:40:47.993143
+QCY: training step1460   2023-06-07 21:41:29.600640
+QCY: training step1470   2023-06-07 21:42:12.822692
+QCY: training step1480   2023-06-07 21:42:55.502500
+QCY: training step1490   2023-06-07 21:43:38.119932
+QCY: training step1500   2023-06-07 21:44:20.457693
+QCY: training step1510   2023-06-07 21:45:02.834389
+QCY: training step1520   2023-06-07 21:45:45.596162
+QCY: training step1530   2023-06-07 21:46:28.603703
+QCY: training step1540   2023-06-07 21:47:12.258094
+QCY: training step1550   2023-06-07 21:47:55.074692
+QCY: training step1560   2023-06-07 21:48:37.878516
+QCY: training step1570   2023-06-07 21:49:20.759733
+QCY: training step1580   2023-06-07 21:50:04.865087
+QCY: training step1590   2023-06-07 21:50:49.247926
+QCY: training step1600   2023-06-07 21:51:32.987911
+QCY: training step1610   2023-06-07 21:52:17.100980
+QCY: training step1620   2023-06-07 21:53:01.055570
+QCY: training step1630   2023-06-07 21:53:44.335315
+QCY: training step1640   2023-06-07 21:54:28.791230
+QCY: training step1650   2023-06-07 21:55:12.943322
+QCY: training step1660   2023-06-07 21:55:57.318371
+QCY: training step1670   2023-06-07 21:56:41.656473
+QCY: training step1680   2023-06-07 21:57:26.790369
+QCY: training step1690   2023-06-07 21:58:11.892047
+QCY: training step1700   2023-06-07 21:58:55.330190
+QCY: training step1710   2023-06-07 21:59:40.810904
+QCY: training step1720   2023-06-07 22:00:26.207568
+QCY: training step1730   2023-06-07 22:01:11.220978
+QCY: training step1740   2023-06-07 22:01:56.269827
+QCY: training step1750   2023-06-07 22:02:41.792996
+QCY: training step1760   2023-06-07 22:03:26.926447
+QCY: training step1770   2023-06-07 22:04:12.996507
+QCY: training step1780   2023-06-07 22:04:59.127191
+QCY: training step1790   2023-06-07 22:05:44.716558
+QCY: training step1800   2023-06-07 22:06:30.732006
+QCY: training step1810   2023-06-07 22:07:16.961557
+QCY: training step1820   2023-06-07 22:08:03.333091
+QCY: training step1830   2023-06-07 22:08:50.494317
+QCY: training step1840   2023-06-07 22:09:35.809184
+QCY: training step1850   2023-06-07 22:10:21.710382
+QCY: training step1860   2023-06-07 22:11:08.568254
+QCY: training step1870   2023-06-07 22:11:54.050140
+QCY: training step1880   2023-06-07 22:12:41.214236
+QCY: training step1890   2023-06-07 22:13:26.255490
+QCY: training step1900   2023-06-07 22:14:13.759060
+QCY: training step1910   2023-06-07 22:15:00.908445
+QCY: training step1920   2023-06-07 22:15:48.909632
+QCY: training step1930   2023-06-07 22:16:36.325840
+QCY: training step1940   2023-06-07 22:17:24.550181
+QCY: training step1950   2023-06-07 22:18:12.039810
+QCY: training step1960   2023-06-07 22:18:59.007240
+QCY: training step1970   2023-06-07 22:19:47.090887
+QCY: training step1980   2023-06-07 22:20:34.753553
+QCY: training step1990   2023-06-07 22:21:22.123820
+QCY: training step2000   2023-06-07 22:22:10.720751
+QCY: training step2010   2023-06-07 22:22:58.614215
+QCY: training step2020   2023-06-07 22:23:46.339861
+QCY: training step2030   2023-06-07 22:24:32.812505
+QCY: training step2040   2023-06-07 22:25:21.418514
+QCY: training step2050   2023-06-07 22:26:09.648946
+QCY: training step2060   2023-06-07 22:26:57.314044
+QCY: training step2070   2023-06-07 22:27:46.084083
+QCY: training step2080   2023-06-07 22:28:36.134498
+QCY: training step2090   2023-06-07 22:29:25.535348
+QCY: training step2100   2023-06-07 22:30:14.371642
+QCY: training step2110   2023-06-07 22:31:03.481996
+QCY: training step2120   2023-06-07 22:31:53.247035
+QCY: training step2130   2023-06-07 22:32:42.786305
+QCY: training step2140   2023-06-07 22:33:31.987983
+QCY: training step2150   2023-06-07 22:34:20.965948
+QCY: training step2160   2023-06-07 22:35:10.152737
+QCY: training step2170   2023-06-07 22:35:59.906266
+QCY: training step2180   2023-06-07 22:36:49.499853
+QCY: training step2190   2023-06-07 22:37:39.700842
+QCY: training step2200   2023-06-07 22:38:29.797428
+QCY: training step2210   2023-06-07 22:39:20.296078
+QCY: training step2220   2023-06-07 22:40:10.146851
+QCY: training step2230   2023-06-07 22:40:59.459815
+QCY: training step2240   2023-06-07 22:41:49.332373
+QCY: training step2250   2023-06-07 22:42:39.252730
+QCY: training step2260   2023-06-07 22:43:28.906189
+QCY: training step2270   2023-06-07 22:44:19.788957
+QCY: training step2280   2023-06-07 22:45:10.024811
+QCY: training step2290   2023-06-07 22:46:00.590748
+QCY: training step2300   2023-06-07 22:46:50.819717
+QCY: training step2310   2023-06-07 22:47:41.886009
+QCY: training step2320   2023-06-07 22:48:31.887699
+QCY: training step2330   2023-06-07 22:49:21.711777
+QCY: training step2340   2023-06-07 22:50:12.958880
+QCY: training step2350   2023-06-07 22:51:03.856138
+QCY: training step2360   2023-06-07 22:51:54.558948
+QCY: training step2370   2023-06-07 22:52:46.408174
+QCY: training step2380   2023-06-07 22:53:37.921982
+QCY: training step2390   2023-06-07 22:54:29.104986
+QCY: training step2400   2023-06-07 22:55:21.063437
+QCY: training step2410   2023-06-07 22:56:11.998955
+QCY: training step2420   2023-06-07 22:57:04.269325
+QCY: training step2430   2023-06-07 22:57:55.937724
+QCY: training step2440   2023-06-07 22:58:47.746221
+QCY: training step2450   2023-06-07 22:59:40.057339
+QCY: training step2460   2023-06-07 23:00:33.146120
+QCY: training step2470   2023-06-07 23:01:25.551364
+QCY: training step2480   2023-06-07 23:02:18.307778
+QCY: training step2490   2023-06-07 23:03:11.003979
+QCY: training step2500   2023-06-07 23:04:03.259791
+QCY: training step2510   2023-06-07 23:04:56.391463
+QCY: training step2520   2023-06-07 23:05:48.683906
+QCY: training step2530   2023-06-07 23:06:40.736163
+QCY: training step2540   2023-06-07 23:07:33.240088
+QCY: training step2550   2023-06-07 23:08:25.437218
+QCY: training step2560   2023-06-07 23:09:17.372120
+QCY: training step2570   2023-06-07 23:10:10.152851
+QCY: training step2580   2023-06-07 23:11:02.750332
+QCY: training step2590   2023-06-07 23:11:55.107338
+QCY: training step2600   2023-06-07 23:12:49.305213
+QCY: training step2610   2023-06-07 23:13:41.718524
+QCY: training step2620   2023-06-07 23:14:34.852932
+QCY: training step2630   2023-06-07 23:15:27.502111
+QCY: training step2640   2023-06-07 23:16:19.841495
+QCY: training step2650   2023-06-07 23:17:13.466936
+QCY: training step2660   2023-06-07 23:18:06.941336
+QCY: training step2670   2023-06-07 23:18:59.860740
+QCY: training step2680   2023-06-07 23:19:53.122968
+QCY: training step2690   2023-06-07 23:20:47.053252
+QCY: training step2700   2023-06-07 23:21:41.618356
+QCY: training step2710   2023-06-07 23:22:35.981947
+QCY: training step2720   2023-06-07 23:23:29.738286
+QCY: training step2730   2023-06-07 23:24:21.829272
+QCY: training step2740   2023-06-07 23:25:15.535433
+QCY: training step2750   2023-06-07 23:26:10.054251
+QCY: training step2760   2023-06-07 23:27:04.101294
+QCY: training step2770   2023-06-07 23:27:57.790768
+QCY: training step2780   2023-06-07 23:28:51.558428
+QCY: training step2790   2023-06-07 23:29:45.441867
+QCY: training step2800   2023-06-07 23:30:39.956153
+QCY: training step2810   2023-06-07 23:31:34.251833
+QCY: training step2820   2023-06-07 23:32:29.396643
+QCY: training step2830   2023-06-07 23:33:24.741658
+QCY: training step2840   2023-06-07 23:34:20.041213
+QCY: training step2850   2023-06-07 23:35:15.311386
+QCY: training step2860   2023-06-07 23:36:09.580227
+QCY: training step2870   2023-06-07 23:37:05.821903
+QCY: training step2880   2023-06-07 23:38:01.480630
+QCY: training step2890   2023-06-07 23:38:56.152531
+QCY: training step2900   2023-06-07 23:39:51.272685
+QCY: training step2910   2023-06-07 23:40:46.101555
+QCY: training step2920   2023-06-07 23:41:40.196468
+QCY: training step2930   2023-06-07 23:42:34.662926
+QCY: training step2940   2023-06-07 23:43:28.698680
+QCY: training step2950   2023-06-07 23:44:24.061638
+QCY: training step2960   2023-06-07 23:45:20.643360
+QCY: training step2970   2023-06-07 23:46:16.355372
+QCY: training step2980   2023-06-07 23:47:12.630357
+QCY: training step2990   2023-06-07 23:48:07.336846
+QCY: training step3000   2023-06-07 23:49:03.274399
+QCY: training step3010   2023-06-07 23:50:00.409749
+QCY: training step3020   2023-06-07 23:50:57.221137
+QCY: training step3030   2023-06-07 23:51:53.917678
+QCY: training step3040   2023-06-07 23:52:50.830601
+QCY: training step3050   2023-06-07 23:53:47.876269
+QCY: training step3060   2023-06-07 23:54:43.634452
+QCY: training step3070   2023-06-07 23:55:40.561357
+QCY: training step3080   2023-06-07 23:56:36.626718
+QCY: training step3090   2023-06-07 23:57:33.879230
+QCY: training step3100   2023-06-07 23:58:30.732289
+QCY: training step3110   2023-06-07 23:59:28.435439
+QCY: training step3120   2023-06-08 00:00:24.540444
+QCY: training step3130   2023-06-08 00:01:19.955113
+QCY: training step3140   2023-06-08 00:02:17.717840
+QCY: training step3150   2023-06-08 00:03:14.270484
+QCY: training step3160   2023-06-08 00:04:11.355899
+QCY: training step3170   2023-06-08 00:05:08.263380
+QCY: training step3180   2023-06-08 00:06:05.484474
+QCY: training step3190   2023-06-08 00:07:03.591522
+QCY: training step3200   2023-06-08 00:08:00.071450
+QCY: training step3210   2023-06-08 00:08:56.741588
+QCY: training step3220   2023-06-08 00:09:54.746204
+QCY: training step3230   2023-06-08 00:10:53.257870
+QCY: training step3240   2023-06-08 00:11:51.083824
+QCY: training step3250   2023-06-08 00:12:49.255845
+QCY: training step3260   2023-06-08 00:13:46.989253
+QCY: training step3270   2023-06-08 00:14:44.855795
+QCY: training step3280   2023-06-08 00:15:43.011440
+QCY: training step3290   2023-06-08 00:16:41.420580
+QCY: training step3300   2023-06-08 00:17:39.491818
+QCY: training step3310   2023-06-08 00:18:37.499550
+QCY: training step3320   2023-06-08 00:19:35.598221
+QCY: training step3330   2023-06-08 00:20:32.913516
+QCY: training step3340   2023-06-08 00:21:30.558989
+QCY: training step3350   2023-06-08 00:22:28.961913
+QCY: training step3360   2023-06-08 00:23:26.917303
+QCY: training step3370   2023-06-08 00:24:25.174897
+QCY: training step3380   2023-06-08 00:25:23.347771
+QCY: training step3390   2023-06-08 00:26:21.740760
+QCY: training step3400   2023-06-08 00:27:20.270660
+QCY: training step3410   2023-06-08 00:28:19.633803
+QCY: training step3420   2023-06-08 00:29:18.072133
+QCY: training step3430   2023-06-08 00:30:16.997691
+QCY: training step3440   2023-06-08 00:31:15.827160
+QCY: training step3450   2023-06-08 00:32:15.433761
+QCY: training step3460   2023-06-08 00:33:14.136261
+QCY: training step3470   2023-06-08 00:34:13.097607
+QCY: training step3480   2023-06-08 00:35:11.963835
+QCY: training step3490   2023-06-08 00:36:10.008794
+QCY: training step3500   2023-06-08 00:37:08.193949
+QCY: training step3510   2023-06-08 00:38:08.613728
+QCY: training step3520   2023-06-08 00:39:07.894897
+QCY: training step3530   2023-06-08 00:40:07.614680
+QCY: training step3540   2023-06-08 00:41:06.450119
+QCY: training step3550   2023-06-08 00:42:05.917361
+QCY: training step3560   2023-06-08 00:43:05.034849
+QCY: training step3570   2023-06-08 00:44:04.163806
+QCY: training step3580   2023-06-08 00:45:02.985248
+QCY: training step3590   2023-06-08 00:46:01.245171
+2023-06-08 00:47:01 (INFO): step:3600/3600, q_loss:0, rewards:-3734.6496527777776, queue:19.09094387755102, delay:0.11724447998600482, throughput:2579
+2023-06-08 00:47:01 (INFO): episode:1/200, real avg travel time:958.6731291198139
+Step #0.00 (3ms ~= 333.33*RT, ~11666.67UPS, TraCI: 6844ms, vehicles TOT 35 ACT 35 BUF 2)  Step #100.00 (3ms ~= 333.33*RT, ~68333.33UPS, TraCI: 1442ms, vehicles TOT 207 ACT 205 BUF Step #200.00 (7ms ~= 142.86*RT, ~75571.43UPS, TraCI: 1669ms, vehicles TOT 540 ACT 529 BUF Step #300.00 (12ms ~= 83.33*RT, ~72166.67UPS, TraCI: 1864ms, vehicles TOT 907 ACT 866 BUF Step #400.00 (15ms ~= 66.67*RT, ~84133.33UPS, TraCI: 2126ms, vehicles TOT 1334 ACT 1262 BUStep #500.00 (18ms ~= 55.56*RT, ~89000.00UPS, TraCI: 2396ms, vehicles TOT 1746 ACT 1602 BUStep #600.00 (22ms ~= 45.45*RT, ~88909.09UPS, TraCI: 2527ms, vehicles TOT 2185 ACT 1956 BUStep #700.00 (19ms ~= 52.63*RT, ~119842.11UPS, TraCI: 2756ms, vehicles TOT 2590 ACT 2277 BStep #800.00 (29ms ~= 34.48*RT, ~89793.10UPS, TraCI: 2812ms, vehicles TOT 3012 ACT 2604 BUStep #900.00 (34ms ~= 29.41*RT, ~88941.18UPS, TraCI: 3316ms, vehicles TOT 3512 ACT 3024 BUStep #1000.00 (23ms ~= 43.48*RT, ~145826.09UPS, TraCI: 3294ms, vehicles TOT 3948 ACT 3354 Step #1100.00 (38ms ~= 26.32*RT, ~97105.26UPS, TraCI: 3533ms, vehicles TOT 4372 ACT 3690 BStep #1200.00 (42ms ~= 23.81*RT, ~95476.19UPS, TraCI: 3796ms, vehicles TOT 4778 ACT 4010 BStep #1300.00 (47ms ~= 21.28*RT, ~92319.15UPS, TraCI: 4228ms, vehicles TOT 5209 ACT 4339 BStep #1400.00 (47ms ~= 21.28*RT, ~99000.00UPS, TraCI: 4104ms, vehicles TOT 5619 ACT 4653 BStep #1500.00 (50ms ~= 20.00*RT, ~98800.00UPS, TraCI: 4211ms, vehicles TOT 5994 ACT 4940 BStep #1600.00 (46ms ~= 21.74*RT, ~112326.09UPS, TraCI: 4398ms, vehicles TOT 6306 ACT 5167 Step #1700.00 (52ms ~= 19.23*RT, ~103788.46UPS, TraCI: 4555ms, vehicles TOT 6634 ACT 5397 Step #1800.00 (57ms ~= 17.54*RT, ~99105.26UPS, TraCI: 4575ms, vehicles TOT 6962 ACT 5649 BStep #1900.00 (58ms ~= 17.24*RT, ~101689.66UPS, TraCI: 4689ms, vehicles TOT 7284 ACT 5898 Step #2000.00 (58ms ~= 17.24*RT, ~105172.41UPS, TraCI: 4849ms, vehicles TOT 7555 ACT 6100 Step #2100.00 (63ms ~= 15.87*RT, ~100063.49UPS, TraCI: 4914ms, vehicles TOT 7833 ACT 6304 Step #2200.00 (66ms ~= 15.15*RT, ~98439.39UPS, TraCI: 4915ms, vehicles TOT 8099 ACT 6497 BStep #2300.00 (66ms ~= 15.15*RT, ~100909.09UPS, TraCI: 5174ms, vehicles TOT 8329 ACT 6660 Step #2400.00 (64ms ~= 15.62*RT, ~107750.00UPS, TraCI: 5213ms, vehicles TOT 8618 ACT 6896 Step #2500.00 (66ms ~= 15.15*RT, ~107348.48UPS, TraCI: 5235ms, vehicles TOT 8890 ACT 7085 Step #2600.00 (71ms ~= 14.08*RT, ~103394.37UPS, TraCI: 5335ms, vehicles TOT 9209 ACT 7341 Step #2700.00 (51ms ~= 19.61*RT, ~147450.98UPS, TraCI: 5448ms, vehicles TOT 9445 ACT 7520 Step #2800.00 (75ms ~= 13.33*RT, ~102413.33UPS, TraCI: 5397ms, vehicles TOT 9679 ACT 7681 Step #2900.00 (71ms ~= 14.08*RT, ~110619.72UPS, TraCI: 5568ms, vehicles TOT 9914 ACT 7854 Step #3000.00 (69ms ~= 14.49*RT, ~116811.59UPS, TraCI: 5632ms, vehicles TOT 10194 ACT 8060Step #3100.00 (71ms ~= 14.08*RT, ~115859.15UPS, TraCI: 5756ms, vehicles TOT 10407 ACT 8226Step #3200.00 (74ms ~= 13.51*RT, ~113878.38UPS, TraCI: 5366ms, vehicles TOT 10687 ACT 8427Step #3300.00 (71ms ~= 14.08*RT, ~120971.83UPS, TraCI: 5870ms, vehicles TOT 10916 ACT 8589Step #3400.00 (93ms ~= 10.75*RT, ~94204.30UPS, TraCI: 5971ms, vehicles TOT 11163 ACT 8761 Step #3500.00 (78ms ~= 12.82*RT, ~114282.05UPS, TraCI: 6046ms, vehicles TOT 11411 ACT 8914Step #3600.00 (84ms ~= 11.90*RT, ~107523.81UPS, TraCI: 5809ms, vehicles TOT 11611 ACT 9032
+ Retrying in 1 seconds
+QCY: training testing step0   2023-06-08 00:47:09.725856
+QCY: training testing step10   2023-06-08 00:47:23.482530
+QCY: training testing step20   2023-06-08 00:47:37.062333
+QCY: training testing step30   2023-06-08 00:47:50.828972
+QCY: training testing step40   2023-06-08 00:48:04.461603
+QCY: training testing step50   2023-06-08 00:48:17.950315
+QCY: training testing step60   2023-06-08 00:48:30.881148
+QCY: training testing step70   2023-06-08 00:48:44.845834
+QCY: training testing step80   2023-06-08 00:48:58.319374
+QCY: training testing step90   2023-06-08 00:49:11.869727
+QCY: training testing step100   2023-06-08 00:49:26.014103
+QCY: training testing step110   2023-06-08 00:49:40.234651
+QCY: training testing step120   2023-06-08 00:49:54.592286
+QCY: training testing step130   2023-06-08 00:50:09.174865
+QCY: training testing step140   2023-06-08 00:50:24.231984
+QCY: training testing step150   2023-06-08 00:50:38.943176
+QCY: training testing step160   2023-06-08 00:50:53.389668
+QCY: training testing step170   2023-06-08 00:51:08.788300
+QCY: training testing step180   2023-06-08 00:51:24.284111
+QCY: training testing step190   2023-06-08 00:51:40.131552
+QCY: training testing step200   2023-06-08 00:51:56.202777
+QCY: training testing step210   2023-06-08 00:52:12.606240
+QCY: training testing step220   2023-06-08 00:52:28.795035
+QCY: training testing step230   2023-06-08 00:52:45.121003
+QCY: training testing step240   2023-06-08 00:53:01.654513
+QCY: training testing step250   2023-06-08 00:53:18.566938
+QCY: training testing step260   2023-06-08 00:53:35.508877
+QCY: training testing step270   2023-06-08 00:53:52.595702
+QCY: training testing step280   2023-06-08 00:54:09.962647
+QCY: training testing step290   2023-06-08 00:54:27.300123
+QCY: training testing step300   2023-06-08 00:54:44.638255
+QCY: training testing step310   2023-06-08 00:55:02.857371
+QCY: training testing step320   2023-06-08 00:55:21.408310
+QCY: training testing step330   2023-06-08 00:55:39.815591
+QCY: training testing step340   2023-06-08 00:55:58.558819
+QCY: training testing step350   2023-06-08 00:56:17.599445
+QCY: training testing step360   2023-06-08 00:56:36.670203
+QCY: training testing step370   2023-06-08 00:56:56.843873
+QCY: training testing step380   2023-06-08 00:57:16.706027
+QCY: training testing step390   2023-06-08 00:57:36.718974
+QCY: training testing step400   2023-06-08 00:57:56.735371
+QCY: training testing step410   2023-06-08 00:58:17.343114
+QCY: training testing step420   2023-06-08 00:58:37.791160
+QCY: training testing step430   2023-06-08 00:58:58.671707
+QCY: training testing step440   2023-06-08 00:59:19.601662
+QCY: training testing step450   2023-06-08 00:59:40.650992
+QCY: training testing step460   2023-06-08 01:00:02.278497
+QCY: training testing step470   2023-06-08 01:00:23.638436
+QCY: training testing step480   2023-06-08 01:00:45.549956
+QCY: training testing step490   2023-06-08 01:01:07.652985
+QCY: training testing step500   2023-06-08 01:01:29.673376
+QCY: training testing step510   2023-06-08 01:01:52.925073
+QCY: training testing step520   2023-06-08 01:02:16.150619
+QCY: training testing step530   2023-06-08 01:02:39.159562
+QCY: training testing step540   2023-06-08 01:03:02.276221
+QCY: training testing step550   2023-06-08 01:03:24.899420
+QCY: training testing step560   2023-06-08 01:03:48.218845
+QCY: training testing step570   2023-06-08 01:04:12.125092
+QCY: training testing step580   2023-06-08 01:04:36.261201
+QCY: training testing step590   2023-06-08 01:05:00.643977
+QCY: training testing step600   2023-06-08 01:05:25.244842
+QCY: training testing step610   2023-06-08 01:05:49.755686
+QCY: training testing step620   2023-06-08 01:06:15.030394
+QCY: training testing step630   2023-06-08 01:06:40.409291
+QCY: training testing step640   2023-06-08 01:07:06.419039
+QCY: training testing step650   2023-06-08 01:07:32.834402
+QCY: training testing step660   2023-06-08 01:07:59.141414
+QCY: training testing step670   2023-06-08 01:08:25.527258
+QCY: training testing step680   2023-06-08 01:08:52.111454
+QCY: training testing step690   2023-06-08 01:09:19.031722
+QCY: training testing step700   2023-06-08 01:09:45.776383
+QCY: training testing step710   2023-06-08 01:10:13.107745
+QCY: training testing step720   2023-06-08 01:10:40.470871
+QCY: training testing step730   2023-06-08 01:11:07.332246
+QCY: training testing step740   2023-06-08 01:11:35.504706
+QCY: training testing step750   2023-06-08 01:12:03.370116
+QCY: training testing step760   2023-06-08 01:12:32.152889
+QCY: training testing step770   2023-06-08 01:13:00.844026
+QCY: training testing step780   2023-06-08 01:13:29.665507
+QCY: training testing step790   2023-06-08 01:13:58.591383
+QCY: training testing step800   2023-06-08 01:14:27.754409
+QCY: training testing step810   2023-06-08 01:14:57.706225
+QCY: training testing step820   2023-06-08 01:15:27.900616
+QCY: training testing step830   2023-06-08 01:15:58.027207
+QCY: training testing step840   2023-06-08 01:16:27.956334
+QCY: training testing step850   2023-06-08 01:16:58.588742
+QCY: training testing step860   2023-06-08 01:17:30.423368
+QCY: training testing step870   2023-06-08 01:18:01.530023
+QCY: training testing step880   2023-06-08 01:18:33.069158
+QCY: training testing step890   2023-06-08 01:19:04.780106
+QCY: training testing step900   2023-06-08 01:19:36.258824
+QCY: training testing step910   2023-06-08 01:20:08.390794
+QCY: training testing step920   2023-06-08 01:20:40.542154
+QCY: training testing step930   2023-06-08 01:21:12.688494
+QCY: training testing step940   2023-06-08 01:21:44.672788
+QCY: training testing step950   2023-06-08 01:22:17.335174
+QCY: training testing step960   2023-06-08 01:22:50.308788
+QCY: training testing step970   2023-06-08 01:23:23.817742
+QCY: training testing step980   2023-06-08 01:23:57.362701
+QCY: training testing step990   2023-06-08 01:24:30.784128
+QCY: training testing step1000   2023-06-08 01:25:04.635235
+QCY: training testing step1010   2023-06-08 01:25:38.453395
+QCY: training testing step1020   2023-06-08 01:26:13.037313
+QCY: training testing step1030   2023-06-08 01:26:47.074995
+QCY: training testing step1040   2023-06-08 01:27:21.954020
+QCY: training testing step1050   2023-06-08 01:27:56.593103
+QCY: training testing step1060   2023-06-08 01:28:31.330695
+QCY: training testing step1070   2023-06-08 01:29:06.127705
+QCY: training testing step1080   2023-06-08 01:29:41.185308
+QCY: training testing step1090   2023-06-08 01:30:15.834329
+QCY: training testing step1100   2023-06-08 01:30:50.947453
+QCY: training testing step1110   2023-06-08 01:31:26.004145
+QCY: training testing step1120   2023-06-08 01:32:01.237808
+QCY: training testing step1130   2023-06-08 01:32:34.968112
+QCY: training testing step1140   2023-06-08 01:33:08.948442
+QCY: training testing step1150   2023-06-08 01:33:44.384527
+QCY: training testing step1160   2023-06-08 01:34:21.172674
+QCY: training testing step1170   2023-06-08 01:34:57.576309
+QCY: training testing step1180   2023-06-08 01:35:34.429604
+QCY: training testing step1190   2023-06-08 01:36:11.326120
+QCY: training testing step1200   2023-06-08 01:36:48.317228
+QCY: training testing step1210   2023-06-08 01:37:25.662521
+QCY: training testing step1220   2023-06-08 01:38:03.930871
+QCY: training testing step1230   2023-06-08 01:38:42.107106
+QCY: training testing step1240   2023-06-08 01:39:20.854336
+QCY: training testing step1250   2023-06-08 01:39:58.804473
+QCY: training testing step1260   2023-06-08 01:40:36.345307
+QCY: training testing step1270   2023-06-08 01:41:14.301745
+QCY: training testing step1280   2023-06-08 01:41:53.152557
+QCY: training testing step1290   2023-06-08 01:42:32.747132
+QCY: training testing step1300   2023-06-08 01:43:12.104442
+QCY: training testing step1310   2023-06-08 01:43:51.336472
+QCY: training testing step1320   2023-06-08 01:44:29.994012
+QCY: training testing step1330   2023-06-08 01:45:09.084248
+QCY: training testing step1340   2023-06-08 01:45:48.104010
+QCY: training testing step1350   2023-06-08 01:46:28.180304
+QCY: training testing step1360   2023-06-08 01:47:08.203615
+QCY: training testing step1370   2023-06-08 01:47:48.689333
+QCY: training testing step1380   2023-06-08 01:48:28.969718
+QCY: training testing step1390   2023-06-08 01:49:08.279656
+QCY: training testing step1400   2023-06-08 01:49:48.050055
+QCY: training testing step1410   2023-06-08 01:50:28.949400
+QCY: training testing step1420   2023-06-08 01:51:09.208072
+QCY: training testing step1430   2023-06-08 01:51:50.394433
+QCY: training testing step1440   2023-06-08 01:52:32.365900
+QCY: training testing step1450   2023-06-08 01:53:14.379799
+QCY: training testing step1460   2023-06-08 01:53:55.119485
+QCY: training testing step1470   2023-06-08 01:54:36.539736
+QCY: training testing step1480   2023-06-08 01:55:18.162491
+QCY: training testing step1490   2023-06-08 01:56:00.023202
+QCY: training testing step1500   2023-06-08 01:56:42.255924
+QCY: training testing step1510   2023-06-08 01:57:25.103751
+QCY: training testing step1520   2023-06-08 01:58:07.871273
+QCY: training testing step1530   2023-06-08 01:58:50.386162
+QCY: training testing step1540   2023-06-08 01:59:33.303340
+QCY: training testing step1550   2023-06-08 02:00:16.176961
+QCY: training testing step1560   2023-06-08 02:00:59.740904
+QCY: training testing step1570   2023-06-08 02:01:42.888972
+QCY: training testing step1580   2023-06-08 02:02:27.978810
+QCY: training testing step1590   2023-06-08 02:03:11.206632
+QCY: training testing step1600   2023-06-08 02:03:54.947947
+QCY: training testing step1610   2023-06-08 02:04:38.642041
+QCY: training testing step1620   2023-06-08 02:05:22.616618
+QCY: training testing step1630   2023-06-08 02:06:06.513569
+QCY: training testing step1640   2023-06-08 02:06:50.666350
+QCY: training testing step1650   2023-06-08 02:07:35.455616
+QCY: training testing step1660   2023-06-08 02:08:19.510422
+QCY: training testing step1670   2023-06-08 02:09:04.147006
+QCY: training testing step1680   2023-06-08 02:09:48.580044
+QCY: training testing step1690   2023-06-08 02:10:33.566653
+QCY: training testing step1700   2023-06-08 02:11:18.623923
+QCY: training testing step1710   2023-06-08 02:12:04.380132
+QCY: training testing step1720   2023-06-08 02:12:50.059959
+QCY: training testing step1730   2023-06-08 02:13:36.257078
+QCY: training testing step1740   2023-06-08 02:14:21.474785
+QCY: training testing step1750   2023-06-08 02:15:07.387444
+QCY: training testing step1760   2023-06-08 02:15:54.055226
+QCY: training testing step1770   2023-06-08 02:16:40.462803
+QCY: training testing step1780   2023-06-08 02:17:26.797020
+QCY: training testing step1790   2023-06-08 02:18:13.129864
+QCY: training testing step1800   2023-06-08 02:18:59.123188
+QCY: training testing step1810   2023-06-08 02:19:45.724815
+QCY: training testing step1820   2023-06-08 02:20:32.307261
+QCY: training testing step1830   2023-06-08 02:21:18.842768
+QCY: training testing step1840   2023-06-08 02:22:05.619683
+QCY: training testing step1850   2023-06-08 02:22:52.628627
+QCY: training testing step1860   2023-06-08 02:23:39.338553
+QCY: training testing step1870   2023-06-08 02:24:26.617876
+QCY: training testing step1880   2023-06-08 02:25:14.073776
+QCY: training testing step1890   2023-06-08 02:26:01.427696
+QCY: training testing step1900   2023-06-08 02:26:49.059271
+QCY: training testing step1910   2023-06-08 02:27:37.636538
+QCY: training testing step1920   2023-06-08 02:28:24.961217
+QCY: training testing step1930   2023-06-08 02:29:12.931602
+QCY: training testing step1940   2023-06-08 02:30:01.254717
+QCY: training testing step1950   2023-06-08 02:30:49.081358
+QCY: training testing step1960   2023-06-08 02:31:36.533441
+QCY: training testing step1970   2023-06-08 02:32:25.104500
+QCY: training testing step1980   2023-06-08 02:33:13.247526
+QCY: training testing step1990   2023-06-08 02:34:01.245556
+QCY: training testing step2000   2023-06-08 02:34:48.977820
+QCY: training testing step2010   2023-06-08 02:35:37.846294
+QCY: training testing step2020   2023-06-08 02:36:26.053625
+QCY: training testing step2030   2023-06-08 02:37:14.838782
+QCY: training testing step2040   2023-06-08 02:38:04.402031
+QCY: training testing step2050   2023-06-08 02:38:53.511667
+QCY: training testing step2060   2023-06-08 02:39:40.827788
+QCY: training testing step2070   2023-06-08 02:40:29.999425
+QCY: training testing step2080   2023-06-08 02:41:18.608396
+QCY: training testing step2090   2023-06-08 02:42:08.419664
+QCY: training testing step2100   2023-06-08 02:42:57.998970
+QCY: training testing step2110   2023-06-08 02:43:47.611875
+QCY: training testing step2120   2023-06-08 02:44:37.113791
+QCY: training testing step2130   2023-06-08 02:45:25.331122
+QCY: training testing step2140   2023-06-08 02:46:14.633495
+QCY: training testing step2150   2023-06-08 02:47:04.211419
+QCY: training testing step2160   2023-06-08 02:47:54.284894
+QCY: training testing step2170   2023-06-08 02:48:43.496553
+QCY: training testing step2180   2023-06-08 02:49:33.361945
+QCY: training testing step2190   2023-06-08 02:50:23.781461
+QCY: training testing step2200   2023-06-08 02:51:14.373005
+QCY: training testing step2210   2023-06-08 02:52:05.341986
+QCY: training testing step2220   2023-06-08 02:52:55.688151
+QCY: training testing step2230   2023-06-08 02:53:46.802222
+QCY: training testing step2240   2023-06-08 02:54:36.689488
+QCY: training testing step2250   2023-06-08 02:55:27.645209
+QCY: training testing step2260   2023-06-08 02:56:17.478834
+QCY: training testing step2270   2023-06-08 02:57:07.940563
+QCY: training testing step2280   2023-06-08 02:57:58.127183
+QCY: training testing step2290   2023-06-08 02:58:50.000897
+QCY: training testing step2300   2023-06-08 02:59:41.937469
+QCY: training testing step2310   2023-06-08 03:00:33.038046
+QCY: training testing step2320   2023-06-08 03:01:24.634032
+QCY: training testing step2330   2023-06-08 03:02:16.723495
+QCY: training testing step2340   2023-06-08 03:03:08.776586
+QCY: training testing step2350   2023-06-08 03:03:58.935963
+QCY: training testing step2360   2023-06-08 03:04:50.177986
+QCY: training testing step2370   2023-06-08 03:05:42.648015
+QCY: training testing step2380   2023-06-08 03:06:35.549851
+QCY: training testing step2390   2023-06-08 03:07:27.443777
+QCY: training testing step2400   2023-06-08 03:08:20.175702
+QCY: training testing step2410   2023-06-08 03:09:12.234532
+QCY: training testing step2420   2023-06-08 03:10:03.443240
+QCY: training testing step2430   2023-06-08 03:10:56.073547
+QCY: training testing step2440   2023-06-08 03:11:49.082824
+QCY: training testing step2450   2023-06-08 03:12:40.917673
+QCY: training testing step2460   2023-06-08 03:13:32.208434
+QCY: training testing step2470   2023-06-08 03:14:25.572209
+QCY: training testing step2480   2023-06-08 03:15:18.654523
+QCY: training testing step2490   2023-06-08 03:16:11.324894
+QCY: training testing step2500   2023-06-08 03:17:04.404207
+QCY: training testing step2510   2023-06-08 03:17:58.321983
+QCY: training testing step2520   2023-06-08 03:18:50.654280
+QCY: training testing step2530   2023-06-08 03:19:43.578267
+QCY: training testing step2540   2023-06-08 03:20:38.146544
+QCY: training testing step2550   2023-06-08 03:21:30.353535
+QCY: training testing step2560   2023-06-08 03:22:23.468583
+QCY: training testing step2570   2023-06-08 03:23:17.296510
+QCY: training testing step2580   2023-06-08 03:24:10.044213
+QCY: training testing step2590   2023-06-08 03:25:03.976861
+QCY: training testing step2600   2023-06-08 03:25:56.655991
+QCY: training testing step2610   2023-06-08 03:26:50.961296
+QCY: training testing step2620   2023-06-08 03:27:45.976052
+QCY: training testing step2630   2023-06-08 03:28:40.634068
+QCY: training testing step2640   2023-06-08 03:29:35.487687
+QCY: training testing step2650   2023-06-08 03:30:30.953623
+QCY: training testing step2660   2023-06-08 03:31:26.056721
+QCY: training testing step2670   2023-06-08 03:32:21.543484
+QCY: training testing step2680   2023-06-08 03:33:16.817708
+QCY: training testing step2690   2023-06-08 03:34:12.590745
+QCY: training testing step2700   2023-06-08 03:35:07.999240
+QCY: training testing step2710   2023-06-08 03:36:04.098561
+QCY: training testing step2720   2023-06-08 03:37:00.290927
+QCY: training testing step2730   2023-06-08 03:37:56.157076
+QCY: training testing step2740   2023-06-08 03:38:50.630063
+QCY: training testing step2750   2023-06-08 03:39:45.934733
+QCY: training testing step2760   2023-06-08 03:40:39.366447
+QCY: training testing step2770   2023-06-08 03:41:35.188225
+QCY: training testing step2780   2023-06-08 03:42:31.254389
+QCY: training testing step2790   2023-06-08 03:43:27.676295
+QCY: training testing step2800   2023-06-08 03:44:24.035887
+QCY: training testing step2810   2023-06-08 03:45:20.264884
+QCY: training testing step2820   2023-06-08 03:46:16.609928
+QCY: training testing step2830   2023-06-08 03:47:14.090653
+QCY: training testing step2840   2023-06-08 03:48:09.991323
+QCY: training testing step2850   2023-06-08 03:49:06.199860
+QCY: training testing step2860   2023-06-08 03:50:02.934821
+QCY: training testing step2870   2023-06-08 03:51:00.440279
+QCY: training testing step2880   2023-06-08 03:51:57.265360
+QCY: training testing step2890   2023-06-08 03:52:55.037248
+QCY: training testing step2900   2023-06-08 03:53:52.659755
+QCY: training testing step2910   2023-06-08 03:54:50.736993
+QCY: training testing step2920   2023-06-08 03:55:47.427862
+QCY: training testing step2930   2023-06-08 03:56:45.179767
+QCY: training testing step2940   2023-06-08 03:57:43.096271
+QCY: training testing step2950   2023-06-08 03:58:40.587434
+QCY: training testing step2960   2023-06-08 03:59:37.983697
+QCY: training testing step2970   2023-06-08 04:00:35.277563
+QCY: training testing step2980   2023-06-08 04:01:33.047598
+QCY: training testing step2990   2023-06-08 04:02:30.992691
+QCY: training testing step3000   2023-06-08 04:03:29.379195
+QCY: training testing step3010   2023-06-08 04:04:27.103735
+QCY: training testing step3020   2023-06-08 04:05:25.323882
+QCY: training testing step3030   2023-06-08 04:06:21.721113
+QCY: training testing step3040   2023-06-08 04:07:20.791249
+QCY: training testing step3050   2023-06-08 04:08:18.703164
+QCY: training testing step3060   2023-06-08 04:09:16.470502
+QCY: training testing step3070   2023-06-08 04:10:13.790982
+QCY: training testing step3080   2023-06-08 04:11:11.270661
+QCY: training testing step3090   2023-06-08 04:12:10.134108
+QCY: training testing step3100   2023-06-08 04:13:08.912689
+QCY: training testing step3110   2023-06-08 04:14:06.641017
+QCY: training testing step3120   2023-06-08 04:15:06.054150
+QCY: training testing step3130   2023-06-08 04:16:03.132993
+QCY: training testing step3140   2023-06-08 04:17:02.160276
+QCY: training testing step3150   2023-06-08 04:18:01.330328
+QCY: training testing step3160   2023-06-08 04:19:00.469891
+QCY: training testing step3170   2023-06-08 04:19:59.660072
+QCY: training testing step3180   2023-06-08 04:20:56.903214
+QCY: training testing step3190   2023-06-08 04:21:56.174122
+QCY: training testing step3200   2023-06-08 04:22:53.428207
+QCY: training testing step3210   2023-06-08 04:23:52.548843
+QCY: training testing step3220   2023-06-08 04:24:52.632425
+QCY: training testing step3230   2023-06-08 04:25:52.377914
+QCY: training testing step3240   2023-06-08 04:26:51.247236
+QCY: training testing step3250   2023-06-08 04:27:51.652040
+QCY: training testing step3260   2023-06-08 04:28:51.560757
+QCY: training testing step3270   2023-06-08 04:29:52.141327
+QCY: training testing step3280   2023-06-08 04:30:52.680926
+QCY: training testing step3290   2023-06-08 04:31:51.820240
+QCY: training testing step3300   2023-06-08 04:32:52.868679
+QCY: training testing step3310   2023-06-08 04:33:53.240603
+QCY: training testing step3320   2023-06-08 04:34:53.548965
+QCY: training testing step3330   2023-06-08 04:35:53.999038
+QCY: training testing step3340   2023-06-08 04:36:53.820287
+QCY: training testing step3350   2023-06-08 04:37:53.828397
+QCY: training testing step3360   2023-06-08 04:38:54.019051
+QCY: training testing step3370   2023-06-08 04:39:55.108541
+QCY: training testing step3380   2023-06-08 04:40:56.396824
+QCY: training testing step3390   2023-06-08 04:41:57.681795
+QCY: training testing step3400   2023-06-08 04:42:58.188184
+QCY: training testing step3410   2023-06-08 04:44:00.703685
+QCY: training testing step3420   2023-06-08 04:45:02.289473
+QCY: training testing step3430   2023-06-08 04:46:01.910708
+QCY: training testing step3440   2023-06-08 04:47:01.838087
+QCY: training testing step3450   2023-06-08 04:48:02.769753
+QCY: training testing step3460   2023-06-08 04:49:03.990140
+QCY: training testing step3470   2023-06-08 04:50:03.855510
+QCY: training testing step3480   2023-06-08 04:51:06.106142
+QCY: training testing step3490   2023-06-08 04:52:07.408346
+QCY: training testing step3500   2023-06-08 04:53:08.239627
+QCY: training testing step3510   2023-06-08 04:54:09.465302
+QCY: training testing step3520   2023-06-08 04:55:11.440882
+QCY: training testing step3530   2023-06-08 04:56:12.411447
+QCY: training testing step3540   2023-06-08 04:57:14.195468
+QCY: training testing step3550   2023-06-08 04:58:16.176244
+QCY: training testing step3560   2023-06-08 04:59:18.176811
+QCY: training testing step3570   2023-06-08 05:00:20.437175
+QCY: training testing step3580   2023-06-08 05:01:22.962913
+QCY: training testing step3590   2023-06-08 05:02:25.194466
+2023-06-08 05:03:27 (INFO): Test step:1/200, travel time :1140.6861167002012, rewards:-4159.253472222223, queue:21.264569160997734, delay:0.14736782082624716, throughput:497
+Step #0.00 (3ms ~= 333.33*RT, ~11666.67UPS, TraCI: 6827ms, vehicles TOT 35 ACT 35 BUF 2)  Step #100.00 (3ms ~= 333.33*RT, ~68666.67UPS, TraCI: 1506ms, vehicles TOT 207 ACT 206 BUF Step #200.00 (5ms ~= 200.00*RT, ~104800.00UPS, TraCI: 1668ms, vehicles TOT 527 ACT 524 BUFStep #300.00 (9ms ~= 111.11*RT, ~95333.33UPS, TraCI: 1787ms, vehicles TOT 865 ACT 858 BUF Step #400.00 (12ms ~= 83.33*RT, ~106333.33UPS, TraCI: 1967ms, vehicles TOT 1289 ACT 1276 BStep #500.00 (15ms ~= 66.67*RT, ~113600.00UPS, TraCI: 2323ms, vehicles TOT 1728 ACT 1704 BStep #600.00 (12ms ~= 83.33*RT, ~177500.00UPS, TraCI: 2389ms, vehicles TOT 2168 ACT 2130 BStep #700.00 (22ms ~= 45.45*RT, ~113590.91UPS, TraCI: 2741ms, vehicles TOT 2550 ACT 2499 BStep #800.00 (24ms ~= 41.67*RT, ~120083.33UPS, TraCI: 2932ms, vehicles TOT 2945 ACT 2882 BStep #900.00 (28ms ~= 35.71*RT, ~117785.71UPS, TraCI: 3147ms, vehicles TOT 3372 ACT 3298 BStep #1000.00 (31ms ~= 32.26*RT, ~118870.97UPS, TraCI: 3519ms, vehicles TOT 3769 ACT 3685 Step #1100.00 (33ms ~= 30.30*RT, ~122212.12UPS, TraCI: 3575ms, vehicles TOT 4143 ACT 4033 Step #1200.00 (35ms ~= 28.57*RT, ~124142.86UPS, TraCI: 3632ms, vehicles TOT 4469 ACT 4345 Step #1300.00 (38ms ~= 26.32*RT, ~122684.21UPS, TraCI: 3929ms, vehicles TOT 4793 ACT 4662 Step #1400.00 (41ms ~= 24.39*RT, ~120414.63UPS, TraCI: 3926ms, vehicles TOT 5078 ACT 4937 Step #1500.00 (44ms ~= 22.73*RT, ~118272.73UPS, TraCI: 4396ms, vehicles TOT 5359 ACT 5204 Step #1600.00 (46ms ~= 21.74*RT, ~119369.57UPS, TraCI: 4400ms, vehicles TOT 5657 ACT 5491 Step #1700.00 (48ms ~= 20.83*RT, ~119166.67UPS, TraCI: 4403ms, vehicles TOT 5902 ACT 5720 Step #1800.00 (50ms ~= 20.00*RT, ~118780.00UPS, TraCI: 4658ms, vehicles TOT 6135 ACT 5939 Step #1900.00 (50ms ~= 20.00*RT, ~122420.00UPS, TraCI: 4820ms, vehicles TOT 6326 ACT 6121 Step #2000.00 (54ms ~= 18.52*RT, ~117962.96UPS, TraCI: 4882ms, vehicles TOT 6596 ACT 6370 Step #2100.00 (55ms ~= 18.18*RT, ~119272.73UPS, TraCI: 4834ms, vehicles TOT 6809 ACT 6560 Step #2200.00 (56ms ~= 17.86*RT, ~120571.43UPS, TraCI: 5196ms, vehicles TOT 7012 ACT 6752 Step #2300.00 (58ms ~= 17.24*RT, ~119551.72UPS, TraCI: 5067ms, vehicles TOT 7206 ACT 6934 Step #2400.00 (60ms ~= 16.67*RT, ~118983.33UPS, TraCI: 5279ms, vehicles TOT 7420 ACT 7139 Step #2500.00 (61ms ~= 16.39*RT, ~119213.11UPS, TraCI: 5487ms, vehicles TOT 7578 ACT 7272 Step #2600.00 (62ms ~= 16.13*RT, ~121177.42UPS, TraCI: 5232ms, vehicles TOT 7838 ACT 7513 Step #2700.00 (66ms ~= 15.15*RT, ~117409.09UPS, TraCI: 5710ms, vehicles TOT 8095 ACT 7749 Step #2800.00 (65ms ~= 15.38*RT, ~121430.77UPS, TraCI: 5469ms, vehicles TOT 8255 ACT 7893 Step #2900.00 (67ms ~= 14.93*RT, ~120731.34UPS, TraCI: 5706ms, vehicles TOT 8468 ACT 8089 Step #3000.00 (73ms ~= 13.70*RT, ~112931.51UPS, TraCI: 5883ms, vehicles TOT 8642 ACT 8244 Step #3100.00 (74ms ~= 13.51*RT, ~112905.41UPS, TraCI: 5816ms, vehicles TOT 8768 ACT 8355 Step #3200.00 (75ms ~= 13.33*RT, ~113920.00UPS, TraCI: 5727ms, vehicles TOT 8978 ACT 8544 Step #3300.00 (82ms ~= 12.20*RT, ~106170.73UPS, TraCI: 6036ms, vehicles TOT 9156 ACT 8706 Step #3400.00 (76ms ~= 13.16*RT, ~116697.37UPS, TraCI: 5987ms, vehicles TOT 9330 ACT 8869 Step #3500.00 (75ms ~= 13.33*RT, ~120133.33UPS, TraCI: 6116ms, vehicles TOT 9491 ACT 9010 Step #3600.00 (79ms ~= 12.66*RT, ~115708.86UPS, TraCI: 6105ms, vehicles TOT 9638 ACT 9141 
+ Retrying in 1 seconds
+QCY: training step0   2023-06-08 05:03:36.296257
+QCY: training step10   2023-06-08 05:03:49.524071
+QCY: training step20   2023-06-08 05:04:02.664195
+QCY: training step30   2023-06-08 05:04:15.814399
+QCY: training step40   2023-06-08 05:04:28.825580
+QCY: training step50   2023-06-08 05:04:41.891758
+QCY: training step60   2023-06-08 05:04:55.245013
+QCY: training step70   2023-06-08 05:05:08.346666
+QCY: training step80   2023-06-08 05:05:22.084689
+QCY: training step90   2023-06-08 05:05:35.566328
+QCY: training step100   2023-06-08 05:05:49.484709
+QCY: training step110   2023-06-08 05:06:03.518427
+QCY: training step120   2023-06-08 05:06:17.366767
+QCY: training step130   2023-06-08 05:06:32.081402
+QCY: training step140   2023-06-08 05:06:46.960562
+QCY: training step150   2023-06-08 05:07:02.124902
+QCY: training step160   2023-06-08 05:07:17.450871
+QCY: training step170   2023-06-08 05:07:32.271821
+QCY: training step180   2023-06-08 05:07:47.466621
+QCY: training step190   2023-06-08 05:08:03.072364
+QCY: training step200   2023-06-08 05:08:19.127617
+QCY: training step210   2023-06-08 05:08:35.289667
+QCY: training step220   2023-06-08 05:08:50.897119
+QCY: training step230   2023-06-08 05:09:06.565790
+QCY: training step240   2023-06-08 05:09:23.148404
+QCY: training step250   2023-06-08 05:09:40.194832
+QCY: training step260   2023-06-08 05:09:57.021813
+QCY: training step270   2023-06-08 05:10:13.664724
+QCY: training step280   2023-06-08 05:10:31.633439
+QCY: training step290   2023-06-08 05:10:49.573839
+QCY: training step300   2023-06-08 05:11:06.824070
+QCY: training step310   2023-06-08 05:11:24.383057
+QCY: training step320   2023-06-08 05:11:42.650392
+QCY: training step330   2023-06-08 05:12:01.389826
+QCY: training step340   2023-06-08 05:12:20.410971
+QCY: training step350   2023-06-08 05:12:39.123874
+QCY: training step360   2023-06-08 05:12:57.760721
+QCY: training step370   2023-06-08 05:13:17.044394
+QCY: training step380   2023-06-08 05:13:36.625562
+QCY: training step390   2023-06-08 05:13:56.595071
+QCY: training step400   2023-06-08 05:14:17.256154
+QCY: training step410   2023-06-08 05:14:37.911749
+QCY: training step420   2023-06-08 05:14:58.983946
+QCY: training step430   2023-06-08 05:15:19.910719
+QCY: training step440   2023-06-08 05:15:41.525345
+QCY: training step450   2023-06-08 05:16:03.396328
+QCY: training step460   2023-06-08 05:16:25.476077
+QCY: training step470   2023-06-08 05:16:47.171131
+QCY: training step480   2023-06-08 05:17:09.189404
+QCY: training step490   2023-06-08 05:17:31.588751
+QCY: training step500   2023-06-08 05:17:54.346782
+QCY: training step510   2023-06-08 05:18:17.728344
+QCY: training step520   2023-06-08 05:18:41.231895
+QCY: training step530   2023-06-08 05:19:04.612441
+QCY: training step540   2023-06-08 05:19:28.141007
+QCY: training step550   2023-06-08 05:19:51.668726
+QCY: training step560   2023-06-08 05:20:15.834301
+QCY: training step570   2023-06-08 05:20:40.421022
+QCY: training step580   2023-06-08 05:21:04.820160
+QCY: training step590   2023-06-08 05:21:29.221195
+QCY: training step600   2023-06-08 05:21:53.951107
+QCY: training step610   2023-06-08 05:22:19.768327
+QCY: training step620   2023-06-08 05:22:44.347626
+QCY: training step630   2023-06-08 05:23:09.855920
+QCY: training step640   2023-06-08 05:23:35.862259
+QCY: training step650   2023-06-08 05:24:01.949314
+QCY: training step660   2023-06-08 05:24:28.503729
+QCY: training step670   2023-06-08 05:24:55.207478
+QCY: training step680   2023-06-08 05:25:21.789426
+QCY: training step690   2023-06-08 05:25:48.918328
+QCY: training step700   2023-06-08 05:26:16.221967
+QCY: training step710   2023-06-08 05:26:43.168143
+QCY: training step720   2023-06-08 05:27:11.423306
+QCY: training step730   2023-06-08 05:27:38.359558
+QCY: training step740   2023-06-08 05:28:06.183345
+QCY: training step750   2023-06-08 05:28:33.699768
+QCY: training step760   2023-06-08 05:29:01.270772
+QCY: training step770   2023-06-08 05:29:29.590871
+QCY: training step780   2023-06-08 05:29:57.333809
+QCY: training step790   2023-06-08 05:30:26.043960
+QCY: training step800   2023-06-08 05:30:55.154481
+QCY: training step810   2023-06-08 05:31:24.620858
+QCY: training step820   2023-06-08 05:31:54.594400
+QCY: training step830   2023-06-08 05:32:24.497661
+QCY: training step840   2023-06-08 05:32:54.395394
+QCY: training step850   2023-06-08 05:33:24.169781
+QCY: training step860   2023-06-08 05:33:53.785759
+QCY: training step870   2023-06-08 05:34:24.046281
+QCY: training step880   2023-06-08 05:34:54.770047
+QCY: training step890   2023-06-08 05:35:25.746853
+QCY: training step900   2023-06-08 05:35:56.876117
+QCY: training step910   2023-06-08 05:36:27.893418
+QCY: training step920   2023-06-08 05:36:59.306991
+QCY: training step930   2023-06-08 05:37:30.672060
+QCY: training step940   2023-06-08 05:38:02.672162
+QCY: training step950   2023-06-08 05:38:35.606673
+QCY: training step960   2023-06-08 05:39:08.155478
+QCY: training step970   2023-06-08 05:39:41.108627
+QCY: training step980   2023-06-08 05:40:14.120261
+QCY: training step990   2023-06-08 05:40:47.354329
+QCY: training step1000   2023-06-08 05:41:21.167503
+QCY: training step1010   2023-06-08 05:41:55.490647
+QCY: training step1020   2023-06-08 05:42:29.634936
+QCY: training step1030   2023-06-08 05:43:03.798368
+QCY: training step1040   2023-06-08 05:43:38.946850
+QCY: training step1050   2023-06-08 05:44:13.424646
+QCY: training step1060   2023-06-08 05:44:48.108109
+QCY: training step1070   2023-06-08 05:45:23.589332
+QCY: training step1080   2023-06-08 05:45:58.458430
+QCY: training step1090   2023-06-08 05:46:33.662177
+QCY: training step1100   2023-06-08 05:47:09.538641
+QCY: training step1110   2023-06-08 05:47:45.230796
+QCY: training step1120   2023-06-08 05:48:20.961807
+QCY: training step1130   2023-06-08 05:48:57.406013
+QCY: training step1140   2023-06-08 05:49:33.420394
+QCY: training step1150   2023-06-08 05:50:09.850763
+QCY: training step1160   2023-06-08 05:50:46.417816
+QCY: training step1170   2023-06-08 05:51:23.353486
+QCY: training step1180   2023-06-08 05:52:00.522320
+QCY: training step1190   2023-06-08 05:52:37.839205
+QCY: training step1200   2023-06-08 05:53:14.757248
+QCY: training step1210   2023-06-08 05:53:52.272231
+QCY: training step1220   2023-06-08 05:54:30.175970
+QCY: training step1230   2023-06-08 05:55:08.358924
+QCY: training step1240   2023-06-08 05:55:46.365206
+QCY: training step1250   2023-06-08 05:56:24.650520
+QCY: training step1260   2023-06-08 05:57:03.455115
+QCY: training step1270   2023-06-08 05:57:42.551395
+QCY: training step1280   2023-06-08 05:58:21.507027
+QCY: training step1290   2023-06-08 05:59:00.544590
+QCY: training step1300   2023-06-08 05:59:38.986730
+QCY: training step1310   2023-06-08 06:00:18.075247
+QCY: training step1320   2023-06-08 06:00:57.039616
+QCY: training step1330   2023-06-08 06:01:37.418526
+QCY: training step1340   2023-06-08 06:02:17.176195
+QCY: training step1350   2023-06-08 06:02:57.708321
+QCY: training step1360   2023-06-08 06:03:37.502717
+QCY: training step1370   2023-06-08 06:04:17.019837
+QCY: training step1380   2023-06-08 06:04:57.213926
+QCY: training step1390   2023-06-08 06:05:37.650624
+QCY: training step1400   2023-06-08 06:06:18.479288
+QCY: training step1410   2023-06-08 06:06:58.957860
+QCY: training step1420   2023-06-08 06:07:39.843191
+QCY: training step1430   2023-06-08 06:08:20.428454
+QCY: training step1440   2023-06-08 06:09:00.612162
+QCY: training step1450   2023-06-08 06:09:41.137020
+QCY: training step1460   2023-06-08 06:10:21.417013
+QCY: training step1470   2023-06-08 06:11:02.173943
+QCY: training step1480   2023-06-08 06:11:43.729294
+QCY: training step1490   2023-06-08 06:12:25.626747
+QCY: training step1500   2023-06-08 06:13:06.130339
+QCY: training step1510   2023-06-08 06:13:46.917074
+QCY: training step1520   2023-06-08 06:14:28.818682
+QCY: training step1530   2023-06-08 06:15:10.985213
+QCY: training step1540   2023-06-08 06:15:54.191863
+QCY: training step1550   2023-06-08 06:16:37.022110
+QCY: training step1560   2023-06-08 06:17:19.655058
+QCY: training step1570   2023-06-08 06:18:02.583630
+QCY: training step1580   2023-06-08 06:18:45.865165
+QCY: training step1590   2023-06-08 06:19:28.500746
+QCY: training step1600   2023-06-08 06:20:11.530833
+QCY: training step1610   2023-06-08 06:20:54.428215
+QCY: training step1620   2023-06-08 06:21:37.484712
+QCY: training step1630   2023-06-08 06:22:20.951609
+QCY: training step1640   2023-06-08 06:23:04.139309
+QCY: training step1650   2023-06-08 06:23:48.454527
+QCY: training step1660   2023-06-08 06:24:32.455587
+QCY: training step1670   2023-06-08 06:25:15.641533
+QCY: training step1680   2023-06-08 06:25:59.751627
+QCY: training step1690   2023-06-08 06:26:44.506726
+QCY: training step1700   2023-06-08 06:27:29.133811
+QCY: training step1710   2023-06-08 06:28:12.827065
+QCY: training step1720   2023-06-08 06:28:55.309052
+QCY: training step1730   2023-06-08 06:29:39.157023
+QCY: training step1740   2023-06-08 06:30:24.208217
+QCY: training step1750   2023-06-08 06:31:09.085523
+QCY: training step1760   2023-06-08 06:31:53.910045
+QCY: training step1770   2023-06-08 06:32:38.350426
+QCY: training step1780   2023-06-08 06:33:23.274480
+QCY: training step1790   2023-06-08 06:34:08.689795
+QCY: training step1800   2023-06-08 06:34:54.289206
+QCY: training step1810   2023-06-08 06:35:39.409543
+QCY: training step1820   2023-06-08 06:36:25.101650
+QCY: training step1830   2023-06-08 06:37:11.391393
+QCY: training step1840   2023-06-08 06:37:57.288721
+QCY: training step1850   2023-06-08 06:38:43.904844
+QCY: training step1860   2023-06-08 06:39:30.134495
+QCY: training step1870   2023-06-08 06:40:16.306501
+QCY: training step1880   2023-06-08 06:41:02.860926
+QCY: training step1890   2023-06-08 06:41:48.976188
+QCY: training step1900   2023-06-08 06:42:36.267579
+QCY: training step1910   2023-06-08 06:43:23.795624
+QCY: training step1920   2023-06-08 06:44:11.585424
+QCY: training step1930   2023-06-08 06:44:59.166910
+QCY: training step1940   2023-06-08 06:45:46.290923
+QCY: training step1950   2023-06-08 06:46:32.904991
+QCY: training step1960   2023-06-08 06:47:21.165015
+QCY: training step1970   2023-06-08 06:48:07.796845
+QCY: training step1980   2023-06-08 06:48:54.005844
+QCY: training step1990   2023-06-08 06:49:41.084179
+QCY: training step2000   2023-06-08 06:50:29.054623
+QCY: training step2010   2023-06-08 06:51:17.298908
+QCY: training step2020   2023-06-08 06:52:05.656694
+QCY: training step2030   2023-06-08 06:52:53.364048
+QCY: training step2040   2023-06-08 06:53:41.821378
+QCY: training step2050   2023-06-08 06:54:30.850095
+QCY: training step2060   2023-06-08 06:55:18.418060
+QCY: training step2070   2023-06-08 06:56:05.949330
+QCY: training step2080   2023-06-08 06:56:54.271801
+QCY: training step2090   2023-06-08 06:57:42.696218
+QCY: training step2100   2023-06-08 06:58:31.153483
+QCY: training step2110   2023-06-08 06:59:19.603981
+QCY: training step2120   2023-06-08 07:00:08.097138
+QCY: training step2130   2023-06-08 07:00:57.396047
+QCY: training step2140   2023-06-08 07:01:45.876146
+QCY: training step2150   2023-06-08 07:02:34.600963
+QCY: training step2160   2023-06-08 07:03:23.376968
+QCY: training step2170   2023-06-08 07:04:11.596205
+QCY: training step2180   2023-06-08 07:05:01.107143
+QCY: training step2190   2023-06-08 07:05:50.162601
+QCY: training step2200   2023-06-08 07:06:39.103306
+QCY: training step2210   2023-06-08 07:07:28.493801
+QCY: training step2220   2023-06-08 07:08:18.136203
+QCY: training step2230   2023-06-08 07:09:08.166776
+QCY: training step2240   2023-06-08 07:09:58.396419
+QCY: training step2250   2023-06-08 07:10:49.014347
+QCY: training step2260   2023-06-08 07:11:38.817047
+QCY: training step2270   2023-06-08 07:12:28.282781
+QCY: training step2280   2023-06-08 07:13:17.682240
+QCY: training step2290   2023-06-08 07:14:08.238243
+QCY: training step2300   2023-06-08 07:14:58.511192
+QCY: training step2310   2023-06-08 07:15:47.313396
+QCY: training step2320   2023-06-08 07:16:35.932000
+QCY: training step2330   2023-06-08 07:17:26.840648
+QCY: training step2340   2023-06-08 07:18:17.116924
+QCY: training step2350   2023-06-08 07:19:07.614149
+QCY: training step2360   2023-06-08 07:19:57.568011
+QCY: training step2370   2023-06-08 07:20:48.930984
+QCY: training step2380   2023-06-08 07:21:39.621482
+QCY: training step2390   2023-06-08 07:22:29.959755
+QCY: training step2400   2023-06-08 07:23:21.290392
+QCY: training step2410   2023-06-08 07:24:12.640587
+QCY: training step2420   2023-06-08 07:25:03.216740
+QCY: training step2430   2023-06-08 07:25:54.202349
+QCY: training step2440   2023-06-08 07:26:44.011229
+QCY: training step2450   2023-06-08 07:27:34.907477
+QCY: training step2460   2023-06-08 07:28:25.110653
+QCY: training step2470   2023-06-08 07:29:16.144733
+QCY: training step2480   2023-06-08 07:30:06.541345
+QCY: training step2490   2023-06-08 07:30:57.634638
+QCY: training step2500   2023-06-08 07:31:49.391904
+QCY: training step2510   2023-06-08 07:32:41.843082
+QCY: training step2520   2023-06-08 07:33:33.568508
+QCY: training step2530   2023-06-08 07:34:25.868594
+QCY: training step2540   2023-06-08 07:35:17.850344
+QCY: training step2550   2023-06-08 07:36:10.764556
+QCY: training step2560   2023-06-08 07:37:02.430311
+QCY: training step2570   2023-06-08 07:37:54.407968
+QCY: training step2580   2023-06-08 07:38:46.058248
+QCY: training step2590   2023-06-08 07:39:38.855098
+QCY: training step2600   2023-06-08 07:40:30.736886
+QCY: training step2610   2023-06-08 07:41:23.202916
+QCY: training step2620   2023-06-08 07:42:17.174868
+QCY: training step2630   2023-06-08 07:43:10.495055
+QCY: training step2640   2023-06-08 07:44:03.869024
+QCY: training step2650   2023-06-08 07:44:56.122685
+QCY: training step2660   2023-06-08 07:45:48.208960
+QCY: training step2670   2023-06-08 07:46:41.636441
+QCY: training step2680   2023-06-08 07:47:35.733838
+QCY: training step2690   2023-06-08 07:48:28.535553
+QCY: training step2700   2023-06-08 07:49:21.453292
+QCY: training step2710   2023-06-08 07:50:14.621300
+QCY: training step2720   2023-06-08 07:51:08.342217
+QCY: training step2730   2023-06-08 07:52:03.240754
+QCY: training step2740   2023-06-08 07:52:58.912089
+QCY: training step2750   2023-06-08 07:53:54.091280
+QCY: training step2760   2023-06-08 07:54:47.441424
+QCY: training step2770   2023-06-08 07:55:42.179235
+QCY: training step2780   2023-06-08 07:56:36.322308
+QCY: training step2790   2023-06-08 07:57:31.819121
+QCY: training step2800   2023-06-08 07:58:27.659047
+QCY: training step2810   2023-06-08 07:59:25.223281
+QCY: training step2820   2023-06-08 08:00:21.916999
+QCY: training step2830   2023-06-08 08:01:19.064396
+QCY: training step2840   2023-06-08 08:02:18.314151
+QCY: training step2850   2023-06-08 08:03:16.825366
+QCY: training step2860   2023-06-08 08:04:13.987819
+QCY: training step2870   2023-06-08 08:05:12.439817
+QCY: training step2880   2023-06-08 08:06:10.251479
+QCY: training step2890   2023-06-08 08:07:07.955334
+QCY: training step2900   2023-06-08 08:08:05.366869
+QCY: training step2910   2023-06-08 08:09:03.067689
+QCY: training step2920   2023-06-08 08:10:01.029811
+QCY: training step2930   2023-06-08 08:10:58.535557
+QCY: training step2940   2023-06-08 08:11:57.537249
+QCY: training step2950   2023-06-08 08:12:56.947154
+QCY: training step2960   2023-06-08 08:13:55.418429
+QCY: training step2970   2023-06-08 08:14:54.457746
+QCY: training step2980   2023-06-08 08:15:53.727557
+QCY: training step2990   2023-06-08 08:16:53.738218
+QCY: training step3000   2023-06-08 08:17:51.880829
+QCY: training step3010   2023-06-08 08:18:50.927748
+QCY: training step3020   2023-06-08 08:19:49.920257
+QCY: training step3030   2023-06-08 08:20:48.611459
+QCY: training step3040   2023-06-08 08:21:47.171252
+QCY: training step3050   2023-06-08 08:22:46.427305
+QCY: training step3060   2023-06-08 08:23:45.478757
+QCY: training step3070   2023-06-08 08:24:45.904483
+QCY: training step3080   2023-06-08 08:25:46.962918
+QCY: training step3090   2023-06-08 08:26:47.881696
+QCY: training step3100   2023-06-08 08:27:48.207747
+QCY: training step3110   2023-06-08 08:28:48.311425
+QCY: training step3120   2023-06-08 08:29:48.189915
+QCY: training step3130   2023-06-08 08:30:49.612831
+QCY: training step3140   2023-06-08 08:31:50.274005
+QCY: training step3150   2023-06-08 08:32:50.025085
+QCY: training step3160   2023-06-08 08:33:49.303859
+QCY: training step3170   2023-06-08 08:34:48.683581
+QCY: training step3180   2023-06-08 08:35:48.993529
+QCY: training step3190   2023-06-08 08:36:49.806121
+QCY: training step3200   2023-06-08 08:37:50.353563
+QCY: training step3210   2023-06-08 08:38:50.646942
+QCY: training step3220   2023-06-08 08:39:50.908982
+QCY: training step3230   2023-06-08 08:40:52.294233
+QCY: training step3240   2023-06-08 08:41:53.438509
+QCY: training step3250   2023-06-08 08:42:55.275918
+QCY: training step3260   2023-06-08 08:43:55.887692
+QCY: training step3270   2023-06-08 08:44:55.283175
+QCY: training step3280   2023-06-08 08:45:56.211171
+QCY: training step3290   2023-06-08 08:46:56.882259
+QCY: training step3300   2023-06-08 08:47:58.696206
+QCY: training step3310   2023-06-08 08:48:59.603461
+QCY: training step3320   2023-06-08 08:50:00.407712
+QCY: training step3330   2023-06-08 08:51:02.612771
+QCY: training step3340   2023-06-08 08:52:05.849502
+QCY: training step3350   2023-06-08 08:53:05.394482
+QCY: training step3360   2023-06-08 08:54:07.243458
+QCY: training step3370   2023-06-08 08:55:07.863104
+QCY: training step3380   2023-06-08 08:56:09.785576
+QCY: training step3390   2023-06-08 08:57:12.522461
+QCY: training step3400   2023-06-08 08:58:13.526137
+QCY: training step3410   2023-06-08 08:59:15.142115
+QCY: training step3420   2023-06-08 09:00:17.201096
+QCY: training step3430   2023-06-08 09:01:17.824337
+QCY: training step3440   2023-06-08 09:02:19.303026
+QCY: training step3450   2023-06-08 09:03:21.156583
+QCY: training step3460   2023-06-08 09:04:23.843271
+QCY: training step3470   2023-06-08 09:05:24.086458
+QCY: training step3480   2023-06-08 09:06:25.715838
+QCY: training step3490   2023-06-08 09:07:28.433715
+QCY: training step3500   2023-06-08 09:08:29.161125
+QCY: training step3510   2023-06-08 09:09:29.782146
+QCY: training step3520   2023-06-08 09:10:31.237188
+QCY: training step3530   2023-06-08 09:11:32.274625
+QCY: training step3540   2023-06-08 09:12:35.506798
+QCY: training step3550   2023-06-08 09:13:38.212191
+QCY: training step3560   2023-06-08 09:14:40.307444
+QCY: training step3570   2023-06-08 09:15:42.540745
+QCY: training step3580   2023-06-08 09:16:43.863923
+QCY: training step3590   2023-06-08 09:17:46.780814
+2023-06-08 09:18:49 (INFO): step:3600/3600, q_loss:225.9932403564453, rewards:-3743.616666666667, queue:19.139880952380953, delay:0.12045386351155045, throughput:2324
+2023-06-08 09:18:49 (INFO): episode:2/200, real avg travel time:858.8980206540448
+Step #0.00 (3ms ~= 333.33*RT, ~11666.67UPS, TraCI: 6846ms, vehicles TOT 35 ACT 35 BUF 2)  Step #100.00 (3ms ~= 333.33*RT, ~68666.67UPS, TraCI: 1462ms, vehicles TOT 207 ACT 206 BUF Step #200.00 (6ms ~= 166.67*RT, ~88666.67UPS, TraCI: 1692ms, vehicles TOT 540 ACT 532 BUF Step #300.00 (7ms ~= 142.86*RT, ~124857.14UPS, TraCI: 1662ms, vehicles TOT 909 ACT 874 BUFStep #400.00 (16ms ~= 62.50*RT, ~78812.50UPS, TraCI: 2138ms, vehicles TOT 1328 ACT 1261 BUStep #500.00 (10ms ~= 100.00*RT, ~161100.00UPS, TraCI: 2344ms, vehicles TOT 1740 ACT 1611 Step #600.00 (23ms ~= 43.48*RT, ~86000.00UPS, TraCI: 2551ms, vehicles TOT 2179 ACT 1978 BUStep #700.00 (19ms ~= 52.63*RT, ~120157.89UPS, TraCI: 2773ms, vehicles TOT 2584 ACT 2283 BStep #800.00 (23ms ~= 43.48*RT, ~113608.70UPS, TraCI: 3017ms, vehicles TOT 3006 ACT 2613 BStep #900.00 (33ms ~= 30.30*RT, ~90545.45UPS, TraCI: 3154ms, vehicles TOT 3471 ACT 2988 BUStep #1000.00 (34ms ~= 29.41*RT, ~99029.41UPS, TraCI: 3405ms, vehicles TOT 3928 ACT 3367 BStep #1100.00 (38ms ~= 26.32*RT, ~97210.53UPS, TraCI: 3611ms, vehicles TOT 4349 ACT 3694 BStep #1200.00 (40ms ~= 25.00*RT, ~99750.00UPS, TraCI: 3746ms, vehicles TOT 4736 ACT 3990 BStep #1300.00 (44ms ~= 22.73*RT, ~98090.91UPS, TraCI: 3959ms, vehicles TOT 5154 ACT 4316 BStep #1400.00 (46ms ~= 21.74*RT, ~99413.04UPS, TraCI: 4101ms, vehicles TOT 5513 ACT 4573 BStep #1500.00 (49ms ~= 20.41*RT, ~99673.47UPS, TraCI: 4113ms, vehicles TOT 5955 ACT 4884 BStep #1600.00 (50ms ~= 20.00*RT, ~102320.00UPS, TraCI: 4209ms, vehicles TOT 6270 ACT 5116 Step #1700.00 (45ms ~= 22.22*RT, ~118933.33UPS, TraCI: 4234ms, vehicles TOT 6582 ACT 5352 Step #1800.00 (53ms ~= 18.87*RT, ~105113.21UPS, TraCI: 4514ms, vehicles TOT 6896 ACT 5571 Step #1900.00 (56ms ~= 17.86*RT, ~104571.43UPS, TraCI: 4783ms, vehicles TOT 7255 ACT 5856 Step #2000.00 (56ms ~= 17.86*RT, ~108571.43UPS, TraCI: 4756ms, vehicles TOT 7570 ACT 6080 Step #2100.00 (55ms ~= 18.18*RT, ~114400.00UPS, TraCI: 4901ms, vehicles TOT 7846 ACT 6292 Step #2200.00 (60ms ~= 16.67*RT, ~107883.33UPS, TraCI: 5014ms, vehicles TOT 8092 ACT 6473 Step #2300.00 (62ms ~= 16.13*RT, ~106774.19UPS, TraCI: 4988ms, vehicles TOT 8320 ACT 6620 Step #2400.00 (65ms ~= 15.38*RT, ~104892.31UPS, TraCI: 5198ms, vehicles TOT 8590 ACT 6818 Step #2500.00 (61ms ~= 16.39*RT, ~114459.02UPS, TraCI: 5309ms, vehicles TOT 8844 ACT 6982 Step #2600.00 (65ms ~= 15.38*RT, ~110738.46UPS, TraCI: 5174ms, vehicles TOT 9111 ACT 7198 Step #2700.00 (66ms ~= 15.15*RT, ~112318.18UPS, TraCI: 5320ms, vehicles TOT 9390 ACT 7413 Step #2800.00 (71ms ~= 14.08*RT, ~107183.10UPS, TraCI: 5503ms, vehicles TOT 9650 ACT 7610 Step #2900.00 (84ms ~= 11.90*RT, ~93095.24UPS, TraCI: 7156ms, vehicles TOT 9916 ACT 7820 BStep #3000.00 (83ms ~= 12.05*RT, ~97120.48UPS, TraCI: 7649ms, vehicles TOT 10180 ACT 8061 Step #3100.00 (82ms ~= 12.20*RT, ~100646.34UPS, TraCI: 7253ms, vehicles TOT 10401 ACT 8253Step #3200.00 (75ms ~= 13.33*RT, ~112106.67UPS, TraCI: 7596ms, vehicles TOT 10604 ACT 8408Step #3300.00 (82ms ~= 12.20*RT, ~104658.54UPS, TraCI: 8119ms, vehicles TOT 10822 ACT 8582Step #3400.00 (82ms ~= 12.20*RT, ~106902.44UPS, TraCI: 7619ms, vehicles TOT 11032 ACT 8766Step #3500.00 (82ms ~= 12.20*RT, ~108695.12UPS, TraCI: 7742ms, vehicles TOT 11206 ACT 8913Step #3600.00 (78ms ~= 12.82*RT, ~116833.33UPS, TraCI: 8583ms, vehicles TOT 11437 ACT 9113
+ Retrying in 1 seconds
+QCY: training testing step0   2023-06-08 09:18:58.717563
+QCY: training testing step10   2023-06-08 09:19:11.709609
+QCY: training testing step20   2023-06-08 09:19:25.047718
+QCY: training testing step30   2023-06-08 09:19:38.423840
+QCY: training testing step40   2023-06-08 09:19:51.413892
+QCY: training testing step50   2023-06-08 09:20:03.845259
+QCY: training testing step60   2023-06-08 09:20:16.860487
+QCY: training testing step70   2023-06-08 09:20:30.337271
+QCY: training testing step80   2023-06-08 09:20:43.649317
+QCY: training testing step90   2023-06-08 09:20:56.989519
+QCY: training testing step100   2023-06-08 09:21:10.858371
+QCY: training testing step110   2023-06-08 09:21:25.054205
+QCY: training testing step120   2023-06-08 09:21:39.033432
+QCY: training testing step130   2023-06-08 09:21:53.847902
+QCY: training testing step140   2023-06-08 09:22:08.748164
+QCY: training testing step150   2023-06-08 09:22:24.091595
+QCY: training testing step160   2023-06-08 09:22:38.764327
+QCY: training testing step170   2023-06-08 09:22:54.068325
+QCY: training testing step180   2023-06-08 09:23:09.010401
+QCY: training testing step190   2023-06-08 09:23:24.712635
+QCY: training testing step200   2023-06-08 09:23:40.394354
+QCY: training testing step210   2023-06-08 09:23:56.454516
+QCY: training testing step220   2023-06-08 09:24:12.575603
+QCY: training testing step230   2023-06-08 09:24:29.366282
+QCY: training testing step240   2023-06-08 09:24:45.928694
+QCY: training testing step250   2023-06-08 09:25:02.051511
+QCY: training testing step260   2023-06-08 09:25:19.539460
+QCY: training testing step270   2023-06-08 09:25:36.943048
+QCY: training testing step280   2023-06-08 09:25:54.439538
+QCY: training testing step290   2023-06-08 09:26:11.367475
+QCY: training testing step300   2023-06-08 09:26:29.403774
+QCY: training testing step310   2023-06-08 09:26:47.269162
+QCY: training testing step320   2023-06-08 09:27:05.641800
+QCY: training testing step330   2023-06-08 09:27:24.953697
+QCY: training testing step340   2023-06-08 09:27:43.691150
+QCY: training testing step350   2023-06-08 09:28:02.652549
+QCY: training testing step360   2023-06-08 09:28:21.605596
+QCY: training testing step370   2023-06-08 09:28:41.343277
+QCY: training testing step380   2023-06-08 09:29:00.887618
+QCY: training testing step390   2023-06-08 09:29:20.493012
+QCY: training testing step400   2023-06-08 09:29:41.363808
+QCY: training testing step410   2023-06-08 09:30:01.908070
+QCY: training testing step420   2023-06-08 09:30:23.871032
+QCY: training testing step430   2023-06-08 09:30:45.576885
+QCY: training testing step440   2023-06-08 09:31:06.670171
+QCY: training testing step450   2023-06-08 09:31:28.154019
+QCY: training testing step460   2023-06-08 09:31:50.425887
+QCY: training testing step470   2023-06-08 09:32:11.960274
+QCY: training testing step480   2023-06-08 09:32:33.312529
+QCY: training testing step490   2023-06-08 09:32:56.075450
+QCY: training testing step500   2023-06-08 09:33:18.063918
+QCY: training testing step510   2023-06-08 09:33:39.998072
+QCY: training testing step520   2023-06-08 09:34:02.319346
+QCY: training testing step530   2023-06-08 09:34:25.290316
+QCY: training testing step540   2023-06-08 09:34:48.375745
+QCY: training testing step550   2023-06-08 09:35:11.400880
+QCY: training testing step560   2023-06-08 09:35:34.802188
+QCY: training testing step570   2023-06-08 09:35:57.634845
+QCY: training testing step580   2023-06-08 09:36:21.364985
+QCY: training testing step590   2023-06-08 09:36:45.511507
+QCY: training testing step600   2023-06-08 09:37:10.067951
+QCY: training testing step610   2023-06-08 09:37:35.039923
+QCY: training testing step620   2023-06-08 09:37:59.773659
+QCY: training testing step630   2023-06-08 09:38:24.578601
+QCY: training testing step640   2023-06-08 09:38:49.341063
+QCY: training testing step650   2023-06-08 09:39:13.940536
+QCY: training testing step660   2023-06-08 09:39:39.335162
+QCY: training testing step670   2023-06-08 09:40:04.497516
+QCY: training testing step680   2023-06-08 09:40:30.678695
+QCY: training testing step690   2023-06-08 09:40:57.221847
+QCY: training testing step700   2023-06-08 09:41:23.948923
+QCY: training testing step710   2023-06-08 09:41:51.075278
+QCY: training testing step720   2023-06-08 09:42:18.501667
+QCY: training testing step730   2023-06-08 09:42:45.889954
+QCY: training testing step740   2023-06-08 09:43:13.681643
+QCY: training testing step750   2023-06-08 09:43:41.498278
+QCY: training testing step760   2023-06-08 09:44:08.910348
+QCY: training testing step770   2023-06-08 09:44:36.317106
+QCY: training testing step780   2023-06-08 09:45:03.780164
+QCY: training testing step790   2023-06-08 09:45:31.613004
+QCY: training testing step800   2023-06-08 09:46:00.284982
+QCY: training testing step810   2023-06-08 09:46:29.355128
+QCY: training testing step820   2023-06-08 09:46:58.674574
+QCY: training testing step830   2023-06-08 09:47:28.775251
+QCY: training testing step840   2023-06-08 09:47:58.219103
+QCY: training testing step850   2023-06-08 09:48:28.229848
+QCY: training testing step860   2023-06-08 09:48:58.657857
+QCY: training testing step870   2023-06-08 09:49:29.088344
+QCY: training testing step880   2023-06-08 09:49:59.230255
+QCY: training testing step890   2023-06-08 09:50:30.419235
+QCY: training testing step900   2023-06-08 09:51:00.696029
+QCY: training testing step910   2023-06-08 09:51:32.294785
+QCY: training testing step920   2023-06-08 09:52:04.378917
+QCY: training testing step930   2023-06-08 09:52:36.383523
+QCY: training testing step940   2023-06-08 09:53:08.493879
+QCY: training testing step950   2023-06-08 09:53:40.443140
+QCY: training testing step960   2023-06-08 09:54:13.047214
+QCY: training testing step970   2023-06-08 09:54:45.673054
+QCY: training testing step980   2023-06-08 09:55:18.504398
+QCY: training testing step990   2023-06-08 09:55:50.276495
+QCY: training testing step1000   2023-06-08 09:56:23.303399
+QCY: training testing step1010   2023-06-08 09:56:57.579383
+QCY: training testing step1020   2023-06-08 09:57:31.319702
+QCY: training testing step1030   2023-06-08 09:58:05.068565
+QCY: training testing step1040   2023-06-08 09:58:39.323477
+QCY: training testing step1050   2023-06-08 09:59:13.412735
+QCY: training testing step1060   2023-06-08 09:59:48.027542
+QCY: training testing step1070   2023-06-08 10:00:22.831062
+QCY: training testing step1080   2023-06-08 10:00:57.084393
+QCY: training testing step1090   2023-06-08 10:01:32.055026
+QCY: training testing step1100   2023-06-08 10:02:07.728435
+QCY: training testing step1110   2023-06-08 10:02:43.121281
+QCY: training testing step1120   2023-06-08 10:03:18.334752
+QCY: training testing step1130   2023-06-08 10:03:53.725781
+QCY: training testing step1140   2023-06-08 10:04:29.576757
+QCY: training testing step1150   2023-06-08 10:05:05.249200
+QCY: training testing step1160   2023-06-08 10:05:41.038013
+QCY: training testing step1170   2023-06-08 10:06:17.767782
+QCY: training testing step1180   2023-06-08 10:06:53.933725
+QCY: training testing step1190   2023-06-08 10:07:31.343526
+QCY: training testing step1200   2023-06-08 10:08:08.408758
+QCY: training testing step1210   2023-06-08 10:08:46.399419
+QCY: training testing step1220   2023-06-08 10:09:23.610896
+QCY: training testing step1230   2023-06-08 10:10:00.385767
+QCY: training testing step1240   2023-06-08 10:10:37.760897
+QCY: training testing step1250   2023-06-08 10:11:14.149156
+QCY: training testing step1260   2023-06-08 10:11:51.470879
+QCY: training testing step1270   2023-06-08 10:12:29.198305
+QCY: training testing step1280   2023-06-08 10:13:07.191630
+QCY: training testing step1290   2023-06-08 10:13:45.748655
+QCY: training testing step1300   2023-06-08 10:14:25.199897
+QCY: training testing step1310   2023-06-08 10:15:04.634123
+QCY: training testing step1320   2023-06-08 10:15:42.779754
+QCY: training testing step1330   2023-06-08 10:16:21.209425
+QCY: training testing step1340   2023-06-08 10:17:01.217449
+QCY: training testing step1350   2023-06-08 10:17:41.470950
+QCY: training testing step1360   2023-06-08 10:18:20.788013
+QCY: training testing step1370   2023-06-08 10:19:00.760182
+QCY: training testing step1380   2023-06-08 10:19:40.044213
+QCY: training testing step1390   2023-06-08 10:20:19.835046
+QCY: training testing step1400   2023-06-08 10:20:59.838562
+QCY: training testing step1410   2023-06-08 10:21:40.179339
+QCY: training testing step1420   2023-06-08 10:22:21.603657
+QCY: training testing step1430   2023-06-08 10:23:00.936959
+QCY: training testing step1440   2023-06-08 10:23:41.426659
+QCY: training testing step1450   2023-06-08 10:24:23.972055
+QCY: training testing step1460   2023-06-08 10:25:05.212278
+QCY: training testing step1470   2023-06-08 10:25:46.017345
+QCY: training testing step1480   2023-06-08 10:26:27.078774
+QCY: training testing step1490   2023-06-08 10:27:08.950449
+QCY: training testing step1500   2023-06-08 10:27:50.939402
+QCY: training testing step1510   2023-06-08 10:28:33.354086
+QCY: training testing step1520   2023-06-08 10:29:14.967987
+QCY: training testing step1530   2023-06-08 10:29:56.268313
+QCY: training testing step1540   2023-06-08 10:30:38.465785
+QCY: training testing step1550   2023-06-08 10:31:20.875895
+QCY: training testing step1560   2023-06-08 10:32:03.953531
+QCY: training testing step1570   2023-06-08 10:32:46.686323
+QCY: training testing step1580   2023-06-08 10:33:28.261403
+QCY: training testing step1590   2023-06-08 10:34:11.458094
+QCY: training testing step1600   2023-06-08 10:34:54.878731
+QCY: training testing step1610   2023-06-08 10:35:38.300094
+QCY: training testing step1620   2023-06-08 10:36:21.503282
+QCY: training testing step1630   2023-06-08 10:37:05.281699
+QCY: training testing step1640   2023-06-08 10:37:48.728640
+QCY: training testing step1650   2023-06-08 10:38:32.253213
+QCY: training testing step1660   2023-06-08 10:39:16.542031
+QCY: training testing step1670   2023-06-08 10:40:01.206986
+QCY: training testing step1680   2023-06-08 10:40:45.930455
+QCY: training testing step1690   2023-06-08 10:41:30.001809
+QCY: training testing step1700   2023-06-08 10:42:14.650628
+QCY: training testing step1710   2023-06-08 10:42:59.121132
+QCY: training testing step1720   2023-06-08 10:43:42.926921
+QCY: training testing step1730   2023-06-08 10:44:28.093055
+QCY: training testing step1740   2023-06-08 10:45:13.268516
+QCY: training testing step1750   2023-06-08 10:45:58.499432
+QCY: training testing step1760   2023-06-08 10:46:44.061046
+QCY: training testing step1770   2023-06-08 10:47:30.154728
+QCY: training testing step1780   2023-06-08 10:48:16.177552
+QCY: training testing step1790   2023-06-08 10:49:01.661305
+QCY: training testing step1800   2023-06-08 10:49:47.563416
+QCY: training testing step1810   2023-06-08 10:50:33.697103
+QCY: training testing step1820   2023-06-08 10:51:19.549507
+QCY: training testing step1830   2023-06-08 10:52:05.590679
+QCY: training testing step1840   2023-06-08 10:52:51.866753
+QCY: training testing step1850   2023-06-08 10:53:38.648674
+QCY: training testing step1860   2023-06-08 10:54:25.305204
+QCY: training testing step1870   2023-06-08 10:55:12.306725
+QCY: training testing step1880   2023-06-08 10:55:59.850301
+QCY: training testing step1890   2023-06-08 10:56:47.572973
+QCY: training testing step1900   2023-06-08 10:57:34.507899
+QCY: training testing step1910   2023-06-08 10:58:21.569263
+QCY: training testing step1920   2023-06-08 10:59:08.380669
+QCY: training testing step1930   2023-06-08 10:59:55.469384
+QCY: training testing step1940   2023-06-08 11:00:42.608773
+QCY: training testing step1950   2023-06-08 11:01:30.375358
+QCY: training testing step1960   2023-06-08 11:02:18.749298
+QCY: training testing step1970   2023-06-08 11:03:06.162959
+QCY: training testing step1980   2023-06-08 11:03:52.081214
+QCY: training testing step1990   2023-06-08 11:04:39.305166
+QCY: training testing step2000   2023-06-08 11:05:26.174044
+QCY: training testing step2010   2023-06-08 11:06:13.225324
+QCY: training testing step2020   2023-06-08 11:07:01.224005
+QCY: training testing step2030   2023-06-08 11:07:49.118448
+QCY: training testing step2040   2023-06-08 11:08:36.625530
+QCY: training testing step2050   2023-06-08 11:09:24.298186
+QCY: training testing step2060   2023-06-08 11:10:13.099384
+QCY: training testing step2070   2023-06-08 11:11:01.790422
+QCY: training testing step2080   2023-06-08 11:11:48.937234
+QCY: training testing step2090   2023-06-08 11:12:38.342458
+QCY: training testing step2100   2023-06-08 11:13:27.165074
+QCY: training testing step2110   2023-06-08 11:14:16.304534
+QCY: training testing step2120   2023-06-08 11:15:05.229406
+QCY: training testing step2130   2023-06-08 11:15:55.283601
+QCY: training testing step2140   2023-06-08 11:16:44.525241
+QCY: training testing step2150   2023-06-08 11:17:34.941084
+QCY: training testing step2160   2023-06-08 11:18:24.805503
+QCY: training testing step2170   2023-06-08 11:19:15.492683
+QCY: training testing step2180   2023-06-08 11:20:05.696670
+QCY: training testing step2190   2023-06-08 11:20:56.134764
+QCY: training testing step2200   2023-06-08 11:21:46.458837
+QCY: training testing step2210   2023-06-08 11:22:37.747127
+QCY: training testing step2220   2023-06-08 11:23:28.557780
+QCY: training testing step2230   2023-06-08 11:24:20.059494
+QCY: training testing step2240   2023-06-08 11:25:11.906349
+QCY: training testing step2250   2023-06-08 11:26:02.979226
+QCY: training testing step2260   2023-06-08 11:26:53.818937
+QCY: training testing step2270   2023-06-08 11:27:44.867916
+QCY: training testing step2280   2023-06-08 11:28:36.321012
+QCY: training testing step2290   2023-06-08 11:29:27.545494
+QCY: training testing step2300   2023-06-08 11:30:18.276366
+QCY: training testing step2310   2023-06-08 11:31:09.912267
+QCY: training testing step2320   2023-06-08 11:32:01.569580
+QCY: training testing step2330   2023-06-08 11:32:53.746154
+QCY: training testing step2340   2023-06-08 11:33:45.989467
+QCY: training testing step2350   2023-06-08 11:34:37.838235
+QCY: training testing step2360   2023-06-08 11:35:30.276858
+QCY: training testing step2370   2023-06-08 11:36:21.298778
+QCY: training testing step2380   2023-06-08 11:37:13.883117
+QCY: training testing step2390   2023-06-08 11:38:05.996662
+QCY: training testing step2400   2023-06-08 11:38:59.155634
+QCY: training testing step2410   2023-06-08 11:39:51.054125
+QCY: training testing step2420   2023-06-08 11:40:43.724782
+QCY: training testing step2430   2023-06-08 11:41:36.332450
+QCY: training testing step2440   2023-06-08 11:42:30.108432
+QCY: training testing step2450   2023-06-08 11:43:23.462476
+QCY: training testing step2460   2023-06-08 11:44:16.440073
+QCY: training testing step2470   2023-06-08 11:45:09.193470
+QCY: training testing step2480   2023-06-08 11:46:02.824796
+QCY: training testing step2490   2023-06-08 11:46:56.274032
+QCY: training testing step2500   2023-06-08 11:47:50.620149
+QCY: training testing step2510   2023-06-08 11:48:45.197442
+QCY: training testing step2520   2023-06-08 11:49:38.875917
+QCY: training testing step2530   2023-06-08 11:50:33.128866
+QCY: training testing step2540   2023-06-08 11:51:26.295926
+QCY: training testing step2550   2023-06-08 11:52:21.603309
+QCY: training testing step2560   2023-06-08 11:53:16.281267
+QCY: training testing step2570   2023-06-08 11:54:11.214472
+QCY: training testing step2580   2023-06-08 11:55:06.764545
+QCY: training testing step2590   2023-06-08 11:56:01.181808
+QCY: training testing step2600   2023-06-08 11:56:55.734239
+QCY: training testing step2610   2023-06-08 11:57:51.398339
+QCY: training testing step2620   2023-06-08 11:58:46.730010
+QCY: training testing step2630   2023-06-08 11:59:40.954596
+QCY: training testing step2640   2023-06-08 12:00:36.827894
+QCY: training testing step2650   2023-06-08 12:01:32.140757
+QCY: training testing step2660   2023-06-08 12:02:27.854426
+QCY: training testing step2670   2023-06-08 12:03:22.043235
+QCY: training testing step2680   2023-06-08 12:04:17.108247
+QCY: training testing step2690   2023-06-08 12:05:12.566241
+QCY: training testing step2700   2023-06-08 12:06:07.474229
+QCY: training testing step2710   2023-06-08 12:07:03.435667
+QCY: training testing step2720   2023-06-08 12:08:00.175661
+QCY: training testing step2730   2023-06-08 12:08:56.349825
+QCY: training testing step2740   2023-06-08 12:09:52.613067
+QCY: training testing step2750   2023-06-08 12:10:49.349815
+QCY: training testing step2760   2023-06-08 12:11:46.726896
+QCY: training testing step2770   2023-06-08 12:12:43.017524
+QCY: training testing step2780   2023-06-08 12:13:40.742578
+QCY: training testing step2790   2023-06-08 12:14:38.045637
+QCY: training testing step2800   2023-06-08 12:15:33.681707
+QCY: training testing step2810   2023-06-08 12:16:29.952767
+QCY: training testing step2820   2023-06-08 12:17:27.564660
+QCY: training testing step2830   2023-06-08 12:18:24.365223
+QCY: training testing step2840   2023-06-08 12:19:21.323382
+QCY: training testing step2850   2023-06-08 12:20:18.478083
+QCY: training testing step2860   2023-06-08 12:21:15.035354
+QCY: training testing step2870   2023-06-08 12:22:13.082060
+QCY: training testing step2880   2023-06-08 12:23:10.768048
+QCY: training testing step2890   2023-06-08 12:24:07.184487
+QCY: training testing step2900   2023-06-08 12:25:04.561498
+QCY: training testing step2910   2023-06-08 12:26:02.789422
+QCY: training testing step2920   2023-06-08 12:26:59.896562
+QCY: training testing step2930   2023-06-08 12:27:58.484894
+QCY: training testing step2940   2023-06-08 12:28:56.457026
+QCY: training testing step2950   2023-06-08 12:29:53.785581
+QCY: training testing step2960   2023-06-08 12:30:52.714112
+QCY: training testing step2970   2023-06-08 12:31:51.105173
+QCY: training testing step2980   2023-06-08 12:32:50.049782
+QCY: training testing step2990   2023-06-08 12:33:49.531225
+QCY: training testing step3000   2023-06-08 12:34:48.109505
+QCY: training testing step3010   2023-06-08 12:35:47.879219
+QCY: training testing step3020   2023-06-08 12:36:46.844792
+QCY: training testing step3030   2023-06-08 12:37:47.438961
+QCY: training testing step3040   2023-06-08 12:38:46.769705
+QCY: training testing step3050   2023-06-08 12:39:45.527904
+QCY: training testing step3060   2023-06-08 12:40:43.117461
+QCY: training testing step3070   2023-06-08 12:41:42.717764
+QCY: training testing step3080   2023-06-08 12:42:42.255059
+QCY: training testing step3090   2023-06-08 12:43:41.866864
+QCY: training testing step3100   2023-06-08 12:44:39.762396
+QCY: training testing step3110   2023-06-08 12:45:39.285791
+QCY: training testing step3120   2023-06-08 12:46:38.519320
+QCY: training testing step3130   2023-06-08 12:47:38.000121
+QCY: training testing step3140   2023-06-08 12:48:37.297750
+QCY: training testing step3150   2023-06-08 12:49:37.082469
+QCY: training testing step3160   2023-06-08 12:50:37.811095
+QCY: training testing step3170   2023-06-08 12:51:37.882855
+QCY: training testing step3180   2023-06-08 12:52:38.569100
+QCY: training testing step3190   2023-06-08 12:53:38.645996
+QCY: training testing step3200   2023-06-08 12:54:38.477864
+QCY: training testing step3210   2023-06-08 12:55:38.497932
+QCY: training testing step3220   2023-06-08 12:56:39.185480
+QCY: training testing step3230   2023-06-08 12:57:40.399731
+QCY: training testing step3240   2023-06-08 12:58:40.367443
+QCY: training testing step3250   2023-06-08 12:59:40.355954
+QCY: training testing step3260   2023-06-08 13:00:39.841954
+QCY: training testing step3270   2023-06-08 13:01:38.709453
+QCY: training testing step3280   2023-06-08 13:02:39.297351
+QCY: training testing step3290   2023-06-08 13:03:39.539985
+QCY: training testing step3300   2023-06-08 13:04:40.150139
+QCY: training testing step3310   2023-06-08 13:05:41.054438
+QCY: training testing step3320   2023-06-08 13:06:42.431989
+QCY: training testing step3330   2023-06-08 13:07:43.628980
+QCY: training testing step3340   2023-06-08 13:08:44.866990
+QCY: training testing step3350   2023-06-08 13:09:44.020397
+QCY: training testing step3360   2023-06-08 13:10:44.114489
+QCY: training testing step3370   2023-06-08 13:11:47.176242
+QCY: training testing step3380   2023-06-08 13:12:50.875529
+QCY: training testing step3390   2023-06-08 13:13:54.060715
+QCY: training testing step3400   2023-06-08 13:14:57.516938
+QCY: training testing step3410   2023-06-08 13:16:01.252286
+QCY: training testing step3420   2023-06-08 13:17:04.204196
+QCY: training testing step3430   2023-06-08 13:18:07.588991
+QCY: training testing step3440   2023-06-08 13:19:12.287072
+QCY: training testing step3450   2023-06-08 13:20:16.946255
+QCY: training testing step3460   2023-06-08 13:21:21.275199
+QCY: training testing step3470   2023-06-08 13:22:26.704233
+QCY: training testing step3480   2023-06-08 13:23:33.032928
+QCY: training testing step3490   2023-06-08 13:24:37.823744
+QCY: training testing step3500   2023-06-08 13:25:41.640825
+QCY: training testing step3510   2023-06-08 13:26:46.149441
+QCY: training testing step3520   2023-06-08 13:27:49.758058
+QCY: training testing step3530   2023-06-08 13:28:54.931101
+QCY: training testing step3540   2023-06-08 13:29:59.810237
+QCY: training testing step3550   2023-06-08 13:31:03.797252
+QCY: training testing step3560   2023-06-08 13:32:08.221546
+QCY: training testing step3570   2023-06-08 13:33:12.977729
+QCY: training testing step3580   2023-06-08 13:34:17.437643
+QCY: training testing step3590   2023-06-08 13:35:23.783460
+2023-06-08 13:36:30 (INFO): Test step:2/200, travel time :1040.520879120879, rewards:-4266.408333333334, queue:21.813832199546486, delay:0.1491270173433957, throughput:455
+Step #0.00 (3ms ~= 333.33*RT, ~11666.67UPS, TraCI: 7037ms, vehicles TOT 35 ACT 35 BUF 2)  Step #100.00 (2ms ~= 500.00*RT, ~103000.00UPS, TraCI: 1593ms, vehicles TOT 207 ACT 206 BUFStep #200.00 (6ms ~= 166.67*RT, ~89333.33UPS, TraCI: 1645ms, vehicles TOT 540 ACT 536 BUF Step #300.00 (9ms ~= 111.11*RT, ~98333.33UPS, TraCI: 1818ms, vehicles TOT 902 ACT 885 BUF Step #400.00 (14ms ~= 71.43*RT, ~91928.57UPS, TraCI: 2106ms, vehicles TOT 1317 ACT 1287 BUStep #500.00 (15ms ~= 66.67*RT, ~112133.33UPS, TraCI: 2332ms, vehicles TOT 1729 ACT 1682 BStep #600.00 (20ms ~= 50.00*RT, ~105500.00UPS, TraCI: 2510ms, vehicles TOT 2168 ACT 2110 BStep #700.00 (21ms ~= 47.62*RT, ~118619.05UPS, TraCI: 2727ms, vehicles TOT 2568 ACT 2491 BStep #800.00 (24ms ~= 41.67*RT, ~120041.67UPS, TraCI: 2745ms, vehicles TOT 2974 ACT 2881 BStep #900.00 (29ms ~= 34.48*RT, ~113793.10UPS, TraCI: 3126ms, vehicles TOT 3408 ACT 3300 BStep #1000.00 (33ms ~= 30.30*RT, ~111424.24UPS, TraCI: 3292ms, vehicles TOT 3803 ACT 3677 Step #1100.00 (30ms ~= 33.33*RT, ~134466.67UPS, TraCI: 3562ms, vehicles TOT 4182 ACT 4034 Step #1200.00 (37ms ~= 27.03*RT, ~118162.16UPS, TraCI: 3765ms, vehicles TOT 4533 ACT 4372 Step #1300.00 (39ms ~= 25.64*RT, ~121333.33UPS, TraCI: 3984ms, vehicles TOT 4901 ACT 4732 Step #1400.00 (42ms ~= 23.81*RT, ~120119.05UPS, TraCI: 4107ms, vehicles TOT 5223 ACT 5045 Step #1500.00 (44ms ~= 22.73*RT, ~120795.45UPS, TraCI: 4190ms, vehicles TOT 5506 ACT 5315 Step #1600.00 (46ms ~= 21.74*RT, ~120217.39UPS, TraCI: 4299ms, vehicles TOT 5732 ACT 5530 Step #1700.00 (48ms ~= 20.83*RT, ~119520.83UPS, TraCI: 4550ms, vehicles TOT 5950 ACT 5737 Step #1800.00 (51ms ~= 19.61*RT, ~117588.24UPS, TraCI: 4541ms, vehicles TOT 6228 ACT 5997 Step #1900.00 (51ms ~= 19.61*RT, ~121960.78UPS, TraCI: 4724ms, vehicles TOT 6464 ACT 6220 Step #2000.00 (49ms ~= 20.41*RT, ~131265.31UPS, TraCI: 4624ms, vehicles TOT 6686 ACT 6432 Step #2100.00 (56ms ~= 17.86*RT, ~118821.43UPS, TraCI: 5079ms, vehicles TOT 6922 ACT 6654 Step #2200.00 (60ms ~= 16.67*RT, ~115016.67UPS, TraCI: 5030ms, vehicles TOT 7182 ACT 6901 Step #2300.00 (59ms ~= 16.95*RT, ~120423.73UPS, TraCI: 5084ms, vehicles TOT 7397 ACT 7105 Step #2400.00 (61ms ~= 16.39*RT, ~119688.52UPS, TraCI: 5351ms, vehicles TOT 7610 ACT 7301 Step #2500.00 (61ms ~= 16.39*RT, ~123540.98UPS, TraCI: 5344ms, vehicles TOT 7852 ACT 7536 Step #2600.00 (65ms ~= 15.38*RT, ~119107.69UPS, TraCI: 5519ms, vehicles TOT 8070 ACT 7742 Step #2700.00 (66ms ~= 15.15*RT, ~120363.64UPS, TraCI: 5564ms, vehicles TOT 8285 ACT 7944 Step #2800.00 (74ms ~= 13.51*RT, ~110189.19UPS, TraCI: 5472ms, vehicles TOT 8505 ACT 8154 Step #2900.00 (68ms ~= 14.71*RT, ~122500.00UPS, TraCI: 5781ms, vehicles TOT 8699 ACT 8330 Step #3000.00 (69ms ~= 14.49*RT, ~123594.20UPS, TraCI: 5793ms, vehicles TOT 8911 ACT 8528 Step #3100.00 (70ms ~= 14.29*RT, ~124685.71UPS, TraCI: 5729ms, vehicles TOT 9115 ACT 8728 Step #3200.00 (79ms ~= 12.66*RT, ~112658.23UPS, TraCI: 6105ms, vehicles TOT 9300 ACT 8900 Step #3300.00 (75ms ~= 13.33*RT, ~120600.00UPS, TraCI: 6194ms, vehicles TOT 9463 ACT 9045 Step #3400.00 (73ms ~= 13.70*RT, ~126273.97UPS, TraCI: 6104ms, vehicles TOT 9648 ACT 9218 Step #3500.00 (77ms ~= 12.99*RT, ~121753.25UPS, TraCI: 6278ms, vehicles TOT 9815 ACT 9375 Step #3600.00 (77ms ~= 12.99*RT, ~123870.13UPS, TraCI: 6622ms, vehicles TOT 9993 ACT 9538 
+ Retrying in 1 seconds
+QCY: training step0   2023-06-08 13:36:39.759597
+QCY: training step10   2023-06-08 13:36:55.208828
+QCY: training step20   2023-06-08 13:37:11.159113
+QCY: training step30   2023-06-08 13:37:26.799022
+QCY: training step40   2023-06-08 13:37:42.534204
+QCY: training step50   2023-06-08 13:37:58.336851
+QCY: training step60   2023-06-08 13:38:13.441763
+QCY: training step70   2023-06-08 13:38:30.088866
+QCY: training step80   2023-06-08 13:38:46.089421
+QCY: training step90   2023-06-08 13:39:02.666980
+QCY: training step100   2023-06-08 13:39:17.996059
+QCY: training step110   2023-06-08 13:39:34.223661
+QCY: training step120   2023-06-08 13:39:50.077988
+QCY: training step130   2023-06-08 13:40:07.075503
+QCY: training step140   2023-06-08 13:40:25.183462
+QCY: training step150   2023-06-08 13:40:41.607708
+QCY: training step160   2023-06-08 13:40:58.525698
+QCY: training step170   2023-06-08 13:41:15.572454
+QCY: training step180   2023-06-08 13:41:34.415124
+QCY: training step190   2023-06-08 13:41:53.686601
+QCY: training step200   2023-06-08 13:42:11.664765
+QCY: training step210   2023-06-08 13:42:29.890954
+QCY: training step220   2023-06-08 13:42:48.026870
+QCY: training step230   2023-06-08 13:43:06.371307
+QCY: training step240   2023-06-08 13:43:25.660072
+QCY: training step250   2023-06-08 13:43:45.121344
+QCY: training step260   2023-06-08 13:44:05.527176
+QCY: training step270   2023-06-08 13:44:25.191887
+QCY: training step280   2023-06-08 13:44:45.163317
+QCY: training step290   2023-06-08 13:45:06.263695
+QCY: training step300   2023-06-08 13:45:26.969531
+QCY: training step310   2023-06-08 13:45:46.814569
+QCY: training step320   2023-06-08 13:46:07.171020
+QCY: training step330   2023-06-08 13:46:27.401336
+QCY: training step340   2023-06-08 13:46:49.115159
+QCY: training step350   2023-06-08 13:47:11.191236
+QCY: training step360   2023-06-08 13:47:33.368213
+QCY: training step370   2023-06-08 13:47:55.522812
+QCY: training step380   2023-06-08 13:48:18.616189
+QCY: training step390   2023-06-08 13:48:40.595126
+QCY: training step400   2023-06-08 13:49:03.797730
+QCY: training step410   2023-06-08 13:49:28.597626
+QCY: training step420   2023-06-08 13:49:50.508493
+QCY: training step430   2023-06-08 13:50:14.041010
+QCY: training step440   2023-06-08 13:50:37.987739
+QCY: training step450   2023-06-08 13:51:03.176930
+QCY: training step460   2023-06-08 13:51:26.545018
+QCY: training step470   2023-06-08 13:51:51.847003
+QCY: training step480   2023-06-08 13:52:17.140213
+QCY: training step490   2023-06-08 13:52:43.043346
+QCY: training step500   2023-06-08 13:53:08.382528
+QCY: training step510   2023-06-08 13:53:35.395789
+QCY: training step520   2023-06-08 13:54:02.056571
+QCY: training step530   2023-06-08 13:54:28.501148
+QCY: training step540   2023-06-08 13:54:54.581011
+QCY: training step550   2023-06-08 13:55:20.370746
+QCY: training step560   2023-06-08 13:55:47.135011
+QCY: training step570   2023-06-08 13:56:15.110562
+QCY: training step580   2023-06-08 13:56:42.622043
+QCY: training step590   2023-06-08 13:57:11.360602
+QCY: training step600   2023-06-08 13:57:40.100166
+QCY: training step610   2023-06-08 13:58:08.063787
+QCY: training step620   2023-06-08 13:58:37.303120
+QCY: training step630   2023-06-08 13:59:05.922418
+QCY: training step640   2023-06-08 13:59:36.187420
+QCY: training step650   2023-06-08 14:00:05.387508
+QCY: training step660   2023-06-08 14:00:35.231175
+QCY: training step670   2023-06-08 14:01:05.659677
+QCY: training step680   2023-06-08 14:01:35.209499
+QCY: training step690   2023-06-08 14:02:06.968865
+QCY: training step700   2023-06-08 14:02:37.748131
+QCY: training step710   2023-06-08 14:03:08.207511
+QCY: training step720   2023-06-08 14:03:39.311537
+QCY: training step730   2023-06-08 14:04:11.810042
+QCY: training step740   2023-06-08 14:04:42.658189
+QCY: training step750   2023-06-08 14:05:13.035567
+QCY: training step760   2023-06-08 14:05:45.023858
+QCY: training step770   2023-06-08 14:06:18.486602
+QCY: training step780   2023-06-08 14:06:50.219359
+QCY: training step790   2023-06-08 14:07:23.032562
+QCY: training step800   2023-06-08 14:07:55.271551
+QCY: training step810   2023-06-08 14:08:27.892693
+QCY: training step820   2023-06-08 14:09:01.186052
+QCY: training step830   2023-06-08 14:09:35.150126
+QCY: training step840   2023-06-08 14:10:09.368033
+QCY: training step850   2023-06-08 14:10:43.465686
+QCY: training step860   2023-06-08 14:11:17.565878
+QCY: training step870   2023-06-08 14:11:53.494937
+QCY: training step880   2023-06-08 14:12:28.777797
+QCY: training step890   2023-06-08 14:13:03.681617
+QCY: training step900   2023-06-08 14:13:39.459635
+QCY: training step910   2023-06-08 14:14:13.358315
+QCY: training step920   2023-06-08 14:14:48.793120
+QCY: training step930   2023-06-08 14:15:24.988139
+QCY: training step940   2023-06-08 14:16:00.118033
+QCY: training step950   2023-06-08 14:16:35.390321
+QCY: training step960   2023-06-08 14:17:13.259444
+QCY: training step970   2023-06-08 14:17:50.022596
+QCY: training step980   2023-06-08 14:18:27.122039
+QCY: training step990   2023-06-08 14:19:03.822082
+QCY: training step1000   2023-06-08 14:19:41.804821
+QCY: training step1010   2023-06-08 14:20:19.814584
+QCY: training step1020   2023-06-08 14:20:56.762766
+QCY: training step1030   2023-06-08 14:21:34.809360
+QCY: training step1040   2023-06-08 14:22:14.639454
+QCY: training step1050   2023-06-08 14:22:52.827593
+QCY: training step1060   2023-06-08 14:23:31.615701
+QCY: training step1070   2023-06-08 14:24:10.561896
+QCY: training step1080   2023-06-08 14:24:50.323947
+QCY: training step1090   2023-06-08 14:25:30.612866
+QCY: training step1100   2023-06-08 14:26:11.556260
+QCY: training step1110   2023-06-08 14:26:50.658420
+QCY: training step1120   2023-06-08 14:27:31.848084
+QCY: training step1130   2023-06-08 14:28:11.744661
+QCY: training step1140   2023-06-08 14:28:53.465960
+QCY: training step1150   2023-06-08 14:29:34.497367
+QCY: training step1160   2023-06-08 14:30:14.187884
+QCY: training step1170   2023-06-08 14:30:54.552606
+QCY: training step1180   2023-06-08 14:31:36.522444
+QCY: training step1190   2023-06-08 14:32:18.706510
+QCY: training step1200   2023-06-08 14:32:59.628599
+QCY: training step1210   2023-06-08 14:33:40.052373
+QCY: training step1220   2023-06-08 14:34:23.061986
+QCY: training step1230   2023-06-08 14:35:04.214808
+QCY: training step1240   2023-06-08 14:35:47.746065
+QCY: training step1250   2023-06-08 14:36:31.636477
+QCY: training step1260   2023-06-08 14:37:14.429590
+QCY: training step1270   2023-06-08 14:37:57.525277
+QCY: training step1280   2023-06-08 14:38:40.425919
+QCY: training step1290   2023-06-08 14:39:23.627697
+QCY: training step1300   2023-06-08 14:40:07.007563
+QCY: training step1310   2023-06-08 14:40:50.241828
+QCY: training step1320   2023-06-08 14:41:33.016487
+QCY: training step1330   2023-06-08 14:42:18.870168
+QCY: training step1340   2023-06-08 14:43:03.300136
+QCY: training step1350   2023-06-08 14:43:48.178752
+QCY: training step1360   2023-06-08 14:44:32.511834
+QCY: training step1370   2023-06-08 14:45:16.031513
+QCY: training step1380   2023-06-08 14:45:59.061179
+QCY: training step1390   2023-06-08 14:46:43.046432
+QCY: training step1400   2023-06-08 14:47:27.845305
+QCY: training step1410   2023-06-08 14:48:13.006853
+QCY: training step1420   2023-06-08 14:48:56.999192
+QCY: training step1430   2023-06-08 14:49:42.331473
+QCY: training step1440   2023-06-08 14:50:26.400548
+QCY: training step1450   2023-06-08 14:51:12.033177
+QCY: training step1460   2023-06-08 14:51:57.999393
+QCY: training step1470   2023-06-08 14:52:42.928840
+QCY: training step1480   2023-06-08 14:53:29.409323
+QCY: training step1490   2023-06-08 14:54:16.297770
+QCY: training step1500   2023-06-08 14:55:02.846196
+QCY: training step1510   2023-06-08 14:55:49.477183
+QCY: training step1520   2023-06-08 14:56:35.385823
+QCY: training step1530   2023-06-08 14:57:23.562970
+QCY: training step1540   2023-06-08 14:58:10.395134
+QCY: training step1550   2023-06-08 14:58:57.451381
+QCY: training step1560   2023-06-08 14:59:44.993533
+QCY: training step1570   2023-06-08 15:00:31.761429
+QCY: training step1580   2023-06-08 15:01:19.008169
+QCY: training step1590   2023-06-08 15:02:07.303754
+QCY: training step1600   2023-06-08 15:02:54.320471
+QCY: training step1610   2023-06-08 15:03:42.142624
+QCY: training step1620   2023-06-08 15:04:30.133160
+QCY: training step1630   2023-06-08 15:05:18.719939
+QCY: training step1640   2023-06-08 15:06:07.287397
+QCY: training step1650   2023-06-08 15:06:56.210891
+QCY: training step1660   2023-06-08 15:07:44.817955
+QCY: training step1670   2023-06-08 15:08:32.204337
+QCY: training step1680   2023-06-08 15:09:20.349862
+QCY: training step1690   2023-06-08 15:10:10.368602
+QCY: training step1700   2023-06-08 15:10:59.119589
+QCY: training step1710   2023-06-08 15:11:47.940835
+QCY: training step1720   2023-06-08 15:12:36.917440
+QCY: training step1730   2023-06-08 15:13:25.326566
+QCY: training step1740   2023-06-08 15:14:15.505095
+QCY: training step1750   2023-06-08 15:15:05.558307
+QCY: training step1760   2023-06-08 15:15:55.606750
+QCY: training step1770   2023-06-08 15:16:43.061949
+QCY: training step1780   2023-06-08 15:17:32.575330
+QCY: training step1790   2023-06-08 15:18:22.793628
+QCY: training step1800   2023-06-08 15:19:11.887923
+QCY: training step1810   2023-06-08 15:20:00.401045
+QCY: training step1820   2023-06-08 15:20:50.375171
+QCY: training step1830   2023-06-08 15:21:39.743397
+QCY: training step1840   2023-06-08 15:22:32.353564
+QCY: training step1850   2023-06-08 15:23:22.797622
+QCY: training step1860   2023-06-08 15:24:14.947447
+QCY: training step1870   2023-06-08 15:25:06.795742
+QCY: training step1880   2023-06-08 15:25:57.488157
+QCY: training step1890   2023-06-08 15:26:49.866016
+QCY: training step1900   2023-06-08 15:27:40.664125
+QCY: training step1910   2023-06-08 15:28:33.304726
+QCY: training step1920   2023-06-08 15:29:25.111543
+QCY: training step1930   2023-06-08 15:30:16.871649
+QCY: training step1940   2023-06-08 15:31:08.585993
+QCY: training step1950   2023-06-08 15:32:01.433427
+QCY: training step1960   2023-06-08 15:32:52.505641
+QCY: training step1970   2023-06-08 15:33:45.981179
+QCY: training step1980   2023-06-08 15:34:37.464344
+QCY: training step1990   2023-06-08 15:35:29.855581
+QCY: training step2000   2023-06-08 15:36:22.485763
+QCY: training step2010   2023-06-08 15:37:15.054555
+QCY: training step2020   2023-06-08 15:38:09.776556
+QCY: training step2030   2023-06-08 15:39:02.622489
+QCY: training step2040   2023-06-08 15:39:55.137488
+QCY: training step2050   2023-06-08 15:40:49.179406
+QCY: training step2060   2023-06-08 15:41:43.623590
+QCY: training step2070   2023-06-08 15:42:37.377916
+QCY: training step2080   2023-06-08 15:43:30.591387
+QCY: training step2090   2023-06-08 15:44:24.211766
+QCY: training step2100   2023-06-08 15:45:17.339239
+QCY: training step2110   2023-06-08 15:46:11.517996
+QCY: training step2120   2023-06-08 15:47:05.818252
+QCY: training step2130   2023-06-08 15:47:58.934350
+QCY: training step2140   2023-06-08 15:48:51.937351
+QCY: training step2150   2023-06-08 15:49:45.501700
+QCY: training step2160   2023-06-08 15:50:40.974122
+QCY: training step2170   2023-06-08 15:51:33.688211
+QCY: training step2180   2023-06-08 15:52:28.025476
+QCY: training step2190   2023-06-08 15:53:22.422824
+QCY: training step2200   2023-06-08 15:54:16.113343
+QCY: training step2210   2023-06-08 15:55:11.304594
+QCY: training step2220   2023-06-08 15:56:05.951145
+QCY: training step2230   2023-06-08 15:57:00.365043
+QCY: training step2240   2023-06-08 15:57:53.457648
+QCY: training step2250   2023-06-08 15:58:49.148115
+QCY: training step2260   2023-06-08 15:59:44.403045
+QCY: training step2270   2023-06-08 16:00:41.272098
+QCY: training step2280   2023-06-08 16:01:36.071555
+QCY: training step2290   2023-06-08 16:02:31.450469
+QCY: training step2300   2023-06-08 16:03:26.062555
+QCY: training step2310   2023-06-08 16:04:22.358692
+QCY: training step2320   2023-06-08 16:05:18.179066
+QCY: training step2330   2023-06-08 16:06:13.244900
+QCY: training step2340   2023-06-08 16:07:06.516622
+QCY: training step2350   2023-06-08 16:08:01.359757
+QCY: training step2360   2023-06-08 16:08:55.922779
+QCY: training step2370   2023-06-08 16:09:50.192323
+QCY: training step2380   2023-06-08 16:10:45.415303
+QCY: training step2390   2023-06-08 16:11:40.492016
+QCY: training step2400   2023-06-08 16:12:36.426512
+QCY: training step2410   2023-06-08 16:13:30.881499
+QCY: training step2420   2023-06-08 16:14:26.406283
+QCY: training step2430   2023-06-08 16:15:21.306330
+QCY: training step2440   2023-06-08 16:16:15.961729
+QCY: training step2450   2023-06-08 16:17:12.394172
+QCY: training step2460   2023-06-08 16:18:09.429688
+QCY: training step2470   2023-06-08 16:19:05.545721
+QCY: training step2480   2023-06-08 16:20:02.176721
+QCY: training step2490   2023-06-08 16:20:58.868490
+QCY: training step2500   2023-06-08 16:21:55.618200
+QCY: training step2510   2023-06-08 16:22:52.232930
+QCY: training step2520   2023-06-08 16:23:48.542550
+QCY: training step2530   2023-06-08 16:24:44.079743
+QCY: training step2540   2023-06-08 16:25:37.476900
+QCY: training step2550   2023-06-08 16:26:31.504372
+QCY: training step2560   2023-06-08 16:27:27.454049
+QCY: training step2570   2023-06-08 16:28:24.510963
+QCY: training step2580   2023-06-08 16:29:21.383900
+QCY: training step2590   2023-06-08 16:30:18.375458
+QCY: training step2600   2023-06-08 16:31:14.819600
+QCY: training step2610   2023-06-08 16:32:10.157682
+QCY: training step2620   2023-06-08 16:33:03.018987
+QCY: training step2630   2023-06-08 16:33:58.154985
+QCY: training step2640   2023-06-08 16:34:54.107434
+QCY: training step2650   2023-06-08 16:35:51.750085
+QCY: training step2660   2023-06-08 16:36:48.724527
+QCY: training step2670   2023-06-08 16:37:46.634178
+QCY: training step2680   2023-06-08 16:38:44.736658
+QCY: training step2690   2023-06-08 16:39:41.202913
+QCY: training step2700   2023-06-08 16:40:38.413925
+QCY: training step2710   2023-06-08 16:41:35.559361
+QCY: training step2720   2023-06-08 16:42:33.727149
+QCY: training step2730   2023-06-08 16:43:30.199470
+QCY: training step2740   2023-06-08 16:44:28.335368
+QCY: training step2750   2023-06-08 16:45:26.632388
+QCY: training step2760   2023-06-08 16:46:22.805376
+QCY: training step2770   2023-06-08 16:47:20.977736
+QCY: training step2780   2023-06-08 16:48:17.508429
+QCY: training step2790   2023-06-08 16:49:13.690293
+QCY: training step2800   2023-06-08 16:50:11.560767
+QCY: training step2810   2023-06-08 16:51:08.255498
+QCY: training step2820   2023-06-08 16:52:05.965103
+QCY: training step2830   2023-06-08 16:53:03.118151
+QCY: training step2840   2023-06-08 16:54:02.408318
+QCY: training step2850   2023-06-08 16:54:59.138931
+QCY: training step2860   2023-06-08 16:55:57.449804
+QCY: training step2870   2023-06-08 16:56:57.899240
+QCY: training step2880   2023-06-08 16:57:56.432322
+QCY: training step2890   2023-06-08 16:58:55.481207
+QCY: training step2900   2023-06-08 16:59:54.659959
+QCY: training step2910   2023-06-08 17:00:53.896552
+QCY: training step2920   2023-06-08 17:01:52.629995
+QCY: training step2930   2023-06-08 17:02:50.768624
+QCY: training step2940   2023-06-08 17:03:47.925108
+QCY: training step2950   2023-06-08 17:04:44.745508
+QCY: training step2960   2023-06-08 17:05:41.271070
+QCY: training step2970   2023-06-08 17:06:39.507066
+QCY: training step2980   2023-06-08 17:07:37.343920
+QCY: training step2990   2023-06-08 17:08:33.742329
+QCY: training step3000   2023-06-08 17:09:31.445560
+QCY: training step3010   2023-06-08 17:10:30.444529
+QCY: training step3020   2023-06-08 17:11:29.430105
+QCY: training step3030   2023-06-08 17:12:28.678233
+QCY: training step3040   2023-06-08 17:13:27.513624
+QCY: training step3050   2023-06-08 17:14:25.056424
+QCY: training step3060   2023-06-08 17:15:25.252830
+QCY: training step3070   2023-06-08 17:16:24.550644
+QCY: training step3080   2023-06-08 17:17:22.115889
+QCY: training step3090   2023-06-08 17:18:20.414366
+QCY: training step3100   2023-06-08 17:19:19.536390
+QCY: training step3110   2023-06-08 17:20:17.145141
+QCY: training step3120   2023-06-08 17:21:14.771116
+QCY: training step3130   2023-06-08 17:22:13.499472
+QCY: training step3140   2023-06-08 17:23:12.589312
+QCY: training step3150   2023-06-08 17:24:12.028897
+QCY: training step3160   2023-06-08 17:25:12.039161
+QCY: training step3170   2023-06-08 17:26:11.894467
+QCY: training step3180   2023-06-08 17:27:11.099689
+QCY: training step3190   2023-06-08 17:28:10.522897
+QCY: training step3200   2023-06-08 17:29:08.398101
+QCY: training step3210   2023-06-08 17:30:05.972813
+QCY: training step3220   2023-06-08 17:31:05.208130
+QCY: training step3230   2023-06-08 17:32:03.728341
+QCY: training step3240   2023-06-08 17:33:02.468023
+QCY: training step3250   2023-06-08 17:34:02.168072
+QCY: training step3260   2023-06-08 17:34:59.628110
+QCY: training step3270   2023-06-08 17:35:58.217741
+QCY: training step3280   2023-06-08 17:36:57.730977
+QCY: training step3290   2023-06-08 17:37:57.225722
+QCY: training step3300   2023-06-08 17:38:56.904325
+QCY: training step3310   2023-06-08 17:39:55.761703
+QCY: training step3320   2023-06-08 17:40:54.506699
+QCY: training step3330   2023-06-08 17:41:53.343447
+QCY: training step3340   2023-06-08 17:42:51.677687
+QCY: training step3350   2023-06-08 17:43:50.743326
+QCY: training step3360   2023-06-08 17:44:49.994128
+QCY: training step3370   2023-06-08 17:45:48.113857
+QCY: training step3380   2023-06-08 17:46:47.019838
+QCY: training step3390   2023-06-08 17:47:45.120771
+QCY: training step3400   2023-06-08 17:48:43.337131
+QCY: training step3410   2023-06-08 17:49:42.372137
+QCY: training step3420   2023-06-08 17:50:41.003886
+QCY: training step3430   2023-06-08 17:51:39.164712
+QCY: training step3440   2023-06-08 17:52:39.432579
+QCY: training step3450   2023-06-08 17:53:39.431895
+QCY: training step3460   2023-06-08 17:54:39.123933
+QCY: training step3470   2023-06-08 17:55:39.740525
+QCY: training step3480   2023-06-08 17:56:38.763950
+QCY: training step3490   2023-06-08 17:57:36.456234
+QCY: training step3500   2023-06-08 17:58:35.911571
+QCY: training step3510   2023-06-08 17:59:36.297225
+QCY: training step3520   2023-06-08 18:00:37.540353
+QCY: training step3530   2023-06-08 18:01:37.041910
+QCY: training step3540   2023-06-08 18:02:35.409407
+QCY: training step3550   2023-06-08 18:03:34.216224
+QCY: training step3560   2023-06-08 18:04:31.859441
+QCY: training step3570   2023-06-08 18:05:31.450732
+QCY: training step3580   2023-06-08 18:06:30.154261
+QCY: training step3590   2023-06-08 18:07:28.535652
+2023-06-08 18:08:27 (INFO): step:3600/3600, q_loss:86.79163360595703, rewards:-3921.4083333333333, queue:20.04488378684807, delay:0.12449958091960743, throughput:2082
+2023-06-08 18:08:27 (INFO): episode:3/200, real avg travel time:1442.864553314121
+Step #0.00 (12ms ~= 83.33*RT, ~2916.67UPS, TraCI: 7769ms, vehicles TOT 35 ACT 35 BUF 2)   Step #100.00 (5ms ~= 200.00*RT, ~41000.00UPS, TraCI: 3213ms, vehicles TOT 207 ACT 205 BUF Step #200.00 (7ms ~= 142.86*RT, ~76285.71UPS, TraCI: 3383ms, vehicles TOT 540 ACT 534 BUF Step #300.00 (10ms ~= 100.00*RT, ~88600.00UPS, TraCI: 4791ms, vehicles TOT 902 ACT 886 BUFStep #400.00 (12ms ~= 83.33*RT, ~107083.33UPS, TraCI: 3925ms, vehicles TOT 1316 ACT 1285 BStep #500.00 (20ms ~= 50.00*RT, ~83750.00UPS, TraCI: 4733ms, vehicles TOT 1728 ACT 1675 BUStep #600.00 (22ms ~= 45.45*RT, ~94954.55UPS, TraCI: 5391ms, vehicles TOT 2167 ACT 2089 BUStep #700.00 (23ms ~= 43.48*RT, ~107434.78UPS, TraCI: 5323ms, vehicles TOT 2571 ACT 2471 BStep #800.00 (28ms ~= 35.71*RT, ~102142.86UPS, TraCI: 5553ms, vehicles TOT 2977 ACT 2860 BStep #900.00 (31ms ~= 32.26*RT, ~106096.77UPS, TraCI: 7288ms, vehicles TOT 3428 ACT 3289 BStep #1000.00 (32ms ~= 31.25*RT, ~114718.75UPS, TraCI: 6253ms, vehicles TOT 3832 ACT 3671 Step #1100.00 (38ms ~= 26.32*RT, ~107210.53UPS, TraCI: 6548ms, vehicles TOT 4255 ACT 4074 Step #1200.00 (42ms ~= 23.81*RT, ~105571.43UPS, TraCI: 7184ms, vehicles TOT 4626 ACT 4434 Step #1300.00 (40ms ~= 25.00*RT, ~119475.00UPS, TraCI: 6995ms, vehicles TOT 4994 ACT 4779 Step #1400.00 (47ms ~= 21.28*RT, ~107936.17UPS, TraCI: 5981ms, vehicles TOT 5303 ACT 5073 Step #1500.00 (54ms ~= 18.52*RT, ~99370.37UPS, TraCI: 6119ms, vehicles TOT 5610 ACT 5366 BStep #1600.00 (50ms ~= 20.00*RT, ~112000.00UPS, TraCI: 6305ms, vehicles TOT 5867 ACT 5600 Step #1700.00 (55ms ~= 18.18*RT, ~106018.18UPS, TraCI: 7359ms, vehicles TOT 6130 ACT 5831 Step #1800.00 (53ms ~= 18.87*RT, ~115245.28UPS, TraCI: 6845ms, vehicles TOT 6441 ACT 6108 Step #1900.00 (58ms ~= 17.24*RT, ~110310.34UPS, TraCI: 7081ms, vehicles TOT 6784 ACT 6398 Step #2000.00 (69ms ~= 14.49*RT, ~96681.16UPS, TraCI: 6855ms, vehicles TOT 7102 ACT 6671 BStep #2100.00 (92ms ~= 10.87*RT, ~74760.87UPS, TraCI: 7048ms, vehicles TOT 7360 ACT 6878 BStep #2200.00 (65ms ~= 15.38*RT, ~108246.15UPS, TraCI: 8435ms, vehicles TOT 7594 ACT 7036 Step #2300.00 (67ms ~= 14.93*RT, ~106343.28UPS, TraCI: 7213ms, vehicles TOT 7759 ACT 7125 Step #2400.00 (94ms ~= 10.64*RT, ~77819.15UPS, TraCI: 7911ms, vehicles TOT 8026 ACT 7315 BStep #2500.00 (90ms ~= 11.11*RT, ~82355.56UPS, TraCI: 8129ms, vehicles TOT 8221 ACT 7412 BStep #2600.00 (72ms ~= 13.89*RT, ~105402.78UPS, TraCI: 6945ms, vehicles TOT 8492 ACT 7589 Step #2700.00 (76ms ~= 13.16*RT, ~101723.68UPS, TraCI: 7977ms, vehicles TOT 8773 ACT 7731 Step #2800.00 (75ms ~= 13.33*RT, ~105160.00UPS, TraCI: 8093ms, vehicles TOT 9026 ACT 7887 Step #2900.00 (91ms ~= 10.99*RT, ~87219.78UPS, TraCI: 8421ms, vehicles TOT 9213 ACT 7937 BStep #3000.00 (99ms ~= 10.10*RT, ~80828.28UPS, TraCI: 8881ms, vehicles TOT 9450 ACT 8002 BStep #3100.00 (70ms ~= 14.29*RT, ~116142.86UPS, TraCI: 9058ms, vehicles TOT 9703 ACT 8130 Step #3200.00 (82ms ~= 12.20*RT, ~100646.34UPS, TraCI: 7262ms, vehicles TOT 9969 ACT 8253 Step #3300.00 (90ms ~= 11.11*RT, ~92222.22UPS, TraCI: 8450ms, vehicles TOT 10135 ACT 8300 Step #3400.00 (79ms ~= 12.66*RT, ~106126.58UPS, TraCI: 7445ms, vehicles TOT 10306 ACT 8384Step #3500.00 (83ms ~= 12.05*RT, ~102096.39UPS, TraCI: 7918ms, vehicles TOT 10481 ACT 8474Step #3600.00 (103ms ~= 9.71*RT, ~83155.34UPS, TraCI: 7666ms, vehicles TOT 10647 ACT 8565 
+ Retrying in 1 seconds
+QCY: training testing step0   2023-06-08 18:08:35.795472
+QCY: training testing step10   2023-06-08 18:08:48.547833
+QCY: training testing step20   2023-06-08 18:09:01.519503
+QCY: training testing step30   2023-06-08 18:09:14.444477
+QCY: training testing step40   2023-06-08 18:09:28.006078
+QCY: training testing step50   2023-06-08 18:09:40.954594
+QCY: training testing step60   2023-06-08 18:09:53.880756
+QCY: training testing step70   2023-06-08 18:10:07.751593
+QCY: training testing step80   2023-06-08 18:10:21.150519
+QCY: training testing step90   2023-06-08 18:10:35.299401
+QCY: training testing step100   2023-06-08 18:10:48.954249
+QCY: training testing step110   2023-06-08 18:11:02.889261
+QCY: training testing step120   2023-06-08 18:11:16.557928
+QCY: training testing step130   2023-06-08 18:11:31.048477
+QCY: training testing step140   2023-06-08 18:11:45.525626
+QCY: training testing step150   2023-06-08 18:12:00.490834
+QCY: training testing step160   2023-06-08 18:12:15.219948
+QCY: training testing step170   2023-06-08 18:12:30.852727
+QCY: training testing step180   2023-06-08 18:12:45.782521
+QCY: training testing step190   2023-06-08 18:13:00.664008
+QCY: training testing step200   2023-06-08 18:13:16.169887
+QCY: training testing step210   2023-06-08 18:13:32.891742
+QCY: training testing step220   2023-06-08 18:13:48.691949
+QCY: training testing step230   2023-06-08 18:14:04.674888
+QCY: training testing step240   2023-06-08 18:14:21.024437
+QCY: training testing step250   2023-06-08 18:14:37.916169
+QCY: training testing step260   2023-06-08 18:14:54.792134
+QCY: training testing step270   2023-06-08 18:15:11.710009
+QCY: training testing step280   2023-06-08 18:15:29.620324
+QCY: training testing step290   2023-06-08 18:15:46.843824
+QCY: training testing step300   2023-06-08 18:16:03.892492
+QCY: training testing step310   2023-06-08 18:16:20.822006
+QCY: training testing step320   2023-06-08 18:16:38.530442
+QCY: training testing step330   2023-06-08 18:16:56.262909
+QCY: training testing step340   2023-06-08 18:17:14.404222
+QCY: training testing step350   2023-06-08 18:17:32.618962
+QCY: training testing step360   2023-06-08 18:17:51.368368
+QCY: training testing step370   2023-06-08 18:18:10.097968
+QCY: training testing step380   2023-06-08 18:18:30.162941
+QCY: training testing step390   2023-06-08 18:18:49.368867
+QCY: training testing step400   2023-06-08 18:19:08.835418
+QCY: training testing step410   2023-06-08 18:19:28.825909
+QCY: training testing step420   2023-06-08 18:19:50.034201
+QCY: training testing step430   2023-06-08 18:20:10.699200
+QCY: training testing step440   2023-06-08 18:20:31.922842
+QCY: training testing step450   2023-06-08 18:20:52.139385
+QCY: training testing step460   2023-06-08 18:21:12.904669
+QCY: training testing step470   2023-06-08 18:21:33.552544
+QCY: training testing step480   2023-06-08 18:21:54.842445
+QCY: training testing step490   2023-06-08 18:22:16.347561
+QCY: training testing step500   2023-06-08 18:22:38.356736
+QCY: training testing step510   2023-06-08 18:23:00.330412
+QCY: training testing step520   2023-06-08 18:23:22.607379
+QCY: training testing step530   2023-06-08 18:23:44.596456
+QCY: training testing step540   2023-06-08 18:24:06.631516
+QCY: training testing step550   2023-06-08 18:24:29.004438
+QCY: training testing step560   2023-06-08 18:24:51.461503
+QCY: training testing step570   2023-06-08 18:25:13.692067
+QCY: training testing step580   2023-06-08 18:25:36.749432
+QCY: training testing step590   2023-06-08 18:26:00.147464
+QCY: training testing step600   2023-06-08 18:26:23.892118
+QCY: training testing step610   2023-06-08 18:26:48.040598
+QCY: training testing step620   2023-06-08 18:27:12.312374
+QCY: training testing step630   2023-06-08 18:27:36.382754
+QCY: training testing step640   2023-06-08 18:28:00.501977
+QCY: training testing step650   2023-06-08 18:28:24.638694
+QCY: training testing step660   2023-06-08 18:28:49.040202
+QCY: training testing step670   2023-06-08 18:29:13.777075
+QCY: training testing step680   2023-06-08 18:29:39.118057
+QCY: training testing step690   2023-06-08 18:30:04.719459
+QCY: training testing step700   2023-06-08 18:30:30.411118
+QCY: training testing step710   2023-06-08 18:30:55.696450
+QCY: training testing step720   2023-06-08 18:31:21.165280
+QCY: training testing step730   2023-06-08 18:31:47.227725
+QCY: training testing step740   2023-06-08 18:32:13.446729
+QCY: training testing step750   2023-06-08 18:32:39.479364
+QCY: training testing step760   2023-06-08 18:33:05.449119
+QCY: training testing step770   2023-06-08 18:33:31.838799
+QCY: training testing step780   2023-06-08 18:33:58.847144
+QCY: training testing step790   2023-06-08 18:34:25.915088
+QCY: training testing step800   2023-06-08 18:34:52.712116
+QCY: training testing step810   2023-06-08 18:35:20.505358
+QCY: training testing step820   2023-06-08 18:35:47.621411
+QCY: training testing step830   2023-06-08 18:36:15.271179
+QCY: training testing step840   2023-06-08 18:36:42.737691
+QCY: training testing step850   2023-06-08 18:37:10.570043
+QCY: training testing step860   2023-06-08 18:37:38.379630
+QCY: training testing step870   2023-06-08 18:38:06.341789
+QCY: training testing step880   2023-06-08 18:38:35.175121
+QCY: training testing step890   2023-06-08 18:39:03.798125
+QCY: training testing step900   2023-06-08 18:39:32.961569
+QCY: training testing step910   2023-06-08 18:40:01.871526
+QCY: training testing step920   2023-06-08 18:40:31.451057
+QCY: training testing step930   2023-06-08 18:41:01.181165
+QCY: training testing step940   2023-06-08 18:41:30.724915
+QCY: training testing step950   2023-06-08 18:42:00.915526
+QCY: training testing step960   2023-06-08 18:42:31.190726
+QCY: training testing step970   2023-06-08 18:43:01.533941
+QCY: training testing step980   2023-06-08 18:43:31.890404
+QCY: training testing step990   2023-06-08 18:44:02.272549
+QCY: training testing step1000   2023-06-08 18:44:32.530724
+QCY: training testing step1010   2023-06-08 18:45:03.268172
+QCY: training testing step1020   2023-06-08 18:45:33.297968
+QCY: training testing step1030   2023-06-08 18:46:04.531691
+QCY: training testing step1040   2023-06-08 18:46:35.885006
+QCY: training testing step1050   2023-06-08 18:47:08.001793
+QCY: training testing step1060   2023-06-08 18:47:39.817367
+QCY: training testing step1070   2023-06-08 18:48:11.086071
+QCY: training testing step1080   2023-06-08 18:48:41.914958
+QCY: training testing step1090   2023-06-08 18:49:13.893829
+QCY: training testing step1100   2023-06-08 18:49:46.554396
+QCY: training testing step1110   2023-06-08 18:50:18.516185
+QCY: training testing step1120   2023-06-08 18:50:50.579945
+QCY: training testing step1130   2023-06-08 18:51:22.778776
+QCY: training testing step1140   2023-06-08 18:51:54.927311
+QCY: training testing step1150   2023-06-08 18:52:27.060572
+QCY: training testing step1160   2023-06-08 18:52:59.726051
+QCY: training testing step1170   2023-06-08 18:53:32.953600
+QCY: training testing step1180   2023-06-08 18:54:04.732596
+QCY: training testing step1190   2023-06-08 18:54:36.736177
+QCY: training testing step1200   2023-06-08 18:55:09.767873
+QCY: training testing step1210   2023-06-08 18:55:43.293722
+QCY: training testing step1220   2023-06-08 18:56:17.194047
+QCY: training testing step1230   2023-06-08 18:56:50.985668
+QCY: training testing step1240   2023-06-08 18:57:24.056308
+QCY: training testing step1250   2023-06-08 18:57:57.437306
+QCY: training testing step1260   2023-06-08 18:58:30.809672
+QCY: training testing step1270   2023-06-08 18:59:04.793650
+QCY: training testing step1280   2023-06-08 18:59:38.018184
+QCY: training testing step1290   2023-06-08 19:00:11.400207
+QCY: training testing step1300   2023-06-08 19:00:44.819348
+QCY: training testing step1310   2023-06-08 19:01:19.721789
+QCY: training testing step1320   2023-06-08 19:01:55.145588
+QCY: training testing step1330   2023-06-08 19:02:30.040487
+QCY: training testing step1340   2023-06-08 19:03:04.900254
+QCY: training testing step1350   2023-06-08 19:03:39.641776
+QCY: training testing step1360   2023-06-08 19:04:14.524070
+QCY: training testing step1370   2023-06-08 19:04:49.863949
+QCY: training testing step1380   2023-06-08 19:05:25.228175
+QCY: training testing step1390   2023-06-08 19:05:59.786700
+QCY: training testing step1400   2023-06-08 19:06:35.216005
+QCY: training testing step1410   2023-06-08 19:07:10.762758
+QCY: training testing step1420   2023-06-08 19:07:45.109617
+QCY: training testing step1430   2023-06-08 19:08:19.696843
+QCY: training testing step1440   2023-06-08 19:08:54.799239
+QCY: training testing step1450   2023-06-08 19:09:30.514709
+QCY: training testing step1460   2023-06-08 19:10:05.710144
+QCY: training testing step1470   2023-06-08 19:10:41.941177
+QCY: training testing step1480   2023-06-08 19:11:18.124139
+QCY: training testing step1490   2023-06-08 19:11:53.858091
+QCY: training testing step1500   2023-06-08 19:12:30.037198
+QCY: training testing step1510   2023-06-08 19:13:05.602076
+QCY: training testing step1520   2023-06-08 19:13:41.174418
+QCY: training testing step1530   2023-06-08 19:14:17.324014
+QCY: training testing step1540   2023-06-08 19:14:53.443645
+QCY: training testing step1550   2023-06-08 19:15:30.248346
+QCY: training testing step1560   2023-06-08 19:16:07.077453
+QCY: training testing step1570   2023-06-08 19:16:43.796825
+QCY: training testing step1580   2023-06-08 19:17:20.085702
+QCY: training testing step1590   2023-06-08 19:17:56.679399
+QCY: training testing step1600   2023-06-08 19:18:33.441587
+QCY: training testing step1610   2023-06-08 19:19:10.727431
+QCY: training testing step1620   2023-06-08 19:19:47.765778
+QCY: training testing step1630   2023-06-08 19:20:24.705236
+QCY: training testing step1640   2023-06-08 19:21:01.240666
+QCY: training testing step1650   2023-06-08 19:21:38.549646
+QCY: training testing step1660   2023-06-08 19:22:15.089663
+QCY: training testing step1670   2023-06-08 19:22:51.794236
+QCY: training testing step1680   2023-06-08 19:23:29.230154
+QCY: training testing step1690   2023-06-08 19:24:06.599240
+QCY: training testing step1700   2023-06-08 19:24:43.490284
+QCY: training testing step1710   2023-06-08 19:25:21.203259
+QCY: training testing step1720   2023-06-08 19:25:58.279954
+QCY: training testing step1730   2023-06-08 19:26:35.445735
+QCY: training testing step1740   2023-06-08 19:27:13.024721
+QCY: training testing step1750   2023-06-08 19:27:50.642524
+QCY: training testing step1760   2023-06-08 19:28:28.933390
+QCY: training testing step1770   2023-06-08 19:29:06.702300
+QCY: training testing step1780   2023-06-08 19:29:44.627000
+QCY: training testing step1790   2023-06-08 19:30:22.502298
+QCY: training testing step1800   2023-06-08 19:31:00.410182
+QCY: training testing step1810   2023-06-08 19:31:38.084889
+QCY: training testing step1820   2023-06-08 19:32:15.844638
+QCY: training testing step1830   2023-06-08 19:32:53.629939
+QCY: training testing step1840   2023-06-08 19:33:32.000984
+QCY: training testing step1850   2023-06-08 19:34:10.452453
+QCY: training testing step1860   2023-06-08 19:34:48.736910
+QCY: training testing step1870   2023-06-08 19:35:26.440132
+QCY: training testing step1880   2023-06-08 19:36:04.552318
+QCY: training testing step1890   2023-06-08 19:36:43.514737
+QCY: training testing step1900   2023-06-08 19:37:22.696228
+QCY: training testing step1910   2023-06-08 19:38:01.183750
+QCY: training testing step1920   2023-06-08 19:38:40.249878
+QCY: training testing step1930   2023-06-08 19:39:19.714950
+QCY: training testing step1940   2023-06-08 19:39:59.089260
+QCY: training testing step1950   2023-06-08 19:40:37.791091
+QCY: training testing step1960   2023-06-08 19:41:16.728106
+QCY: training testing step1970   2023-06-08 19:41:55.547620
+QCY: training testing step1980   2023-06-08 19:42:34.947568
+QCY: training testing step1990   2023-06-08 19:43:14.167803
+QCY: training testing step2000   2023-06-08 19:43:53.366878
+QCY: training testing step2010   2023-06-08 19:44:33.087806
+QCY: training testing step2020   2023-06-08 19:45:13.221899
+QCY: training testing step2030   2023-06-08 19:45:52.441123
+QCY: training testing step2040   2023-06-08 19:46:31.746364
+QCY: training testing step2050   2023-06-08 19:47:10.502058
+QCY: training testing step2060   2023-06-08 19:47:49.078161
+QCY: training testing step2070   2023-06-08 19:48:28.727646
+QCY: training testing step2080   2023-06-08 19:49:08.783917
+QCY: training testing step2090   2023-06-08 19:49:48.187443
+QCY: training testing step2100   2023-06-08 19:50:27.705426
+QCY: training testing step2110   2023-06-08 19:51:07.254391
+QCY: training testing step2120   2023-06-08 19:51:47.101290
+QCY: training testing step2130   2023-06-08 19:52:27.413414
+QCY: training testing step2140   2023-06-08 19:53:07.137993
+QCY: training testing step2150   2023-06-08 19:53:46.666481
+QCY: training testing step2160   2023-06-08 19:54:27.191409
+QCY: training testing step2170   2023-06-08 19:55:07.444978
+QCY: training testing step2180   2023-06-08 19:55:48.403573
+QCY: training testing step2190   2023-06-08 19:56:29.097122
+QCY: training testing step2200   2023-06-08 19:57:09.962128
+QCY: training testing step2210   2023-06-08 19:57:51.173073
+QCY: training testing step2220   2023-06-08 19:58:32.247427
+QCY: training testing step2230   2023-06-08 19:59:12.544631
+QCY: training testing step2240   2023-06-08 19:59:53.099898
+QCY: training testing step2250   2023-06-08 20:00:34.176979
+QCY: training testing step2260   2023-06-08 20:01:15.211796
+QCY: training testing step2270   2023-06-08 20:01:56.469280
+QCY: training testing step2280   2023-06-08 20:02:37.130087
+QCY: training testing step2290   2023-06-08 20:03:18.812404
+QCY: training testing step2300   2023-06-08 20:04:00.083782
+QCY: training testing step2310   2023-06-08 20:04:40.982609
+QCY: training testing step2320   2023-06-08 20:05:22.148045
+QCY: training testing step2330   2023-06-08 20:06:03.665398
+QCY: training testing step2340   2023-06-08 20:06:45.144020
+QCY: training testing step2350   2023-06-08 20:07:26.534388
+QCY: training testing step2360   2023-06-08 20:08:07.953345
+QCY: training testing step2370   2023-06-08 20:08:48.754325
+QCY: training testing step2380   2023-06-08 20:09:30.880490
+QCY: training testing step2390   2023-06-08 20:10:12.006517
+QCY: training testing step2400   2023-06-08 20:10:53.724323
+QCY: training testing step2410   2023-06-08 20:11:36.311947
+QCY: training testing step2420   2023-06-08 20:12:18.492650
+QCY: training testing step2430   2023-06-08 20:12:59.968846
+QCY: training testing step2440   2023-06-08 20:13:42.374895
+QCY: training testing step2450   2023-06-08 20:14:24.725306
+QCY: training testing step2460   2023-06-08 20:15:07.180492
+QCY: training testing step2470   2023-06-08 20:15:49.021405
+QCY: training testing step2480   2023-06-08 20:16:31.272924
+QCY: training testing step2490   2023-06-08 20:17:13.515884
+QCY: training testing step2500   2023-06-08 20:17:55.838323
+QCY: training testing step2510   2023-06-08 20:18:38.590829
+QCY: training testing step2520   2023-06-08 20:19:19.920730
+QCY: training testing step2530   2023-06-08 20:20:02.755396
+QCY: training testing step2540   2023-06-08 20:20:45.219645
+QCY: training testing step2550   2023-06-08 20:21:27.516874
+QCY: training testing step2560   2023-06-08 20:22:10.136417
+QCY: training testing step2570   2023-06-08 20:22:53.397103
+QCY: training testing step2580   2023-06-08 20:23:36.636925
+QCY: training testing step2590   2023-06-08 20:24:19.382286
+QCY: training testing step2600   2023-06-08 20:25:02.419328
+QCY: training testing step2610   2023-06-08 20:25:45.950100
+QCY: training testing step2620   2023-06-08 20:26:29.510804
+QCY: training testing step2630   2023-06-08 20:27:12.928961
+QCY: training testing step2640   2023-06-08 20:27:57.164642
+QCY: training testing step2650   2023-06-08 20:28:40.373942
+QCY: training testing step2660   2023-06-08 20:29:24.082910
+QCY: training testing step2670   2023-06-08 20:30:07.898268
+QCY: training testing step2680   2023-06-08 20:30:51.656943
+QCY: training testing step2690   2023-06-08 20:31:36.371365
+QCY: training testing step2700   2023-06-08 20:32:20.320124
+QCY: training testing step2710   2023-06-08 20:33:04.560910
+QCY: training testing step2720   2023-06-08 20:33:47.954922
+QCY: training testing step2730   2023-06-08 20:34:32.898055
+QCY: training testing step2740   2023-06-08 20:35:17.518604
+QCY: training testing step2750   2023-06-08 20:36:01.917895
+QCY: training testing step2760   2023-06-08 20:36:46.307069
+QCY: training testing step2770   2023-06-08 20:37:31.038935
+QCY: training testing step2780   2023-06-08 20:38:16.566212
+QCY: training testing step2790   2023-06-08 20:39:01.345453
+QCY: training testing step2800   2023-06-08 20:39:46.467627
+QCY: training testing step2810   2023-06-08 20:40:30.687966
+QCY: training testing step2820   2023-06-08 20:41:15.556375
+QCY: training testing step2830   2023-06-08 20:42:00.663135
+QCY: training testing step2840   2023-06-08 20:42:44.712946
+QCY: training testing step2850   2023-06-08 20:43:27.275382
+QCY: training testing step2860   2023-06-08 20:44:13.120853
+QCY: training testing step2870   2023-06-08 20:44:56.743653
+QCY: training testing step2880   2023-06-08 20:45:40.238574
+QCY: training testing step2890   2023-06-08 20:46:25.381905
+QCY: training testing step2900   2023-06-08 20:47:09.025647
+QCY: training testing step2910   2023-06-08 20:47:53.111378
+QCY: training testing step2920   2023-06-08 20:48:37.420583
+QCY: training testing step2930   2023-06-08 20:49:22.356506
+QCY: training testing step2940   2023-06-08 20:50:06.725857
+QCY: training testing step2950   2023-06-08 20:50:50.849091
+QCY: training testing step2960   2023-06-08 20:51:35.505315
+QCY: training testing step2970   2023-06-08 20:52:20.329895
+QCY: training testing step2980   2023-06-08 20:53:05.306710
+QCY: training testing step2990   2023-06-08 20:53:49.210457
+QCY: training testing step3000   2023-06-08 20:54:33.287941
+QCY: training testing step3010   2023-06-08 20:55:18.048720
+QCY: training testing step3020   2023-06-08 20:56:02.304852
+QCY: training testing step3030   2023-06-08 20:56:46.950109
+QCY: training testing step3040   2023-06-08 20:57:31.696244
+QCY: training testing step3050   2023-06-08 20:58:16.350591
+QCY: training testing step3060   2023-06-08 20:59:01.353245
+QCY: training testing step3070   2023-06-08 20:59:46.363621
+QCY: training testing step3080   2023-06-08 21:00:32.019338
+QCY: training testing step3090   2023-06-08 21:01:16.880443
+QCY: training testing step3100   2023-06-08 21:02:01.519490
+QCY: training testing step3110   2023-06-08 21:02:45.927364
+QCY: training testing step3120   2023-06-08 21:03:30.942474
+QCY: training testing step3130   2023-06-08 21:04:16.166156
+QCY: training testing step3140   2023-06-08 21:05:00.664614
+QCY: training testing step3150   2023-06-08 21:05:46.377382
+QCY: training testing step3160   2023-06-08 21:06:31.966688
+QCY: training testing step3170   2023-06-08 21:07:17.076247
+QCY: training testing step3180   2023-06-08 21:08:01.512974
+QCY: training testing step3190   2023-06-08 21:08:46.626495
+QCY: training testing step3200   2023-06-08 21:09:31.488801
+QCY: training testing step3210   2023-06-08 21:10:16.670519
+QCY: training testing step3220   2023-06-08 21:11:02.318438
+QCY: training testing step3230   2023-06-08 21:11:48.398390
+QCY: training testing step3240   2023-06-08 21:12:34.382907
+QCY: training testing step3250   2023-06-08 21:13:20.894970
+QCY: training testing step3260   2023-06-08 21:14:06.795373
+QCY: training testing step3270   2023-06-08 21:14:52.484244
+QCY: training testing step3280   2023-06-08 21:15:38.135072
+QCY: training testing step3290   2023-06-08 21:16:23.310597
+QCY: training testing step3300   2023-06-08 21:17:07.537901
+QCY: training testing step3310   2023-06-08 21:17:52.342033
+QCY: training testing step3320   2023-06-08 21:18:35.736176
+QCY: training testing step3330   2023-06-08 21:19:20.559059
+QCY: training testing step3340   2023-06-08 21:20:04.160346
+QCY: training testing step3350   2023-06-08 21:20:48.225574
+QCY: training testing step3360   2023-06-08 21:21:33.194390
+QCY: training testing step3370   2023-06-08 21:22:20.064088
+QCY: training testing step3380   2023-06-08 21:23:06.603926
+QCY: training testing step3390   2023-06-08 21:23:52.155121
+QCY: training testing step3400   2023-06-08 21:24:38.572253
+QCY: training testing step3410   2023-06-08 21:25:25.440030
+QCY: training testing step3420   2023-06-08 21:26:11.692856
+QCY: training testing step3430   2023-06-08 21:26:58.353712
+QCY: training testing step3440   2023-06-08 21:27:45.065201
+QCY: training testing step3450   2023-06-08 21:28:31.580331
+QCY: training testing step3460   2023-06-08 21:29:18.678474
+QCY: training testing step3470   2023-06-08 21:30:05.956826
+QCY: training testing step3480   2023-06-08 21:30:53.104471
+QCY: training testing step3490   2023-06-08 21:31:40.807910
+QCY: training testing step3500   2023-06-08 21:32:27.937836
+QCY: training testing step3510   2023-06-08 21:33:14.443007
+QCY: training testing step3520   2023-06-08 21:34:00.033733
+QCY: training testing step3530   2023-06-08 21:34:46.747371
+QCY: training testing step3540   2023-06-08 21:35:34.545832
+QCY: training testing step3550   2023-06-08 21:36:21.993438
+QCY: training testing step3560   2023-06-08 21:37:09.134634
+QCY: training testing step3570   2023-06-08 21:37:56.417982
+QCY: training testing step3580   2023-06-08 21:38:43.422819
+QCY: training testing step3590   2023-06-08 21:39:31.102308
+2023-06-08 21:40:18 (INFO): Test step:3/200, travel time :868.3716564992961, rewards:-3103.0597222222223, queue:15.865518707482993, delay:0.10104199191069657, throughput:2131
+Step #0.00 (3ms ~= 333.33*RT, ~11666.67UPS, TraCI: 6861ms, vehicles TOT 35 ACT 35 BUF 2)  Step #100.00 (3ms ~= 333.33*RT, ~68333.33UPS, TraCI: 1494ms, vehicles TOT 207 ACT 205 BUF Step #200.00 (5ms ~= 200.00*RT, ~106400.00UPS, TraCI: 1684ms, vehicles TOT 539 ACT 532 BUFStep #300.00 (9ms ~= 111.11*RT, ~98666.67UPS, TraCI: 1714ms, vehicles TOT 901 ACT 888 BUF Step #400.00 (11ms ~= 90.91*RT, ~117454.55UPS, TraCI: 2046ms, vehicles TOT 1316 ACT 1292 BStep #500.00 (14ms ~= 71.43*RT, ~119357.14UPS, TraCI: 2244ms, vehicles TOT 1726 ACT 1671 BStep #600.00 (19ms ~= 52.63*RT, ~109631.58UPS, TraCI: 2374ms, vehicles TOT 2167 ACT 2083 BStep #700.00 (21ms ~= 47.62*RT, ~114952.38UPS, TraCI: 2695ms, vehicles TOT 2546 ACT 2414 BStep #800.00 (23ms ~= 43.48*RT, ~119913.04UPS, TraCI: 2748ms, vehicles TOT 2941 ACT 2758 BStep #900.00 (27ms ~= 37.04*RT, ~116037.04UPS, TraCI: 2869ms, vehicles TOT 3384 ACT 3133 BStep #1000.00 (27ms ~= 37.04*RT, ~128000.00UPS, TraCI: 3017ms, vehicles TOT 3765 ACT 3456 Step #1100.00 (30ms ~= 33.33*RT, ~124033.33UPS, TraCI: 3210ms, vehicles TOT 4117 ACT 3721 Step #1200.00 (35ms ~= 28.57*RT, ~112657.14UPS, TraCI: 3310ms, vehicles TOT 4418 ACT 3943 Step #1300.00 (34ms ~= 29.41*RT, ~122588.24UPS, TraCI: 3230ms, vehicles TOT 4725 ACT 4168 Step #1400.00 (34ms ~= 29.41*RT, ~128058.82UPS, TraCI: 3610ms, vehicles TOT 4986 ACT 4354 Step #1500.00 (41ms ~= 24.39*RT, ~110512.20UPS, TraCI: 3611ms, vehicles TOT 5236 ACT 4531 Step #1600.00 (40ms ~= 25.00*RT, ~117425.00UPS, TraCI: 3772ms, vehicles TOT 5468 ACT 4697 Step #1700.00 (42ms ~= 23.81*RT, ~114690.48UPS, TraCI: 3842ms, vehicles TOT 5683 ACT 4817 Step #1800.00 (42ms ~= 23.81*RT, ~118000.00UPS, TraCI: 3925ms, vehicles TOT 5889 ACT 4956 Step #1900.00 (41ms ~= 24.39*RT, ~123170.73UPS, TraCI: 3836ms, vehicles TOT 6055 ACT 5050 Step #2000.00 (45ms ~= 22.22*RT, ~113755.56UPS, TraCI: 3955ms, vehicles TOT 6228 ACT 5119 Step #2100.00 (45ms ~= 22.22*RT, ~116600.00UPS, TraCI: 3999ms, vehicles TOT 6439 ACT 5247 Step #2200.00 (49ms ~= 20.41*RT, ~109632.65UPS, TraCI: 4094ms, vehicles TOT 6640 ACT 5372 Step #2300.00 (54ms ~= 18.52*RT, ~101500.00UPS, TraCI: 4158ms, vehicles TOT 6816 ACT 5481 Step #2400.00 (48ms ~= 20.83*RT, ~117270.83UPS, TraCI: 4262ms, vehicles TOT 7013 ACT 5629 Step #2500.00 (50ms ~= 20.00*RT, ~114720.00UPS, TraCI: 4220ms, vehicles TOT 7168 ACT 5736 Step #2600.00 (56ms ~= 17.86*RT, ~105214.29UPS, TraCI: 4447ms, vehicles TOT 7388 ACT 5892 Step #2700.00 (58ms ~= 17.24*RT, ~104672.41UPS, TraCI: 4427ms, vehicles TOT 7621 ACT 6071 Step #2800.00 (48ms ~= 20.83*RT, ~128687.50UPS, TraCI: 4395ms, vehicles TOT 7779 ACT 6177 Step #2900.00 (60ms ~= 16.67*RT, ~104733.33UPS, TraCI: 4167ms, vehicles TOT 7942 ACT 6284 Step #3000.00 (55ms ~= 18.18*RT, ~116400.00UPS, TraCI: 4480ms, vehicles TOT 8110 ACT 6402 Step #3100.00 (58ms ~= 17.24*RT, ~111103.45UPS, TraCI: 4672ms, vehicles TOT 8232 ACT 6444 Step #3200.00 (58ms ~= 17.24*RT, ~112689.66UPS, TraCI: 4577ms, vehicles TOT 8381 ACT 6536 Step #3300.00 (59ms ~= 16.95*RT, ~112305.08UPS, TraCI: 4534ms, vehicles TOT 8534 ACT 6626 Step #3400.00 (62ms ~= 16.13*RT, ~108258.06UPS, TraCI: 4836ms, vehicles TOT 8698 ACT 6712 Step #3500.00 (61ms ~= 16.39*RT, ~112016.39UPS, TraCI: 4707ms, vehicles TOT 8884 ACT 6833 Step #3600.00 (61ms ~= 16.39*RT, ~113360.66UPS, TraCI: 4861ms, vehicles TOT 9046 ACT 6915 

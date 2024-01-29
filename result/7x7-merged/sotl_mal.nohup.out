@@ -1,0 +1,436 @@
+nohup: ignoring input
+QCY: cuda is available
+YQC: you will use sumo~
+building world...
+Connection ID debug
+QCY: agent: SOTL Agent has no Network model
+QCY: num_agent:  49
+QCY: model_mapping setting name:  sotl
+QCY: task_mapping:  {'base': <class 'task.task.BaseTask'>, 'tsc': <class 'task.task.TSCTask'>}
+QCY: GPU: 0
+QCY: model_mapping setting train_model:  False
+QCY: model_mapping setting test_model:  True
+QCY: testing step0   2023-06-28 01:06:54.731284
+QCY: testing step10   2023-06-28 01:06:54.970950
+QCY: testing step20   2023-06-28 01:06:55.128152
+QCY: testing step30   2023-06-28 01:06:55.340394
+QCY: testing step40   2023-06-28 01:06:55.517695
+QCY: testing step50   2023-06-28 01:06:55.707288
+QCY: testing step60   2023-06-28 01:06:55.916809
+QCY: testing step70   2023-06-28 01:06:56.162255
+QCY: testing step80   2023-06-28 01:06:56.422690
+QCY: testing step90   2023-06-28 01:06:56.734820
+QCY: testing step100   2023-06-28 01:06:57.015994
+QCY: testing step110   2023-06-28 01:06:57.268731
+QCY: testing step120   2023-06-28 01:06:57.526381
+intersection_7_2 malfunction
+QCY: testing step130   2023-06-28 01:06:57.794963
+QCY: testing step140   2023-06-28 01:06:58.100664
+QCY: testing step150   2023-06-28 01:06:58.417127
+QCY: testing step160   2023-06-28 01:06:58.761528
+intersection_4_3 malfunction
+QCY: testing step170   2023-06-28 01:06:59.101430
+intersection_1_7 malfunction
+intersection_4_7 malfunction
+QCY: testing step180   2023-06-28 01:06:59.432466
+QCY: testing step190   2023-06-28 01:06:59.769118
+QCY: testing step200   2023-06-28 01:07:00.147819
+QCY: testing step210   2023-06-28 01:07:00.635090
+intersection_6_7 malfunction
+QCY: testing step220   2023-06-28 01:07:01.015754
+QCY: testing step230   2023-06-28 01:07:01.390658
+QCY: testing step240   2023-06-28 01:07:01.815026
+QCY: testing step250   2023-06-28 01:07:02.212970
+intersection_1_7 repaired
+QCY: testing step260   2023-06-28 01:07:02.592720
+QCY: testing step270   2023-06-28 01:07:02.981474
+QCY: testing step280   2023-06-28 01:07:03.423768
+QCY: testing step290   2023-06-28 01:07:03.829875
+QCY: testing step300   2023-06-28 01:07:04.267699
+QCY: testing step310   2023-06-28 01:07:04.716619
+QCY: testing step320   2023-06-28 01:07:05.153042
+QCY: testing step330   2023-06-28 01:07:05.587125
+QCY: testing step340   2023-06-28 01:07:06.019514
+QCY: testing step350   2023-06-28 01:07:06.467910
+intersection_6_2 malfunction
+QCY: testing step360   2023-06-28 01:07:07.002255
+QCY: testing step370   2023-06-28 01:07:07.473269
+QCY: testing step380   2023-06-28 01:07:07.959673
+intersection_7_3 malfunction
+QCY: testing step390   2023-06-28 01:07:08.449566
+QCY: testing step400   2023-06-28 01:07:08.944024
+QCY: testing step410   2023-06-28 01:07:09.532742
+QCY: testing step420   2023-06-28 01:07:10.034452
+QCY: testing step430   2023-06-28 01:07:10.533984
+QCY: testing step440   2023-06-28 01:07:11.046073
+intersection_6_2 repaired
+QCY: testing step450   2023-06-28 01:07:11.543905
+QCY: testing step460   2023-06-28 01:07:12.057193
+intersection_4_1 malfunction
+QCY: testing step470   2023-06-28 01:07:12.596055
+QCY: testing step480   2023-06-28 01:07:13.125662
+QCY: testing step490   2023-06-28 01:07:13.657082
+QCY: testing step500   2023-06-28 01:07:14.175969
+intersection_2_4 malfunction
+QCY: testing step510   2023-06-28 01:07:14.706727
+QCY: testing step520   2023-06-28 01:07:15.245259
+intersection_2_5 malfunction
+QCY: testing step530   2023-06-28 01:07:15.795732
+QCY: testing step540   2023-06-28 01:07:16.433431
+QCY: testing step550   2023-06-28 01:07:17.001726
+QCY: testing step560   2023-06-28 01:07:17.558583
+QCY: testing step570   2023-06-28 01:07:18.119273
+QCY: testing step580   2023-06-28 01:07:18.684061
+QCY: testing step590   2023-06-28 01:07:19.262773
+QCY: testing step600   2023-06-28 01:07:19.839727
+intersection_4_1 repaired
+QCY: testing step610   2023-06-28 01:07:20.527107
+intersection_7_3 repaired
+QCY: testing step620   2023-06-28 01:07:21.142290
+QCY: testing step630   2023-06-28 01:07:21.755787
+QCY: testing step640   2023-06-28 01:07:22.364853
+intersection_6_7 repaired
+QCY: testing step650   2023-06-28 01:07:22.973142
+QCY: testing step660   2023-06-28 01:07:23.606750
+QCY: testing step670   2023-06-28 01:07:24.230061
+QCY: testing step680   2023-06-28 01:07:24.846338
+QCY: testing step690   2023-06-28 01:07:25.468804
+intersection_1_7 malfunction
+QCY: testing step700   2023-06-28 01:07:26.107701
+intersection_2_4 repaired
+QCY: testing step710   2023-06-28 01:07:26.751480
+intersection_1_7 repaired
+QCY: testing step720   2023-06-28 01:07:27.405804
+QCY: testing step730   2023-06-28 01:07:28.108299
+QCY: testing step740   2023-06-28 01:07:28.785249
+QCY: testing step750   2023-06-28 01:07:29.451116
+QCY: testing step760   2023-06-28 01:07:30.138417
+QCY: testing step770   2023-06-28 01:07:30.813150
+QCY: testing step780   2023-06-28 01:07:31.491192
+QCY: testing step790   2023-06-28 01:07:32.313795
+QCY: testing step800   2023-06-28 01:07:33.076471
+QCY: testing step810   2023-06-28 01:07:33.916799
+QCY: testing step820   2023-06-28 01:07:34.653419
+QCY: testing step830   2023-06-28 01:07:35.373894
+QCY: testing step840   2023-06-28 01:07:36.112480
+QCY: testing step850   2023-06-28 01:07:36.854178
+QCY: testing step860   2023-06-28 01:07:37.595660
+QCY: testing step870   2023-06-28 01:07:38.346198
+QCY: testing step880   2023-06-28 01:07:39.096716
+QCY: testing step890   2023-06-28 01:07:39.895162
+intersection_7_2 repaired
+QCY: testing step900   2023-06-28 01:07:40.663217
+QCY: testing step910   2023-06-28 01:07:41.430802
+QCY: testing step920   2023-06-28 01:07:42.195945
+intersection_6_1 malfunction
+QCY: testing step930   2023-06-28 01:07:42.979916
+QCY: testing step940   2023-06-28 01:07:43.826217
+QCY: testing step950   2023-06-28 01:07:44.791699
+QCY: testing step960   2023-06-28 01:07:45.614852
+QCY: testing step970   2023-06-28 01:07:46.431550
+intersection_2_5 repaired
+QCY: testing step980   2023-06-28 01:07:47.281230
+intersection_6_1 repaired
+QCY: testing step990   2023-06-28 01:07:48.142058
+QCY: testing step1000   2023-06-28 01:07:48.995031
+QCY: testing step1010   2023-06-28 01:07:49.973007
+QCY: testing step1020   2023-06-28 01:07:50.850803
+QCY: testing step1030   2023-06-28 01:07:51.747542
+QCY: testing step1040   2023-06-28 01:07:52.607975
+QCY: testing step1050   2023-06-28 01:07:53.456169
+QCY: testing step1060   2023-06-28 01:07:54.321276
+intersection_4_3 repaired
+QCY: testing step1070   2023-06-28 01:07:55.201295
+QCY: testing step1080   2023-06-28 01:07:56.058723
+QCY: testing step1090   2023-06-28 01:07:56.923047
+QCY: testing step1100   2023-06-28 01:07:57.811395
+QCY: testing step1110   2023-06-28 01:07:58.731693
+QCY: testing step1120   2023-06-28 01:07:59.620435
+QCY: testing step1130   2023-06-28 01:08:00.514154
+QCY: testing step1140   2023-06-28 01:08:01.404890
+QCY: testing step1150   2023-06-28 01:08:02.338775
+QCY: testing step1160   2023-06-28 01:08:03.237064
+QCY: testing step1170   2023-06-28 01:08:04.179700
+QCY: testing step1180   2023-06-28 01:08:05.097689
+QCY: testing step1190   2023-06-28 01:08:05.992720
+QCY: testing step1200   2023-06-28 01:08:06.889279
+QCY: testing step1210   2023-06-28 01:08:07.889287
+QCY: testing step1220   2023-06-28 01:08:08.790233
+QCY: testing step1230   2023-06-28 01:08:09.782884
+QCY: testing step1240   2023-06-28 01:08:10.729329
+QCY: testing step1250   2023-06-28 01:08:11.652438
+QCY: testing step1260   2023-06-28 01:08:12.600335
+QCY: testing step1270   2023-06-28 01:08:13.564488
+QCY: testing step1280   2023-06-28 01:08:14.495359
+QCY: testing step1290   2023-06-28 01:08:15.453541
+QCY: testing step1300   2023-06-28 01:08:16.402761
+QCY: testing step1310   2023-06-28 01:08:17.524316
+QCY: testing step1320   2023-06-28 01:08:18.621468
+QCY: testing step1330   2023-06-28 01:08:19.645660
+QCY: testing step1340   2023-06-28 01:08:20.677546
+QCY: testing step1350   2023-06-28 01:08:21.728780
+QCY: testing step1360   2023-06-28 01:08:22.756170
+QCY: testing step1370   2023-06-28 01:08:23.767591
+QCY: testing step1380   2023-06-28 01:08:24.794403
+QCY: testing step1390   2023-06-28 01:08:25.850893
+QCY: testing step1400   2023-06-28 01:08:26.854438
+QCY: testing step1410   2023-06-28 01:08:27.938932
+QCY: testing step1420   2023-06-28 01:08:28.937872
+QCY: testing step1430   2023-06-28 01:08:30.008299
+QCY: testing step1440   2023-06-28 01:08:31.021936
+intersection_2_7 malfunction
+QCY: testing step1450   2023-06-28 01:08:32.055571
+QCY: testing step1460   2023-06-28 01:08:33.100450
+QCY: testing step1470   2023-06-28 01:08:34.189609
+QCY: testing step1480   2023-06-28 01:08:35.270602
+QCY: testing step1490   2023-06-28 01:08:36.346993
+QCY: testing step1500   2023-06-28 01:08:37.458261
+intersection_3_2 malfunction
+intersection_7_4 malfunction
+QCY: testing step1510   2023-06-28 01:08:38.565589
+QCY: testing step1520   2023-06-28 01:08:39.763391
+QCY: testing step1530   2023-06-28 01:08:40.859302
+intersection_2_7 repaired
+QCY: testing step1540   2023-06-28 01:08:41.991733
+QCY: testing step1550   2023-06-28 01:08:43.163693
+QCY: testing step1560   2023-06-28 01:08:44.294273
+QCY: testing step1570   2023-06-28 01:08:45.461750
+QCY: testing step1580   2023-06-28 01:08:46.662712
+QCY: testing step1590   2023-06-28 01:08:48.023630
+QCY: testing step1600   2023-06-28 01:08:49.270575
+QCY: testing step1610   2023-06-28 01:08:50.562368
+intersection_1_5 malfunction
+QCY: testing step1620   2023-06-28 01:08:51.778475
+QCY: testing step1630   2023-06-28 01:08:52.966566
+QCY: testing step1640   2023-06-28 01:08:54.168967
+QCY: testing step1650   2023-06-28 01:08:55.394801
+QCY: testing step1660   2023-06-28 01:08:56.751439
+QCY: testing step1670   2023-06-28 01:08:58.014917
+QCY: testing step1680   2023-06-28 01:08:59.287127
+QCY: testing step1690   2023-06-28 01:09:00.502647
+QCY: testing step1700   2023-06-28 01:09:01.748044
+QCY: testing step1710   2023-06-28 01:09:03.058649
+QCY: testing step1720   2023-06-28 01:09:04.373307
+QCY: testing step1730   2023-06-28 01:09:05.642032
+intersection_2_7 malfunction
+QCY: testing step1740   2023-06-28 01:09:06.928650
+QCY: testing step1750   2023-06-28 01:09:08.266147
+intersection_2_6 malfunction
+intersection_2_7 repaired
+QCY: testing step1760   2023-06-28 01:09:09.601351
+QCY: testing step1770   2023-06-28 01:09:10.921606
+QCY: testing step1780   2023-06-28 01:09:12.227205
+intersection_1_5 repaired
+QCY: testing step1790   2023-06-28 01:09:13.557042
+QCY: testing step1800   2023-06-28 01:09:14.910123
+QCY: testing step1810   2023-06-28 01:09:16.376741
+QCY: testing step1820   2023-06-28 01:09:17.734508
+QCY: testing step1830   2023-06-28 01:09:19.090528
+QCY: testing step1840   2023-06-28 01:09:20.463571
+QCY: testing step1850   2023-06-28 01:09:21.836909
+QCY: testing step1860   2023-06-28 01:09:23.197636
+QCY: testing step1870   2023-06-28 01:09:24.692768
+intersection_1_6 malfunction
+QCY: testing step1880   2023-06-28 01:09:26.028140
+QCY: testing step1890   2023-06-28 01:09:27.427391
+QCY: testing step1900   2023-06-28 01:09:28.786772
+intersection_1_6 repaired
+QCY: testing step1910   2023-06-28 01:09:30.154942
+QCY: testing step1920   2023-06-28 01:09:31.524990
+QCY: testing step1930   2023-06-28 01:09:32.913011
+intersection_2_6 repaired
+QCY: testing step1940   2023-06-28 01:09:34.292720
+QCY: testing step1950   2023-06-28 01:09:35.684397
+QCY: testing step1960   2023-06-28 01:09:37.106308
+QCY: testing step1970   2023-06-28 01:09:38.527999
+QCY: testing step1980   2023-06-28 01:09:39.983220
+intersection_4_7 repaired
+QCY: testing step1990   2023-06-28 01:09:41.466820
+QCY: testing step2000   2023-06-28 01:09:42.895420
+intersection_3_2 repaired
+QCY: testing step2010   2023-06-28 01:09:44.443276
+QCY: testing step2020   2023-06-28 01:09:45.897527
+QCY: testing step2030   2023-06-28 01:09:47.326119
+QCY: testing step2040   2023-06-28 01:09:48.754100
+QCY: testing step2050   2023-06-28 01:09:50.192119
+QCY: testing step2060   2023-06-28 01:09:51.662905
+intersection_6_6 malfunction
+QCY: testing step2070   2023-06-28 01:09:53.136019
+QCY: testing step2080   2023-06-28 01:09:54.656882
+QCY: testing step2090   2023-06-28 01:09:56.247535
+QCY: testing step2100   2023-06-28 01:09:57.702889
+QCY: testing step2110   2023-06-28 01:09:59.156794
+QCY: testing step2120   2023-06-28 01:10:00.632940
+QCY: testing step2130   2023-06-28 01:10:02.099204
+QCY: testing step2140   2023-06-28 01:10:03.580355
+QCY: testing step2150   2023-06-28 01:10:05.058190
+QCY: testing step2160   2023-06-28 01:10:06.553102
+intersection_2_1 malfunction
+QCY: testing step2170   2023-06-28 01:10:08.059568
+QCY: testing step2180   2023-06-28 01:10:09.585716
+QCY: testing step2190   2023-06-28 01:10:11.121563
+QCY: testing step2200   2023-06-28 01:10:12.662762
+QCY: testing step2210   2023-06-28 01:10:14.286071
+intersection_7_3 malfunction
+QCY: testing step2220   2023-06-28 01:10:15.858815
+QCY: testing step2230   2023-06-28 01:10:17.425739
+QCY: testing step2240   2023-06-28 01:10:18.997755
+intersection_6_1 malfunction
+QCY: testing step2250   2023-06-28 01:10:20.580590
+QCY: testing step2260   2023-06-28 01:10:22.183572
+QCY: testing step2270   2023-06-28 01:10:23.789849
+QCY: testing step2280   2023-06-28 01:10:25.401670
+QCY: testing step2290   2023-06-28 01:10:27.031051
+QCY: testing step2300   2023-06-28 01:10:28.734076
+QCY: testing step2310   2023-06-28 01:10:30.416288
+QCY: testing step2320   2023-06-28 01:10:32.134293
+QCY: testing step2330   2023-06-28 01:10:33.830930
+QCY: testing step2340   2023-06-28 01:10:35.582316
+QCY: testing step2350   2023-06-28 01:10:37.379645
+QCY: testing step2360   2023-06-28 01:10:39.099561
+QCY: testing step2370   2023-06-28 01:10:40.834249
+QCY: testing step2380   2023-06-28 01:10:42.592238
+QCY: testing step2390   2023-06-28 01:10:44.290508
+QCY: testing step2400   2023-06-28 01:10:46.002726
+QCY: testing step2410   2023-06-28 01:10:47.799473
+QCY: testing step2420   2023-06-28 01:10:49.530485
+QCY: testing step2430   2023-06-28 01:10:51.269514
+intersection_7_3 repaired
+QCY: testing step2440   2023-06-28 01:10:53.035247
+intersection_2_1 repaired
+QCY: testing step2450   2023-06-28 01:10:54.779376
+QCY: testing step2460   2023-06-28 01:10:56.563292
+QCY: testing step2470   2023-06-28 01:10:58.335315
+QCY: testing step2480   2023-06-28 01:11:00.108617
+QCY: testing step2490   2023-06-28 01:11:01.944697
+intersection_6_1 repaired
+QCY: testing step2500   2023-06-28 01:11:03.762933
+QCY: testing step2510   2023-06-28 01:11:05.597314
+QCY: testing step2520   2023-06-28 01:11:07.460696
+QCY: testing step2530   2023-06-28 01:11:09.390852
+QCY: testing step2540   2023-06-28 01:11:11.547855
+QCY: testing step2550   2023-06-28 01:11:13.443022
+QCY: testing step2560   2023-06-28 01:11:15.350418
+QCY: testing step2570   2023-06-28 01:11:17.205760
+QCY: testing step2580   2023-06-28 01:11:19.068201
+QCY: testing step2590   2023-06-28 01:11:20.932014
+QCY: testing step2600   2023-06-28 01:11:22.808384
+QCY: testing step2610   2023-06-28 01:11:24.832272
+QCY: testing step2620   2023-06-28 01:11:26.746695
+QCY: testing step2630   2023-06-28 01:11:28.667366
+QCY: testing step2640   2023-06-28 01:11:30.594270
+QCY: testing step2650   2023-06-28 01:11:32.563855
+intersection_7_4 repaired
+QCY: testing step2660   2023-06-28 01:11:34.537307
+QCY: testing step2670   2023-06-28 01:11:36.519155
+QCY: testing step2680   2023-06-28 01:11:38.471718
+QCY: testing step2690   2023-06-28 01:11:40.429685
+QCY: testing step2700   2023-06-28 01:11:42.430894
+intersection_1_7 malfunction
+QCY: testing step2710   2023-06-28 01:11:44.379167
+QCY: testing step2720   2023-06-28 01:11:46.334092
+QCY: testing step2730   2023-06-28 01:11:48.438247
+QCY: testing step2740   2023-06-28 01:11:50.411850
+QCY: testing step2750   2023-06-28 01:11:52.409224
+QCY: testing step2760   2023-06-28 01:11:54.542357
+QCY: testing step2770   2023-06-28 01:11:56.677238
+QCY: testing step2780   2023-06-28 01:11:58.740247
+QCY: testing step2790   2023-06-28 01:12:00.812922
+intersection_2_5 malfunction
+QCY: testing step2800   2023-06-28 01:12:02.832957
+QCY: testing step2810   2023-06-28 01:12:05.014137
+QCY: testing step2820   2023-06-28 01:12:07.050508
+QCY: testing step2830   2023-06-28 01:12:09.199813
+QCY: testing step2840   2023-06-28 01:12:11.299728
+QCY: testing step2850   2023-06-28 01:12:13.594556
+QCY: testing step2860   2023-06-28 01:12:15.741881
+QCY: testing step2870   2023-06-28 01:12:17.908243
+intersection_6_6 repaired
+QCY: testing step2880   2023-06-28 01:12:20.055152
+QCY: testing step2890   2023-06-28 01:12:22.207543
+intersection_3_4 malfunction
+QCY: testing step2900   2023-06-28 01:12:24.465971
+QCY: testing step2910   2023-06-28 01:12:26.675809
+QCY: testing step2920   2023-06-28 01:12:28.882647
+QCY: testing step2930   2023-06-28 01:12:31.104558
+QCY: testing step2940   2023-06-28 01:12:33.357925
+QCY: testing step2950   2023-06-28 01:12:35.518487
+intersection_2_5 repaired
+QCY: testing step2960   2023-06-28 01:12:37.786661
+QCY: testing step2970   2023-06-28 01:12:40.233726
+QCY: testing step2980   2023-06-28 01:12:42.528174
+QCY: testing step2990   2023-06-28 01:12:44.810692
+QCY: testing step3000   2023-06-28 01:12:47.089295
+QCY: testing step3010   2023-06-28 01:12:49.507394
+QCY: testing step3020   2023-06-28 01:12:51.784576
+intersection_3_1 malfunction
+QCY: testing step3030   2023-06-28 01:12:54.167843
+QCY: testing step3040   2023-06-28 01:12:56.483487
+QCY: testing step3050   2023-06-28 01:12:58.914106
+QCY: testing step3060   2023-06-28 01:13:01.415261
+QCY: testing step3070   2023-06-28 01:13:03.902449
+QCY: testing step3080   2023-06-28 01:13:06.379311
+QCY: testing step3090   2023-06-28 01:13:08.824765
+QCY: testing step3100   2023-06-28 01:13:11.262953
+QCY: testing step3110   2023-06-28 01:13:13.673362
+QCY: testing step3120   2023-06-28 01:13:16.117661
+QCY: testing step3130   2023-06-28 01:13:18.391676
+QCY: testing step3140   2023-06-28 01:13:20.696498
+QCY: testing step3150   2023-06-28 01:13:23.043718
+QCY: testing step3160   2023-06-28 01:13:25.347391
+QCY: testing step3170   2023-06-28 01:13:27.656894
+QCY: testing step3180   2023-06-28 01:13:29.942232
+QCY: testing step3190   2023-06-28 01:13:32.232205
+QCY: testing step3200   2023-06-28 01:13:34.551778
+QCY: testing step3210   2023-06-28 01:13:37.106187
+intersection_4_3 malfunction
+QCY: testing step3220   2023-06-28 01:13:39.438038
+QCY: testing step3230   2023-06-28 01:13:41.785374
+intersection_5_2 malfunction
+QCY: testing step3240   2023-06-28 01:13:44.168197
+intersection_4_1 malfunction
+QCY: testing step3250   2023-06-28 01:13:46.640409
+QCY: testing step3260   2023-06-28 01:13:49.080421
+QCY: testing step3270   2023-06-28 01:13:51.502198
+intersection_1_5 malfunction
+intersection_4_5 malfunction
+QCY: testing step3280   2023-06-28 01:13:53.936930
+intersection_4_1 repaired
+QCY: testing step3290   2023-06-28 01:13:56.394225
+QCY: testing step3300   2023-06-28 01:13:58.830199
+QCY: testing step3310   2023-06-28 01:14:01.251163
+QCY: testing step3320   2023-06-28 01:14:03.794441
+QCY: testing step3330   2023-06-28 01:14:06.287131
+QCY: testing step3340   2023-06-28 01:14:08.780549
+intersection_3_4 repaired
+QCY: testing step3350   2023-06-28 01:14:11.296199
+QCY: testing step3360   2023-06-28 01:14:13.853538
+intersection_7_5 malfunction
+QCY: testing step3370   2023-06-28 01:14:16.233769
+QCY: testing step3380   2023-06-28 01:14:18.612633
+QCY: testing step3390   2023-06-28 01:14:21.009985
+QCY: testing step3400   2023-06-28 01:14:23.404564
+QCY: testing step3410   2023-06-28 01:14:25.919415
+QCY: testing step3420   2023-06-28 01:14:28.389017
+intersection_4_5 repaired
+QCY: testing step3430   2023-06-28 01:14:30.842068
+QCY: testing step3440   2023-06-28 01:14:33.359502
+intersection_2_1 malfunction
+QCY: testing step3450   2023-06-28 01:14:35.928576
+QCY: testing step3460   2023-06-28 01:14:38.486920
+QCY: testing step3470   2023-06-28 01:14:41.017813
+QCY: testing step3480   2023-06-28 01:14:43.582821
+QCY: testing step3490   2023-06-28 01:14:46.140066
+intersection_6_1 malfunction
+QCY: testing step3500   2023-06-28 01:14:48.721598
+QCY: testing step3510   2023-06-28 01:14:51.296803
+QCY: testing step3520   2023-06-28 01:14:53.868209
+QCY: testing step3530   2023-06-28 01:14:56.474508
+QCY: testing step3540   2023-06-28 01:14:59.159828
+QCY: testing step3550   2023-06-28 01:15:01.865554
+QCY: testing step3560   2023-06-28 01:15:04.497663
+QCY: testing step3570   2023-06-28 01:15:07.099427
+QCY: testing step3580   2023-06-28 01:15:09.634233
+QCY: testing step3590   2023-06-28 01:15:12.190017
+2023-06-28 01:15:14 (INFO): Final Travel Time is 480.9600, mean rewards: -3110.9368, queue: 63.6480, delay: 5.3445, throughput: 4752
+2023-06-28 01:15:14 (INFO): Total time taken: 500.78099632263184
