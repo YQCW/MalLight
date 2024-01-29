@@ -13,9 +13,10 @@ pip install -r requirements.txt
 The "Simulation of Urban MObility" (SUMO) environment is required to run experiments. Please refer to [SUMO Doc](https://epics-sumo.sourceforge.io/sumo-install.html#) for installment.
 
 # Run 
-You can start experiments of MalLight on NY7x7 dataset by running:
+You can start experiments of MalLight on HZ4x4 or NY7x7 dataset by running:
 ```
-python run.py --agent mallight
+python run.py --agent mallight --dataset sumohz4x4
+python run.py --agent mallight --dataset sumo7x7
 ```
 
 # Citation
